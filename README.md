@@ -72,18 +72,31 @@ Nothing is streamed, and no PC is needed while you play.
 
 ## Installing
 
-There is no store, no package and no installer: the app is a folder.
+There is no store, no package and no installer: the app is a folder. Take the
+zip from [Releases](https://github.com/thereal47Ronin/GBAR5/releases) —
+`GBAR5-v1.0.0-PS5.zip` — unzip it, and you have one folder, `PPSA97511`, which
+is the whole app. Nothing needs building.
 
-1. Build it yourself (below), or use a release when one is published. The app
-   folder is `PPSA97511`.
-2. Copy that folder to `/data/homebrew/` on the console over FTP.
-3. Set its permissions to `777`, recursively. In FileZilla: right-click the
-   folder → *File permissions* → `777`, and tick *Recurse into subdirectories*.
-   Without this the PS5 says *"Can't start the game or app"* (CE-107750-0).
-4. Restart ShadowMountPlus (or reboot). **Game Boy Advance** appears on the home
-   screen.
-5. Start it once. It creates `/data/GBAR5/` and an empty shelf that tells you
-   where games go.
+Copy that folder to `/data/homebrew/` on the console, either way:
+
+- **FTP.** Connect to etaHEN's FTP server on port 2121 (FileZilla works) and
+  drop `PPSA97511` into `/data/homebrew/`.
+- **PS5 Upload.** Run `ps5upload.elf` on the console and send the same
+  `PPSA97511` folder to `/data/homebrew/`.
+
+Then set its permissions to `777`, recursively. In FileZilla: right-click the
+folder → *File permissions* → `777`, and tick *Recurse into subdirectories*.
+Without this the PS5 says *"Can't start the game or app"* (CE-107750-0).
+
+Restart ShadowMountPlus (or reboot). **Game Boy Advance** appears on the home
+screen. Start it once: it creates `/data/GBAR5/` and an empty shelf that tells
+you where games go.
+
+The in-app update checker (Settings → About → *Check for updates*) downloads
+this same zip, so later releases install themselves the same way.
+
+Building it yourself works too — see [Building from source](#building-from-source) —
+and leaves the same folder in `dist/PPSA97511/`.
 
 The app's data lives in `/data/GBAR5/`:
 
