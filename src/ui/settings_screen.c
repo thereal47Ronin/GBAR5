@@ -1533,7 +1533,10 @@ typedef struct
     bool tried;
 } QrAsset;
 
-static void draw_asset_qr(QrAsset *a, const char *asset, float x, float y, float size)
+/* Returns the drawn side in pixels (a whole number of modules, so often less
+ * than the nominal size), or 0.0f when there was nothing to draw. The card's
+ * visual centre is x + side * 0.5f, not x + size * 0.5f. */
+static float draw_asset_qr(QrAsset *a, const char *asset, float x, float y, float size)
 {
     if (!a->tried)
     {
@@ -1550,11 +1553,12 @@ static void draw_asset_qr(QrAsset *a, const char *asset, float x, float y, float
         }
     }
     if (!a->tex || a->modules <= 0)
-        return;
+        return 0.0f;
     int scale = (int)(size / a->modules);
     float side = (float)(scale * a->modules), pad = 14;
     draw_rrect(x - pad, y - pad, side + 2 * pad, side + 2 * pad, TH_RADIUS_SMALL, 0xffffffffu);
     plat_draw_texture(a->tex, x, y, side, side, 0xffffffffu, false);
+    return side;
 }
 
 /* The project page, and the tip jar beside it. */
@@ -1565,7 +1569,7 @@ static QrAsset qr_project, qr_kofi;
  * The address carries the console's 128-bit code, so it is longer than a bare
  * URL: low error correction keeps the code at 33 modules, which the small
  * card can still draw at 4 pixels a module. A clean screen is all it needs. */
-static void draw_url_qr(const char *text, float x, float y, float size)
+static float draw_url_qr(const char *text, float x, float y, float size)
 {
     static char made_for[160];
     static PlatTexture *tex;
@@ -1597,11 +1601,12 @@ static void draw_url_qr(const char *text, float x, float y, float size)
         }
     }
     if (!tex)
-        return;
+        return 0.0f;
     int scale = (int)(size / modules);
     float side = (float)(scale * modules), pad = 14;
     draw_rrect(x - pad, y - pad, side + 2 * pad, side + 2 * pad, TH_RADIUS_SMALL, 0xffffffffu);
     plat_draw_texture(tex, x, y, side, side, 0xffffffffu, false);
+    return side;
 }
 
 /* ---------------------------------------------------------------- Sound: the mixer */
@@ -2013,6 +2018,21 @@ static void draw_system_tab(void)
 
 /* ---------------------------------------------------------------- About: the hero */
 
+/* The address under a QR card: 14px mono, dropped to 13px rather than clipped,
+ * so the phone page's "http://192.168.1.20:8095/" keeps its tail. A "..." in a
+ * URL is a bug, so if even 13px overruns we draw it whole. */
+static void draw_qr_address(float cx, float y, const char *s)
+{
+    const float max_w = 200;
+    float size = 14;
+    if (text_width(size, FONT_MONO, s) > max_w)
+        size = 13;
+    if (text_width(size, FONT_MONO, s) <= max_w)
+        text_draw_fit(cx, y, size, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER, max_w, s);
+    else
+        text_draw(cx, y, size, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER, s);
+}
+
 static void draw_about_tab(void)
 {
     const float x = CONTENT_X, w = content_w(), hero_h = 300;
@@ -2032,20 +2052,25 @@ static void draw_about_tab(void)
      * and the tip jar next to it either way */
     const char *phone_url = remote_address();
     bool phone = app.global.remote && phone_url[0];
+    const float gh_x = x + w - 400, kf_x = x + w - 214, qr_y = CONTENT_TOP + 50;
+    float gh_side, kf_side;
     if (phone)
-        draw_url_qr(phone_url, x + w - 400, CONTENT_TOP + 50, 150);
+        gh_side = draw_url_qr(phone_url, gh_x, qr_y, 150);
     else
-        draw_asset_qr(&qr_project, "qr-github.png", x + w - 400, CONTENT_TOP + 50, 150);
-    draw_asset_qr(&qr_kofi, "qr-kofi.png", x + w - 214, CONTENT_TOP + 50, 150);
-    text_draw(x + w - 325, CONTENT_TOP + 16, 15, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER,
+        gh_side = draw_asset_qr(&qr_project, "qr-github.png", gh_x, qr_y, 150);
+    kf_side = draw_asset_qr(&qr_kofi, "qr-kofi.png", kf_x, qr_y, 150);
+    /* each label sits on its own card's true centre: the drawn side is a whole
+     * number of modules and is often smaller than the 150px box */
+    const float gh_cx = gh_x + gh_side * 0.5f, kf_cx = kf_x + kf_side * 0.5f;
+    text_draw(gh_cx, CONTENT_TOP + 16, 15, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER,
               tr(phone ? "Scan with your phone" : "GitHub"));
-    text_draw(x + w - 139, CONTENT_TOP + 16, 15, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER,
+    text_draw(kf_cx, CONTENT_TOP + 16, 15, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER,
               tr("Support on Ko-fi"));
-    /* the addresses without their codes: the QRs above already carry them */
-    text_draw_fit(x + w - 400, CONTENT_TOP + 212, 14, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER, 160,
-                  phone ? remote_address_plain() : "github.com/thereal47Ronin/GBAR5");
-    text_draw_fit(x + w - 214, CONTENT_TOP + 212, 14, FONT_MONO, TH_TEXT_DIM, ALIGN_CENTER, 160,
-                  "ko-fi.com/thereal47ronin");
+    /* the addresses without their codes, hard under each card: the QRs above
+     * already carry them */
+    draw_qr_address(gh_cx, qr_y + gh_side + 14 + 8,
+                    phone ? remote_address_plain() : "github.com/thereal47Ronin/GBAR5");
+    draw_qr_address(kf_cx, qr_y + kf_side + 14 + 8, "ko-fi.com/thereal47ronin");
 
     /* the readouts and the two buttons */
     const float gap = 14;
