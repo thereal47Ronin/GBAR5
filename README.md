@@ -74,8 +74,8 @@ Nothing is streamed, and no PC is needed while you play.
 
 There is no store, no package and no installer: the app is a folder.
 
-1. Get a release (or build it yourself, below). The release zip contains a
-   `PPSA97511` folder.
+1. Build it yourself (below), or use a release when one is published. The app
+   folder is `PPSA97511`.
 2. Copy that folder to `/data/homebrew/` on the console over FTP.
 3. Set its permissions to `777`, recursively. In FileZilla: right-click the
    folder → *File permissions* → `777`, and tick *Recurse into subdirectories*.
@@ -352,13 +352,15 @@ driver, compiles `src/`, links and signs `eboot.bin`, and assembles the app
 folder. The first build downloads the PS5 payload SDK and PacBrew's SDL2 and
 libcurl into `.deps/` (all ignored by Git).
 
-A Docker image is the reproducible path used during development:
+A Docker image is the reproducible path used during development. Build an
+Ubuntu 24.04 image with the packages above, install the dependencies once, then:
 
 ```bash
-docker build -t gbar5-build -f .build/Dockerfile .   # or use an Ubuntu 24.04 image
 docker run --rm -v "$PWD:/work" -w /work -e BUILD_JOBS=8 gbar5-build \
-  bash -lc 'git config --global --add safe.directory "*" && bash /work/.build/docker-app.sh'
+  bash -lc 'git config --global --add safe.directory "*" && make'
 ```
+
+(`make` writes `dist/PPSA97511/` on the host through the bind mount.)
 
 There is also a desktop build of the same front end for testing on a PC:
 
