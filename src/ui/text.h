@@ -1,0 +1,49 @@
+/*
+ * PSXS5 - TrueType text (Inter) on top of the platform mesh API.
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+#ifndef PSXS5_TEXT_H
+#define PSXS5_TEXT_H
+
+#include "../psxs5.h"
+
+enum
+{
+    FONT_REGULAR = 0,
+    FONT_BOLD = 1,
+    FONT_MONO = 2, /* IBM Plex Mono: text guides keep their columns */
+};
+
+enum
+{
+    ALIGN_LEFT = 0,
+    ALIGN_CENTER = 1,
+    ALIGN_RIGHT = 2,
+};
+
+bool text_init(void);
+/* One log line per face and the glyphs the language needs: the boot log says
+ * whether a language's script can be drawn at all. */
+void text_log_fonts(void);
+void text_shutdown(void);
+void text_language_changed(void); /* repacks glyphs for the new language */
+/* Another pair of faces (assets paths), for the themes. */
+void text_set_fonts(const char *regular, const char *bold);
+
+/* (x, y) is the top-left of the line box for ALIGN_LEFT; size is the pixel height. */
+void text_draw(float x, float y, float size, int weight, uint32_t argb, int align, const char *s);
+float text_width(float size, int weight, const char *s);
+/* Where a left-aligned line's ink actually starts: the left side bearing of a
+ * straight-stem capital. text_draw() starts the line box at x, so the ink is
+ * a couple of pixels in; use this to sit an icon on the text's own column. */
+float text_ink_left(float size, int weight);
+/* Truncates with "..." so the text fits in max_width. */
+void text_draw_fit(float x, float y, float size, int weight, uint32_t argb, int align,
+                   float max_width, const char *s);
+
+/* CPU text into an RGBA image, word-wrapped to max_width, centred per line.
+ * Used to make cover placeholders. Returns the height used. */
+int text_render_rgba(uint8_t *rgba, int width, int height, int y, float size, int weight,
+                     uint32_t argb, int max_width, const char *s);
+
+#endif

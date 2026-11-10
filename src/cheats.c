@@ -1,0 +1,747 @@
+/*
+ * GBAR5 - RetroArch .cht cheat files (CodeBreaker / GameShark codes).
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ *
+ * Format (libretro-database, "Nintendo - Game Boy Advance"):
+ *   cheats = 2
+ *   cheat0_desc = "Infinite HP"
+ *   cheat0_code = "3200E924+0096+330034B8+0096"
+ *   cheat0_enable = false
+ *
+ * A game gets its file with no one asked: the index of the library
+ * (assets/cheats-index.txt) names the best one, it is downloaded while the
+ * game boots, and the main loop parses it the moment it lands.
+ */
+#include "cheats.h"
+
+#include "i18n.h"
+
+#include "core/host.h"
+#include "net.h"
+#include "platform/platform.h"
+
+#include <SDL2/SDL.h>
+
+#include <ctype.h>
+#include <dirent.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/* ---------------------------------------------------------------- parsing */
+
+static char *trim(char *s)
+{
+    while (isspace((unsigned char)*s))
+        ++s;
+    char *end = s + strlen(s);
+    while (end > s && isspace((unsigned char)end[-1]))
+        --end;
+    *end = '\0';
+    return s;
+}
+
+static void unquote(char *dst, size_t size, char *value)
+{
+    value = trim(value);
+    size_t n = strlen(value);
+    if (n >= 2 && value[0] == '"' && value[n - 1] == '"')
+    {
+        value[n - 1] = '\0';
+        ++value;
+    }
+    str_copy(dst, size, value);
+}
+
+static bool parse_cht(CheatList *list, const char *path)
+{
+    FILE *f = fopen(path, "r");
+    if (!f)
+        return false;
+    char line[1024];
+    while (fgets(line, sizeof(line), f))
+    {
+        char *eq = strchr(line, '=');
+        if (!eq || strncmp(line, "cheat", 5) != 0 || !isdigit((unsigned char)line[5]))
+            continue;
+        *eq = '\0';
+        char *key = trim(line);
+        int index = atoi(key + 5);
+        if (index < 0 || index >= CHEATS_MAX)
+            continue;
+        const char *field = strchr(key, '_');
+        if (!field)
+            continue;
+        ++field;
+        Cheat *c = &list->items[index];
+        if (strcmp(field, "desc") == 0)
+            unquote(c->desc, sizeof(c->desc), eq + 1);
+        else if (strcmp(field, "code") == 0)
+            unquote(c->code, sizeof(c->code), eq + 1);
+        else if (strcmp(field, "enable") == 0)
+            c->enabled = strstr(eq + 1, "true") != NULL;
+        if (index + 1 > list->count)
+            list->count = index + 1;
+    }
+    fclose(f);
+
+    /* Drop holes and entries without a code. */
+    int w = 0;
+    for (int i = 0; i < list->count; ++i)
+    {
+        if (!list->items[i].code[0])
+            continue;
+        if (!list->items[i].desc[0])
+            snprintf(list->items[i].desc, sizeof(list->items[i].desc), tr("Code %d"), i + 1);
+        list->items[w++] = list->items[i];
+    }
+    list->count = w;
+    return w > 0;
+}
+
+/* ---------------------------------------------------------------- matching */
+
+/* A title as words: lower case, without the parts in brackets, roman numerals
+ * as digits, and without the words release names add or drop ("the", "of",
+ * "Disney-Pixar's"...). "Final Fantasy VII (USA) (Disc 1)" -> final fantasy 7 */
+#define MAX_WORDS 24
+typedef struct
+{
+    char w[MAX_WORDS][24];
+    int n;
+} Words;
+
+static void title_words(const char *in, Words *out)
+{
+    static const char *const stop[] = {"the", "a", "an", "of", "and", "s", "disney", "pixar", NULL};
+    static const char *const roman[][2] = {{"ii", "2"},  {"iii", "3"}, {"iv", "4"},  {"v", "5"}, {"vi", "6"},
+                                           {"vii", "7"}, {"viii", "8"}, {"ix", "9"}, {"x", "10"}};
+    out->n = 0;
+    int depth = 0;
+    char word[24];
+    size_t len = 0;
+    for (const char *p = in;; ++p)
+    {
+        char c = *p;
+        if (c == '(' || c == '[')
+            ++depth;
+        else if ((c == ')' || c == ']') && depth > 0)
+            --depth;
+        bool letter = c && depth == 0 && isalnum((unsigned char)c);
+        if (letter && len + 1 < sizeof(word))
+        {
+            word[len++] = (char)tolower((unsigned char)c);
+            continue;
+        }
+        if (letter)
+            continue; /* overlong word: truncated */
+        if (len)
+        {
+            word[len] = '\0';
+            len = 0;
+            bool skip = false;
+            for (int i = 0; stop[i] && !skip; ++i)
+                skip = strcmp(word, stop[i]) == 0;
+            for (size_t i = 0; i < sizeof(roman) / sizeof(roman[0]); ++i)
+                if (strcmp(word, roman[i][0]) == 0)
+                    str_copy(word, sizeof(word), roman[i][1]);
+            if (!skip && out->n < MAX_WORDS)
+                str_copy(out->w[out->n++], sizeof(out->w[0]), word);
+        }
+        if (!c)
+            break;
+    }
+}
+
+static bool has_word(const Words *w, const char *word)
+{
+    for (int i = 0; i < w->n; ++i)
+        if (strcmp(w->w[i], word) == 0)
+            return true;
+    return false;
+}
+
+/* 0, or up to 300 for the same words: every word of the shorter title is in
+ * the longer, the numbers are the same (Crash 2 isn't Crash 3) and most words
+ * are shared ("Legend of Dragoon" isn't "Legend"). */
+static int title_match(const Words *a, const Words *b)
+{
+    if (!a->n || !b->n)
+        return 0;
+    char na[64] = "", nb[64] = "";
+    for (int i = 0; i < a->n; ++i)
+        if (isdigit((unsigned char)a->w[i][0]))
+            snprintf(na + strlen(na), sizeof(na) - strlen(na), "%s.", a->w[i]);
+    for (int i = 0; i < b->n; ++i)
+        if (isdigit((unsigned char)b->w[i][0]))
+            snprintf(nb + strlen(nb), sizeof(nb) - strlen(nb), "%s.", b->w[i]);
+    if (strcmp(na, nb) != 0)
+        return 0;
+    const Words *small = a->n <= b->n ? a : b, *large = a->n <= b->n ? b : a;
+    int shared = 0;
+    for (int i = 0; i < small->n; ++i)
+    {
+        bool dup = false;
+        for (int j = 0; j < i && !dup; ++j)
+            dup = strcmp(small->w[j], small->w[i]) == 0;
+        if (dup)
+            continue;
+        if (!has_word(large, small->w[i]))
+            return 0;
+        ++shared;
+    }
+    int unique_large = 0;
+    for (int i = 0; i < large->n; ++i)
+    {
+        bool dup = false;
+        for (int j = 0; j < i && !dup; ++j)
+            dup = strcmp(large->w[j], large->w[i]) == 0;
+        unique_large += !dup;
+    }
+    /* Jaccard: shared / union, union = the larger set here */
+    int score = unique_large ? 300 * shared / unique_large : 0;
+    return score >= 210 ? score : 0; /* at least 70 % */
+}
+
+bool titles_match(const char *a, const char *b)
+{
+    Words wa, wb;
+    title_words(a, &wa);
+    title_words(b, &wb);
+    return title_match(&wa, &wb) >= 300; /* the same words */
+}
+
+/* ---------------------------------------------------------------- regions */
+
+/* A GBA cartridge has no serial, so the region a cheat file is for is read
+ * from the release name: "(USA, Europe)" -> usa europe. Only words from this
+ * list count, so "(Code Breaker)" and "(En,Fr,De)" are not mistaken for one.
+ * It matters: a CodeBreaker file writes to fixed addresses, and the European
+ * release of a game has them somewhere else. */
+static const char *const REGION_WORDS[] = {
+    "usa",     "europe",     "japan",    "world",  "australia", "korea",   "china",  "taiwan",
+    "asia",    "brazil",     "canada",   "germany", "france",   "spain",   "italy",  "netherlands",
+    "sweden",  "denmark",    "norway",   "finland", "portugal", "russia",  "poland", "greece",
+    "mexico",  "unknown",    NULL,
+};
+
+static void lower_copy(char *out, size_t size, const char *in, size_t len)
+{
+    size_t n = len < size - 1 ? len : size - 1;
+    for (size_t i = 0; i < n; ++i)
+        out[i] = (char)tolower((unsigned char)in[i]);
+    out[n] = '\0';
+}
+
+/* "Game (USA, Europe) (En,Fr) (Code Breaker)" -> "usa europe" */
+static void regions_of(const char *name, char *out, size_t size)
+{
+    out[0] = '\0';
+    size_t w = 0;
+    for (const char *p = name; *p;)
+    {
+        if (*p != '(')
+        {
+            ++p;
+            continue;
+        }
+        const char *end = strchr(p + 1, ')');
+        if (!end)
+            break;
+        for (const char *t = p + 1; t < end;)
+        {
+            while (t < end && (*t == ',' || *t == ' '))
+                ++t;
+            const char *stop = t;
+            while (stop < end && *stop != ',' && *stop != ' ')
+                ++stop;
+            if (stop > t)
+            {
+                char word[24];
+                lower_copy(word, sizeof(word), t, (size_t)(stop - t));
+                for (int i = 0; i < (int)(sizeof(REGION_WORDS) / sizeof(REGION_WORDS[0])); ++i)
+                    if (REGION_WORDS[i] && strcmp(word, REGION_WORDS[i]) == 0)
+                    {
+                        int n = snprintf(out + w, size - w, "%s%s", w ? " " : "", word);
+                        if (n > 0 && (size_t)n < size - w)
+                            w += (size_t)n;
+                        break;
+                    }
+            }
+            t = stop;
+        }
+        p = end + 1;
+    }
+}
+
+static bool has_region(const char *list, const char *word)
+{
+    size_t n = strlen(word);
+    for (const char *p = list; *p;)
+    {
+        const char *e = strchr(p, ' ');
+        size_t len = e ? (size_t)(e - p) : strlen(p);
+        if (len == n && strncmp(p, word, n) == 0)
+            return true;
+        p += len;
+        if (*p == ' ')
+            ++p;
+    }
+    return false;
+}
+
+/* 1: the same release (or "World", which covers every region), 0: nothing said,
+ * -1: another region's cheat file, whose addresses would be another game's. */
+static int region_verdict(const char *rom, const char *cand)
+{
+    char a[96], b[96];
+    regions_of(rom, a, sizeof(a));
+    regions_of(cand, b, sizeof(b));
+    if (!a[0] || !b[0])
+        return 0;
+    if (has_region(a, "world") || has_region(b, "world"))
+        return 1;
+    for (const char *p = a; *p;)
+    {
+        const char *e = strchr(p, ' ');
+        char word[24];
+        lower_copy(word, sizeof(word), p, e ? (size_t)(e - p) : strlen(p));
+        if (has_region(b, word))
+            return 1;
+        if (!e)
+            break;
+        p = e + 1;
+    }
+    return -1;
+}
+
+typedef struct
+{
+    Words title, disc;
+} Wanted;
+
+static void wanted_for(const Game *game, Wanted *w)
+{
+    title_words(game->title, &w->title);
+    title_words(game->disc_name, &w->disc);
+}
+
+/* Every number in the game's name has to be in the file's: "Pokemon Emerald
+ * 386" is a hack of "Pokemon - Emerald Version", not that game. */
+static bool numbers_missing(const Words *have, const Words *want)
+{
+    for (int i = 0; i < want->n; ++i)
+        if (isdigit((unsigned char)want->w[i][0]) && !has_word(have, want->w[i]))
+            return true;
+    return false;
+}
+
+/* The same words run together: "LeafGreen" in one name is "Leaf Green" in the
+ * other, and libretro-database writes it both ways. */
+static void squashed(const Words *w, char *out, size_t size)
+{
+    out[0] = '\0';
+    size_t n = 0;
+    for (int i = 0; i < w->n && n + 1 < size; ++i)
+        n += (size_t)snprintf(out + n, size - n, "%s", w->w[i]);
+}
+
+/* The title inside the cartridge ("POKEMON EMER", twelve characters at most)
+ * against a file name: its first words have to line up and one extra word is
+ * allowed, so a renamed "Pokemon Emerald" still finds "Pokemon - Emerald
+ * Version" while "Golden Sun" never finds "Golden Sun - The Lost Age". */
+static int header_match(const Game *game, const Wanted *want, const Words *have)
+{
+    if (!game->rom_title[0] || !have->n)
+        return 0;
+    Words head;
+    title_words(game->rom_title, &head);
+    if (!head.n || have->n > head.n + 1)
+        return 0;
+    if (numbers_missing(have, &want->title) || numbers_missing(have, &want->disc))
+        return 0;
+    for (int i = 0; i < head.n; ++i)
+    {
+        if (i >= have->n)
+            return 0;
+        const char *a = head.w[i], *b = have->w[i];
+        size_t la = strlen(a), lb = strlen(b);
+        bool same = strcmp(a, b) == 0;
+        if (!same && la >= 3 && lb >= 3)
+            same = la < lb ? strncmp(a, b, la) == 0 : strncmp(b, a, lb) == 0;
+        if (!same)
+            return 0;
+    }
+    return have->n == head.n ? 300 : 270;
+}
+
+/* How well a cheat file name fits the game: 0 for another game. */
+static int score_candidate(const char *file, const Game *game, const Wanted *want)
+{
+    char stem[256];
+    str_copy(stem, sizeof(stem), file);
+    char *dot = strrchr(stem, '.');
+    if (dot)
+        *dot = '\0';
+    if (str_icmp(stem, game->disc_name) == 0)
+        return 1000; /* the exact No-Intro name the ROM came with */
+
+    int region = region_verdict(game->disc_name[0] ? game->disc_name : game->title, stem);
+    if (region < 0)
+        return 0;
+
+    Words have;
+    title_words(stem, &have);
+    if (!have.n || numbers_missing(&have, &want->title) || numbers_missing(&have, &want->disc))
+        return 0;
+
+    int a = title_match(&want->title, &have), b = title_match(&want->disc, &have);
+    int score = a > b ? a : b;
+    if (!score)
+    {
+        char x[256], y[256];
+        squashed(&have, y, sizeof(y));
+        squashed(&want->title, x, sizeof(x));
+        bool same = x[0] && strcmp(x, y) == 0;
+        squashed(&want->disc, x, sizeof(x));
+        if (same || (x[0] && strcmp(x, y) == 0))
+            score = 300;
+    }
+    int head = header_match(game, want, &have);
+    if (head > score)
+        score = head;
+    if (!score)
+        return 0;
+
+    /* the release the cartridge is from beats another region's */
+    if (region > 0)
+        score += 60;
+    /* a CodeBreaker set is the full one; a file without a device often holds
+     * a code or two */
+    if (strstr(stem, "(Code Breaker)"))
+        score += 15;
+    /* demos, previews and hacks keep their values at other addresses: one is
+     * only used for that same release */
+    static const char *const other[] = {"(Demo)",        "(Preview)", "(Beta)",     "(Proto",
+                                        "(Sample)",      "(Hack",     "(Translation)", "(Patched)",
+                                        "(Bootleg)",     NULL};
+    for (int i = 0; other[i]; ++i)
+        if (strstr(stem, other[i]) && !strstr(game->disc_name, other[i]) &&
+            !strstr(game->title, other[i]))
+            return 0;
+    return score;
+}
+
+static bool find_in_dir(const char *dir, const Game *game, char *best_path, size_t size,
+                        int *best_score)
+{
+    DIR *d = opendir(dir);
+    if (!d)
+        return false;
+    Wanted want;
+    wanted_for(game, &want);
+    bool found = false;
+    struct dirent *e;
+    while ((e = readdir(d)))
+    {
+        if (str_icmp(path_ext(e->d_name), "cht") != 0)
+            continue;
+        int score = score_candidate(e->d_name, game, &want);
+        if (score > *best_score)
+        {
+            *best_score = score;
+            path_join(best_path, size, dir, e->d_name);
+            found = true;
+        }
+    }
+    closedir(d);
+    return found;
+}
+
+/* ---------------------------------------------------------------- the built-in index */
+
+/* assets/cheats-index.txt: every Game Boy Advance cheat file of libretro-database
+ * (tools/make-cheat-index.py). The best name for the game, without listing
+ * any folder. */
+bool cheats_best_in_index(const Game *game, const char *asset, char *name, size_t size)
+{
+    char path[PSXS5_PATH_MAX];
+    plat_asset_path(path, sizeof(path), asset);
+    FILE *f = fopen(path, "r");
+    if (!f)
+        return false;
+    Wanted want;
+    wanted_for(game, &want);
+    char line[256];
+    int best = 0;
+    while (fgets(line, sizeof(line), f))
+    {
+        line[strcspn(line, "\r\n")] = '\0';
+        if (!line[0] || line[0] == '#')
+            continue;
+        int score = score_candidate(line, game, &want);
+        if (score > best)
+        {
+            best = score;
+            str_copy(name, size, line);
+        }
+    }
+    fclose(f);
+    return best > 0;
+}
+
+/* One file from libretro-database, on a thread: the game starts meanwhile and
+ * its cheats appear as soon as the file is in (cheats_fetch_finished). */
+static SDL_atomic_t fetch_state; /* 0 idle, 1 downloading, 2 done */
+static char fetch_url[600], fetch_dest[PSXS5_PATH_MAX];
+
+static int fetch_main(void *unused)
+{
+    (void)unused;
+    char temp[PSXS5_PATH_MAX + 8];
+    snprintf(temp, sizeof(temp), "%s.part", fetch_dest);
+    NetResult r = net_download(fetch_url, temp);
+    bool ok = r == NET_OK && rename(temp, fetch_dest) == 0;
+    if (!ok)
+        remove(temp);
+    psxs5_log("cheats: download %s: %s", fetch_dest, ok ? "ok" : r == NET_NOT_FOUND ? "not found" : "failed");
+    SDL_AtomicSet(&fetch_state, ok ? 2 : 0);
+    return 0;
+}
+
+static const char LIBRETRO_BASE[] =
+    "https://raw.githubusercontent.com/libretro/libretro-database/master/cht/Nintendo%20-%20Game%20Boy%20Advance/";
+
+static void fetch_start(const char *base, const char *name, const char *dest)
+{
+    if (!net_available() || !SDL_AtomicCAS(&fetch_state, 0, 1))
+        return;
+    str_copy(fetch_url, sizeof(fetch_url), base);
+    size_t w = strlen(fetch_url);
+    for (const unsigned char *p = (const unsigned char *)name; *p && w + 4 < sizeof(fetch_url); ++p)
+    {
+        if (isalnum(*p) || strchr("-._~", *p))
+            fetch_url[w++] = (char)*p;
+        else
+            w += (size_t)snprintf(fetch_url + w, sizeof(fetch_url) - w, "%%%02X", *p);
+    }
+    fetch_url[w] = '\0';
+    str_copy(fetch_dest, sizeof(fetch_dest), dest);
+    psxs5_log("cheats: fetching %s", fetch_url);
+    SDL_Thread *t = SDL_CreateThread(fetch_main, "cheat-download", NULL);
+    if (t)
+        SDL_DetachThread(t);
+    else
+        SDL_AtomicSet(&fetch_state, 0);
+}
+
+bool cheats_fetch_finished(void)
+{
+    return SDL_AtomicCAS(&fetch_state, 2, 0);
+}
+
+bool cheats_fetch_running(void)
+{
+    return SDL_AtomicGet(&fetch_state) == 1;
+}
+
+static bool find_any_cht(const char *dir, char *out, size_t size)
+{
+    DIR *d = opendir(dir);
+    if (!d)
+        return false;
+    struct dirent *e;
+    bool found = false;
+    while (!found && (e = readdir(d)))
+        if (str_icmp(path_ext(e->d_name), "cht") == 0)
+        {
+            path_join(out, size, dir, e->d_name);
+            found = true;
+        }
+    closedir(d);
+    return found;
+}
+
+/* ---------------------------------------------------------------- selection */
+
+static void load_selection(CheatList *list)
+{
+    FILE *f = fopen(list->state_path, "r");
+    if (!f)
+        return;
+    for (int i = 0; i < list->count; ++i)
+        list->items[i].enabled = false;
+    char line[256];
+    while (fgets(line, sizeof(line), f))
+    {
+        char *desc = trim(line);
+        for (int i = 0; i < list->count; ++i)
+            if (strcmp(list->items[i].desc, desc) == 0)
+                list->items[i].enabled = true;
+    }
+    fclose(f);
+}
+
+void cheats_save_selection(const CheatList *list)
+{
+    if (!list->state_path[0])
+        return;
+    FILE *f = fopen(list->state_path, "w");
+    if (!f)
+        return;
+    for (int i = 0; i < list->count; ++i)
+        if (list->items[i].enabled)
+            fprintf(f, "%s\n", list->items[i].desc);
+    fclose(f);
+}
+
+/* ---------------------------------------------------------------- API */
+
+void cheats_clear(CheatList *list)
+{
+    list->count = 0;
+    list->source[0] = '\0';
+    list->state_path[0] = '\0';
+}
+
+static bool file_opens(const char *path)
+{
+    FILE *f = fopen(path, "rb");
+    if (f)
+        fclose(f);
+    return f != NULL;
+}
+
+/* cheats/mine/<game id>.txt: desc<TAB>code per line, made by Find a code */
+static void user_file(const Game *game, const char *cheats_dir, char *dir, size_t dir_size, char *path,
+                      size_t path_size, char *file, size_t file_size)
+{
+    path_join(dir, dir_size, cheats_dir, "mine");
+    snprintf(file, file_size, "%.80s.txt", game->id);
+    path_join(path, path_size, dir, file);
+}
+
+static void load_user(CheatList *list, const Game *game, const char *cheats_dir)
+{
+    char dir[PSXS5_PATH_MAX], path[PSXS5_PATH_MAX], file[96], line[400];
+    user_file(game, cheats_dir, dir, sizeof(dir), path, sizeof(path), file, sizeof(file));
+    FILE *f = fopen(path, "r");
+    while (f && fgets(line, sizeof(line), f) && list->count < CHEATS_MAX)
+    {
+        line[strcspn(line, "\r\n")] = '\0';
+        char *tab = strchr(line, '\t');
+        if (!tab || !tab[1])
+            continue;
+        *tab = '\0';
+        Cheat *c = &list->items[list->count++];
+        memset(c, 0, sizeof(*c));
+        str_copy(c->desc, sizeof(c->desc), line);
+        str_copy(c->code, sizeof(c->code), tab + 1);
+    }
+    if (f)
+        fclose(f);
+}
+
+bool cheats_load(CheatList *list, const Game *game, const char *cheats_dir)
+{
+    cheats_clear(list);
+    memset(list->items, 0, sizeof(list->items));
+
+    char path[PSXS5_PATH_MAX] = "";
+    int score = 0;
+    /* 1. A .cht next to the game always wins. "cheats.cht" opens without
+     *    listing the folder, which a sandboxed app can't do. */
+    bool found = false;
+    if (game->folder[0])
+    {
+        path_join(path, sizeof(path), game->folder, "cheats.cht");
+        found = path_exists(path);
+    }
+    if (!found)
+        found = game->folder[0] && strcmp(game->folder, cheats_dir) != 0 &&
+                find_any_cht(game->folder, path, sizeof(path));
+    /* 2. Otherwise the best match from what is already on the console: the
+     *    cheat folder, and the whole libretro set when someone copied it in. */
+    if (!found)
+        found = find_in_dir(cheats_dir, game, path, sizeof(path), &score);
+    if (!found)
+    {
+        char sub[PSXS5_PATH_MAX];
+        path_join(sub, sizeof(sub), cheats_dir, "Nintendo - Game Boy Advance");
+        found = find_in_dir(sub, game, path, sizeof(path), &score);
+    }
+    /* 3. The game's own file from libretro-database, by the names in
+     *    assets/cheats-index.txt: it is downloaded while the game starts and
+     *    parsed by the main loop when it lands (cheats_fetch_finished). */
+    if (!found)
+    {
+        char name[256];
+        if (cheats_best_in_index(game, "cheats-index.txt", name, sizeof(name)))
+        {
+            path_join(path, sizeof(path), cheats_dir, name);
+            found = file_opens(path);
+            if (!found)
+            {
+                make_dirs(cheats_dir);
+                fetch_start(LIBRETRO_BASE, name, path);
+            }
+        }
+    }
+    bool library = found && parse_cht(list, path);
+    if (library)
+        str_copy(list->source, sizeof(list->source), path);
+    int from_library = list->count;
+    load_user(list, game, cheats_dir);
+    if (!list->count)
+    {
+        psxs5_log("cheats: nothing for %s (%s)", game->title, game->disc_name);
+        return false;
+    }
+    char enabled_dir[PSXS5_PATH_MAX], file[96];
+    path_join(enabled_dir, sizeof(enabled_dir), cheats_dir, "enabled");
+    make_dirs(enabled_dir);
+    snprintf(file, sizeof(file), "%.80s.txt", game->id);
+    path_join(list->state_path, sizeof(list->state_path), enabled_dir, file);
+    load_selection(list);
+    psxs5_log("cheats: %d codes from %s, %d of your own", from_library, library ? path : "nowhere",
+              list->count - from_library);
+    return true;
+}
+
+bool cheats_add_user(CheatList *list, const Game *game, const char *cheats_dir, const char *desc, const char *code)
+{
+    if (!game || list->count >= CHEATS_MAX)
+        return false;
+    char dir[PSXS5_PATH_MAX], path[PSXS5_PATH_MAX], file[96];
+    user_file(game, cheats_dir, dir, sizeof(dir), path, sizeof(path), file, sizeof(file));
+    make_dirs(dir);
+    FILE *f = fopen(path, "a");
+    if (!f)
+        return false;
+    fprintf(f, "%s\t%s\n", desc, code);
+    bool ok = fclose(f) == 0;
+    Cheat *c = &list->items[list->count++];
+    memset(c, 0, sizeof(*c));
+    str_copy(c->desc, sizeof(c->desc), desc);
+    str_copy(c->code, sizeof(c->code), code);
+    c->enabled = true;
+    if (!list->state_path[0])
+    {
+        char enabled_dir[PSXS5_PATH_MAX], name[96];
+        path_join(enabled_dir, sizeof(enabled_dir), cheats_dir, "enabled");
+        make_dirs(enabled_dir);
+        snprintf(name, sizeof(name), "%.80s.txt", game->id);
+        path_join(list->state_path, sizeof(list->state_path), enabled_dir, name);
+    }
+    cheats_save_selection(list);
+    return ok;
+}
+
+void cheats_apply(const CheatList *list)
+{
+    host_cheat_reset(); /* to the emulator running the game */
+    unsigned index = 0;
+    for (int i = 0; i < list->count; ++i)
+        if (list->items[i].enabled)
+            host_cheat_set(index++, list->items[i].code);
+}

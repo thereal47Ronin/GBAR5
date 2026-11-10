@@ -1,0 +1,2380 @@
+# GBAR5 - what the shelf knows about a Game Boy Advance cartridge.
+# Built by tools/make-gba-gamedb.py from the LaunchBox Games Database
+# ("Nintendo Game Boy Advance"); not part of the source. Do not edit: rebuild it,
+# or put your own lines in <data>/gba-metadata.txt, which wins.
+#
+# name	released	genres	developer	publisher	players	kind
+007: Everything or Nothing	2003-11-17	Racing · Shooter	Griptonite	Electronic Arts	0	R
+007: Nightfire	2003-03-24	Shooter	JV Games	Electronic Arts	0	R
+2 Disney Games: Disney Sports: Football + Disney Sports: Skateboarding	2003	Compilation · Sports	Konami	Buena Vista Games	0	R
+2 Disney Games: Lilo & Stitch 2 + Peter Pan: Return to Never Land	2005-11-11	Compilation · Platform		Buena Vista Games	1	R
+2 Game Pack!: Hot Wheels: Stunt Track Challenge / Hot Wheels: World Race	2006-09-01	Compilation · Racing		DSI Games	0	R
+2 Games in 1: Brother Bear + The Lion King	2005-06-29	Compilation · Platform	Vicarious Visions	THQ	1	R
+2 Games in 1: Cartoon Network Block Party / Cartoon Network Speedway	2005-04-01	Compilation	DC Studios	Majesco Entertainment	4	R
+2 Games in 1: Columns Crown + ChuChu Rocket!	2005	Compilation		THQ	0	R
+2 Games in 1: Disney Princess + Brother Bear	2005-05-11	Compilation	Various	THQ	1	R
+2 Games In 1: Disney Princess + Disney's The Lion King	2004	Compilation · Platform	Vicarious Visions	THQ	1	R
+2 Games in 1: Disney Princess + Lizzie McGuire	2005	Compilation		THQ	1	R
+2 Games in 1 Double Pack: Hot Wheels: World Race / Hot Wheels: Velocity X	2005-09-22	Compilation · Racing	Saffire	THQ	0	R
+2 Games in 1 Double Pack: Scooby-Doo and the Cyber Chase / Scooby-Doo!: Mystery Mayhem	2005-03-07	Compilation		THQ	1	R
+2 Games in 1 Double Pack: Scooby-Doo / Scooby-Doo 2: Monsters Unleashed	2006-08-21	Compilation	Altron	THQ	1	R
+2 Games in 1!: Dragon Ball Z: Buu's Fury / Dragon Ball GT: Transformation	2006-03-29	Compilation	Webfoot Technologies	Atari	0	R
+2 Games in 1: Finding Nemo + Finding Nemo: The Continuing Adventures	2005-10-21	Compilation	Vicarious Visions	THQ	1	R
+2 Games in 1: Finding Nemo: The Continuing Adventures / The Incredibles	2007-02-27	Compilation	Altron	THQ	0	R
+2 Games in 1: Finding Nemo + The Incredibles	2007	Compilation	Vicarious Visions	THQ	1	R
+2 Games in 1: Golden Nugget Casino / Texas Hold 'em Poker	2005-04-20	Casino · Compilation		Majesco Sales	1	R
+2 Games in 1: GT 3 Advance: Pro Concept Racing + Moto GP: Ultimate Racing Technology	2004-10-22	Compilation · Racing	Visual Impact	THQ	2	R
+2 Games in 1: LEGO Knights' Kingdom + LEGO Bionicle	2005	Compilation	Razorback Developments	THQ	2	R
+2 Games in 1: Monsters, Inc. / Finding Nemo	2005-06-08	Compilation	Natsume	THQ	1	R
+2 Games in 1: Power Rangers: Ninja Storm / Power Rangers: Time Force	2005-03-22	Compilation		THQ	0	R
+2 Games in 1: Quad Desert Fury / Monster Trucks	2004-11-16	Compilation · Racing	Skyworks Technologies	Majesco Sales	0	R
+2 Games in 1: Rugrats: Go Wild + SpongeBob SquarePants: SuperSponge	2005-03-04	Compilation	Vicarious Visions	THQ	1	R
+2 Games in 1: Sonic Advance + ChuChu Rocket!	2005-11-11	Compilation	Sega	THQ	0	R
+2 Games in 1: Sonic Advance + Sonic Battle	2005-11-11	Compilation	Sonic Team	THQ Entertainment	4	R
+2 Games in 1: Sonic Battle + ChuChu Rocket!	2005-11-16	Compilation	Sonic Team	THQ	4	R
+2 Games in 1: Sonic Battle + Sonic Pinball Party	2005-11-16	Compilation	Sega	THQ	4	R
+2 Games in 1: Sonic Pinball Party + Columns Crown	2006-03-24	Compilation		THQ	2	R
+2 Games in 1: SpongeBob SquarePants: Battle for Bikini Bottom + Jimmy Neutron Boy Genius	2005-06-30	Compilation	Vicarious Visions	THQ	2	R
+2 Games in 1: SpongeBob SquarePants: Battle for Bikini Bottom / Nicktoons: Freeze Frame Frenzy	2006-09-20	Compilation	Vicarious Visions	THQ	1	R
+2 Games in 1: SpongeBob SquarePants: Battle for Bikini Bottom + SpongeBob SquarePants: Supersponge	2004	Compilation	Vicarious Visions	THQ	1	R
+2 Games in 1: SpongeBob SquarePants: Battle for Bikini Bottom / The Fairly OddParents!: Breakin' da Rules	2005-06-01	Compilation	Vicarious Visions	THQ	1	R
+2 Games in 1: SpongeBob SquarePants: Supersponge & SpongeBob SquarePants: Revenge of the Flying Dutchman	2006-09-08	Compilation	Vicarious Visions	THQ	1	R
+2 Games In 1: The SpongeBob SquarePants Movie + SpongeBob SquarePants and Friends in Freeze Frame Frenzy	2005-10-21	Compilation	Altron	THQ	1	R
+2 Games in One!: Dr. Mario / Puzzle League	2005-09-13	Compilation · Puzzle	Nintendo	Nintendo	2	R
+2 in 1: Asterix & Obelix: Bash Them All! / Asterix & Obelix XXL	2005-06-23	Compilation	Bit Managers	Atari	2	R
+2 In 1 Combo Game Pack: Smickeonn: The Game / Smickeonn: The Game Deluxe	2024-04-04	Compilation	TVMZ Studios	TVMZ Studios	1	H
+2-In-1 Fun Pack: Madagascar: Operation Penguin / Shrek 2	2006-08-29		Various	Activision Publishing	1	R
+2-in-1 Fun Pack: Shrek 2 / Madagascar	2006-11-24	Adventure · Platform	Vicarious Visions	Activision Publishing	1	R
+2 in 1 Game Pack: Shrek 2 / Shark Tale	2005-08-25	Compilation	Vicarious Visions	Activision Publishing	1	R
+2 in 1 Game Pack: Spider-Man: Mysterio's Menace / X2: Wolverine's Revenge	2005-08-23	Compilation	Vicarious Visions	Activision Publishing	1	R
+2 in 1 Game Pack: Spider-Man / Spider-Man 2	2005-08-01	Compilation	Digital Eclipse Software	Activision Publishing	1	R
+2 in 1 Game Pack: Tony Hawk's Underground / Kelly Slater's Pro Surfer	2006-06-15	Compilation · Sports	Vicarious Visions	Activision Publishing	1	R
+2 in 1: V-Rally 3 + Stuntman	2005-06-23	Compilation · Racing	Velez & Dubail	Atari Europe	1	R
+2 jeux en 1: Titeuf: Ze Gag Machine / Titeuf: Méga Compet'	2005-06-24	Compilation	Infogrames	Atari Europe	0	R
+2004Mbit Competition	2005	Action · Adventure · Platform	Simon Band	Simon Band	0	H
+3 Game Pack!: Candy Land / Chutes & Ladders / Original Memory Game	2005-11-05	Compilation	Black Lantern Studios	Destination Software	2	R
+3 Game Pack!: Connect Four / Perfection / Trouble	2005-08-21	Board Game · Compilation	Gravity-I	DSI Games	0	R
+3 Game Pack!: Ker Plunk! / Toss Across / Tip It	2006-08-31	Board Game	Gravity-I	DSI Games	0	R
+3 Game Pack!: Mouse Trap / Simon / Operation	2005-11-07	Compilation	Gravity-I	Destination Software	0	R
+3 Game Pack!: Risk, Battleship, Clue	2005-08-21	Board Game	Gravity-I	DSI Games	0	R
+3 Game Pack!: The Game of Life / Payday / Yahtzee	2005-11-07	Compilation	Black Lantern Studios	Destination Software	2	R
+3 Games in 1: Rugrats: I Gotta Go Party / Spongebob Squarepants: Supersponge / Tak and the Power of the Juju	2005-11-25	Compilation	Eurocom Entertainment Software	THQ	1	R
+3-in-1 Sports Pack	2005-10-18	Sports	Skyworks Technologies	Majesco Entertainment	4	R
+3D SnowTank	2021-12-27	Shooter	3DSage		1	H
+4 Games on One Game Pak: GT Advance / GT Advance 2 / GT Advance 3 / MotoGP	2007	Compilation · Racing	MTO	THQ	2	R
+4 Games on One Game Pak: Movies	2007-01-01	Compilation	THQ	THQ	1	R
+4 Games on One Game Pak: Nicktoons	2007-03-17	Compilation	Altron	THQ	1	R
+4x4 Off-Roaders	2001	Racing	Small Rockets		1	X
+A More Modern Amazing Mirror	2023-12-08	Platform	mattdog1000000		1	M
+A More Modern Nightmare In Dream Land	2023-12-08	Platform	mattdog1000000		1	M
+A Sound of Thunder	2004-02-01	Shooter	Möbius Entertainment	BAM! Entertainment	4	R
+A Werewolf Tale	2017	Action	genecyst		1	H
+Ace Combat Advance	2005-02-22	Flight Simulator · Shooter	Human Soft	Namco Hometek	1	R
+Ace Lightning	2002-10-25	Platform · Shooter	Tiertex Design Studios	BBC Multimedia	0	R
+Acko's Mach-Bike Race	2023-09-15	Racing	ackolade		1	M
+Action Man: Robot Atak	2004-09-24	Action · Platform	Magic Pockets	Atari	1	R
+Activision Anthology	2003-12-08	Compilation	Aspyr Media	Aspyr Media	2	R
+Advance Guardian Heroes	2004-09-14	Beat 'em Up · Role-Playing	Treasure	Ubisoft Entertainment	4	R
+Advance Wars	2001-09-10	Strategy	Intelligent Systems	Nintendo	4	R
+Advance Wars 2: Andy's Adventure	2020-06-10	Strategy	Mark999		4	M
+Advance Wars 2: Black Hole Rising	2003-06-23	Strategy	Intelligent Systems	Nintendo	4	R
+Advance Wars Alpha: Back in the Black	2021-06-03	Strategy	Ephraim225		0	M
+Advance Wars Returns	2021-08-05	Strategy	Vivi The Blossom	Vivi The Blossom	4	M
+Advance Wars Story	2024-06-08	Strategy	PlatinumSkink		0	M
+Adventure of Tokyo DisneySea	2001-11-22	Action · Adventure	TOSE	Konami	0	R
+Adventures of Mr. Bean					0	X
+Aero the Acro-Bat: Rascal Rival Revenge	2002-05-14	Action · Platform	Atomic Planet Entertainment	Metro3D	1	R
+Agassi Tennis Generation	2003-09-30	Sports	Aqua Pacific	DreamCatcher Interactive	1	R
+Agent Hugo: Roborumble	2007-04-02	Racing	ITE Media	ITE Media	0	R
+Aggressive Inline	2002-08-27	Sports	Full Fat Productions	Acclaim Entertainment	1	R
+Agoria: Ode to Fate	2007-10-31	Action · Role-Playing	Epitech Console Laberatory	Epitech Console Laberatory	1	H
+AirForce Delta Storm	2002-09-16	Flight Simulator · Shooter	Mobile21	Konami	1	R
+Aka-chan Doubutsuen	2004-03-26	Life Simulation		TDK Core	1	R
+Aleck Bordon Adventure: Tower and Shaft Advance	2004-01-01	Adventure	Altron	Aruze	0	R
+Alex Ferguson's Player Manager 2002	2002-05-24	Construction and Management Simulation · Sports	Exient Entertainment	Ubi Soft Entertainment Software	0	R
+Alex Rider: Stormbreaker	2006-09-25	Action · Adventure · Stealth	Razorback Developments	THQ	0	R
+Alice Sisters	2025-08-03	Platform	OrionSoft	OrionSoft	2	H
+Alien Hominid	2006-02-03	Shooter	Tuna Technologies	Zoo Digital Publishing	1	R
+Alienators: Evolution Continues	2001-11-13	Platform · Shooter	Digital Eclipse Software	Activision Publishing	1	R
+All Grown Up! Express Yourself	2004-10-19	Action · Adventure	Altron	THQ	1	R
+All-Star Baseball 2003	2002-05-31	Sports	Software Creations	Acclaim Entertainment	0	R
+All-Star Baseball 2004	2003-02-23	Sports	Acclaim Studios Manchester	Acclaim Entertainment	0	R
+All Things It Devours	2024-11-18	Horror · Role-Playing	Unfolding		1	M
+Altered Beast: Guardian of the Realms	2002-11-25	Beat 'em Up	3d6 Games	Sega	4	R
+American Bass Challenge	2001-12-05	Sports	Starfish	Ubi Soft Entertainment Software	1	R
+American Idol	2003-11-11	Music	Möbius Entertainment	Codemasters Software	1	R
+An American Tail: Fievel's Gold Rush	2003-05-02	Platform	Hokus Pokus	Conspiracy Entertainment	1	R
+Andaron Saga	2025-08-17	Strategy	Mangs		1	M
+Angel Collection 2: Pichimo Ni Narou	2004-09-22	Life Simulation	Gakken	MTO	0	R
+Angel Collection: Mezase! Gakuen no Fashion Leader	2003	Strategy	MTO	MTO	0	R
+Angelique	2002-03-21	Adventure · Strategy	Koei	Koei	1	R
+Anguna: Warriors of Virtue	2008-08-09	Adventure	Bite The Chili Productions	Piko Interactive	1	H
+Animal Mania: Dokidoki Aishou Check	2002		Jupiter	Konami	0	R
+Animal Snap: Rescue Them 2 by 2	2002-11-01	Puzzle	Ignition Entertainment	Ignition Entertainment	0	R
+Animal Yokochou: Doki Doki Kyuushutsu Daisakusen! no Maki	2005-12-22	Action	Konami	Konami	1	R
+Animal Yokochou: Doki Doki Shinkyuu Shiken! no Kan	2006-01-01	Action	Konami	Konami	1	R
+Animaniacs: Hollywood Hypnotics		Platform · Puzzle	Full Fat Games		1	X
+Animaniacs: Lights, Camera, Action!	2006-09-01	Platform	Warthog Sweden	Ignition Entertainment	0	R
+Another World	2005-04-28	Action · Adventure · Platform	Eric Chahi		1	H
+Antz Extreme Racing	2002-11-20	Racing	Magic Pockets	Empire Interactive	2	R
+Ao Zora to Nakama Tachi: Yume no Bouken	2002-12-13	Action · Platform	MTO	MTO	0	R
+Apotris	2022-04-29	Puzzle	akouzoukos		2	H
+Archer Maclean's 3D Pool	2004-11-03	Sports	Ignition Entertainment	Ignition Entertainment	0	R
+Arctic Tale	2007-10-10	Adventure	Atomic Planet Entertainment	DSI Games	0	R
+Army Men Advance	2001-06-05	Shooter	DC Studios	3DO	1	R
+Army Men: Operation Green	2001-12-03	Shooter	Pocket Studios	3DO	1	R
+Army Men: Turf Wars	2002-09-03	Action	Möbius Entertainment	3DO	1	R
+Around the World in 80 Days	2004-06-22	Action	Saffire	Hip Interactive	0	R
+Arthur and the Invisibles	2007-01-09	Platform	Mistic Software	Atari	0	R
+Ashita no Joe: Masseki ni Moe Agare!	2003	Fighting · Sports	Konami	Konami	0	R
+Astérix & Obélix: Bash Them All!	2002-01-25	Beat 'em Up	Bit Managers	Infogrames	1	R
+Astérix & Obélix XXL	2003-11-21	Action	Velez & Dubail	Atari	1	R
+Astro Boy: Omega Factor	2003-12-18	Action · Shooter	Treasure	THQ	1	R
+Atari Anniversary Advance	2002-03-27	Compilation	Digital Eclipse Software	Infogrames	1	R
+Atomic Betty	2005-10-25	Action · Platform	Big Blue Bubble	Atari Europe	1	R
+ATV: Quad Power Racing	2002-08-28	Racing	Tantalus Interactive	Acclaim Entertainment	1	R
+ATV: Thunder Ridge Riders	2006-09-05	Racing	Skyworks Technologies	Destination Software	2	R
+Avatar: The Last Airbender	2006-10-10	Action · Adventure · Puzzle	Halfbrick Studios	THQ	1	R
+Avatar: The Last Airbender: The Burning Earth	2007-10-16	Action · Adventure	Halfbrick Studios	THQ	1	R
+Azumanga Daioh Advance	2003-04-25	Puzzle	King Records	King Records	0	R
+Babar to the Rescue	2006-06-28	Platform · Racing	Sirius Games	The Game Factory	1	R
+Back to Stone	2006-12-15	Action · Role-Playing	Hidden Floor	Graffiti Entertainment	1	R
+Back Track	2001-10-04	Shooter	JV Games	Telegames	4	R
+Backyard Baseball	2002-05-21	Sports	GameBrains	Infogrames	0	R
+Backyard Baseball 2006	2005-03-16	Sports	Atari	Atari	0	R
+Backyard Basketball	2004-09-24	Sports	Mistic Software	Atari	0	R
+Backyard Football	2002-09-24	Sports	Infogrames	Infogrames	0	R
+Backyard Football 2006	2005-11-01	Sports	Humongous Entertainment	Atari	0	R
+Backyard Hockey	2003-10-09	Sports	Mistic Software	Atari	0	R
+Backyard Skateboarding	2005-10-01	Sports	Humongous Entertainment	Atari	0	R
+Backyard Sports: Baseball 2007	2006-06-12	Sports	Humongous Entertainment	Atari	0	R
+Backyard Sports: Basketball 2007	2006-11-14	Sports	Mistic Software	Atari	0	R
+Backyard Sports: Football 2007	2006-09-26	Sports	Humongous Entertainment	Atari	0	R
+Bag Monster Ultimate Collector’s Edition	2012	Role-Playing	monster (chinese)		1	M
+Bakuten Shoot Beyblade 2002 : Gekisen! Team Battle!! Kouryuu no Shou, Daichi Hen	2002-06-27	Action	A.I	Broccoli	0	X
+Bakuten Shoot Beyblade 2002 : Gekisen! Team Battle!! Seiryuu no Shou, Takao Hen	2002-06-27	Action	A.I	Broccoli	0	X
+Bakuten Shoot Beyblade 2002: Ikuze! Bakutou! Chou Jiryoku Battle!!	2002-06-27	Action	A.I	Hudson Soft	0	R
+Bakuten Shoot Beyblade: Gekitou! Saikyou Blade	2001-12-06	Action	A.I	Broccoli	0	R
+Balatro	2025-05-19	Puzzle	cellos51		1	H
+Baldur's Gate: Dark Alliance	2004-01-13	Action · Role-Playing	Magic Pockets	Destination Software	1	R
+Ballistic: Ecks vs. Sever	2002-09-14	Shooter	Crawfish Interactive	BAM! Entertainment	2	R
+Bandit Emblem	2020	Role-Playing · Strategy	RandomWizard		1	M
+Banjo-Kazooie: Grunty's Revenge	2003-09-12	Platform	Rare	THQ	1	R
+Banjo-Pilot	2005-01-11	Racing	Rare	THQ	4	R
+Barbarian		Fighting	Titus Software	Titus Software	0	X
+Barbie and the Magic of Pegasus	2005-09-06	Action	WayForward Technologies	VU Games	0	R
+Barbie as The Island Princess	2007-10-30	Platform	Human Soft	Activision Publishing	1	R
+Barbie Horse Adventures: Blue Ribbon Race	2003-09-17	Platform	Blitz Games	VU Games	1	R
+Barbie in the 12 Dancing Princesses	2006-10-30	Action	WayForward Technologies	Activision Publishing	0	R
+Barbie Software: Groovy Games	2002-09-04	Compilation	Digital Illusions	Vivendi Universal Games	2	R
+Barbie Superpack: Secret Agent Barbie & Barbie: Groovy Games	2005	Compilation	Digital Illusions	Vivendi Universal Games	0	R
+Barbie: The Princess and the Pauper	2004-09-13	Action	WayForward Technologies	VU Games	0	R
+Barnyard	2006-08-01	Action	Halfbrick Studios	THQ	1	R
+Baseball Advance	2002-03-20	Sports	Smilebit	Sega	0	R
+Bases and Bandits	2021	Role-Playing · Strategy	ArcherBias		1	M
+Bass Tsuri Shiyouze!: Tournament wa Senryaku da!	2002-12-05	Sports	Konami	Konami	1	R
+Batman Begins	2005-06-15	Action	Vicarious Visions	Electronic Arts	1	R
+Batman: Rise of Sin Tzu	2003-10-27	Action · Platform	Ubi Soft Entertainment	Ubi Soft Entertainment Software	1	R
+Batman: Vengeance	2001-10-30	Beat 'em Up · Platform	Ubi Soft Entertainment	Ubi Soft Entertainment Software	0	R
+Battle AirForce	2025-03-31	Shooter	Yoji Suzuki	SUZUKIPLAN	1	H
+Battle B-Daman	2006-07-25	Action	Zero One	Atlus	0	R
+Battle B-Daman: Fire Spirits!	2006-09-26	Action	Atlus U.S.A.	Will	0	R
+Battle Picross	2003-11-01	Puzzle	Sean Reid		0	U
+Battle x Battle: Kyodai Gyo Densetsu	2003	Sports	Starfish	Starfish	1	R
+BattleBots: Beyond the BattleBox	2002-12-10	Fighting	Cave Barn Studios	Majesco Sales	4	R
+BattleBots: Design & Destroy	2003-08-31	Action	Cave Barn Studios	Majesco Sales	2	R
+Battletoads	2011-11-19	Beat 'em Up	Rare		2	X
+BB Ball	2004-06-24	Role-Playing · Sports	Micott & Basara	Micott & Basara	0	R
+Beast Shooter: Mezase Beast King	2002-10-31	Shooter	Hudson Soft	Konami	2	R
+BeatBeast	2024-08-01		Synthenia	Afska	0	H
+Best Friends: Dogs & Cats	2007-10-03	Life Simulation	Sproing Interactive Media	dtp young entertainment	1	R
+Best Play Pro Yakyuu	2002-10-25	Sports	ParityBit	Enterbrain	2	R
+Beyblade: G-Revolution	2004-11-18	Action	Full Fat Productions	Atari	0	R
+Beyblade VForce: Ultimate Blader Jam	2003-11-18	Action	Takara	Atari	0	R
+Bibi Blocksberg: Der magische Hexenkreis	2005-08-13	Action · Adventure	Morgen Studios	Kiddinx Entertainment	1	R
+Bibi und Tina: Ferien auf dem Martinshof	2006-10-06				0	R
+Big Mutha Truckers	2005-11-01	Racing	Raylight Studios	Destination Software	0	R
+Billy Hatcher: Hyper Shoot	2003	Platform	Sonic Team		1	X
+Bionicle	2003-09-10	Action	Möbius Entertainment	THQ	0	R
+Bionicle Heroes	2006-11-14	Adventure · Shooter	Amaze Entertainment	Eidos Interactive	0	R
+Bionicle: Matoran Adventures	2002-10-29	Platform	Argonaut Games	Electronic Arts	1	R
+Bionicle: Maze of Shadows	2005-09-13	Action	Razorback Developments	THQ	0	R
+Bit Generations: Boundish	2006-07-13	Puzzle	Skip	Nintendo	4	R
+Bit Generations: Coloris	2006-07-27	Puzzle	Skip	Nintendo	0	R
+Bit Generations: Dialhex	2006-07-13	Puzzle	Skip	Nintendo	0	R
+Bit Generations: Digidrive	2006-07-27	Puzzle	Q-Games	Nintendo	2	R
+Bit Generations: Dotstream	2006-07-11	Puzzle · Racing	Skip	Nintendo	1	R
+Bit Generations: Orbital	2006-07-27	Puzzle	Skip	Nintendo	0	R
+Bit Generations: Soundvoyager	2006-07-27	Action · Puzzle	Q-Games	Nintendo	1	R
+Black Belt Challenge	2002-09-23	Fighting	Lost Boys Games	Xicat Interactive	0	R
+Black Black	2002-02-08	Action · Role-Playing	Capcom	Capcom	1	R
+Black Matrix Zero	2002-08-30	Role-Playing · Strategy	Flight-Plan	NEC Interchannel	1	R
+Blackthorne	2003-09-17	Platform	Mass Media	Blizzard Entertainment	0	R
+Blades of Thunder	2005-02-23	Shooter	InterActive Vision	Summitsoft Entertainment	1	R
+Blast Arena Advance	2005	Action	Mathew Carr		0	H
+Bleach Advance: Kurenai ni Somaru Soul Society	2007-07-21	Fighting	Sega	Sega	2	R
+Blender Bros.	2002-04-15	Platform	Hudson Soft	Infogrames	4	R
+Blind Jump	2020	Action	evanbowman	evanbowman	1	H
+Bloxorz	2026-01-26	Puzzle	Nostabyte Interactive		1	H
+Blue Angelo: Angels from the Shrine		Action	Virtual Spaghetti	Shibuya Interactive	0	X
+BMX Trick Racer	2003-12-31	Racing	Hypnotix	Simon & Schuster Interactive	0	R
+Board Game Classics	2005-11-03	Board Game · Compilation	Black Lantern Studios	DSI Games	0	R
+Boboboubo Boubobo: 9 Kiwame Senshi Gyagu Yuugou	2004-03-25	Role-Playing	Hudson Soft	Hudson Soft	1	R
+Boboboubo Boubobo: Bakutou Hajike Taisen	2004-09-09	Action	Hudson Soft	Hudson Soft	1	R
+Boboboubo Boubobo: Majide!!? Shinken Shoubu	2003-08-07	Action	Rokumendo	Hudson Soft	1	R
+Boboboubo Boubobo: Ougi 87.5 Bakuretsu Hanage Shinken	2002-12-19	Role-Playing	Hudson Soft	Hudson Soft	1	R
+Boktai 2: Solar Boy Django	2004-10-19	Action · Role-Playing	Konami	Konami	4	R
+Boktai: The Sun Is in Your Hand	2003-07-17	Action · Role-Playing	Konami Computer Entertainment Japan	Konami	2	R
+Boku no Kabuto: Kuwagata	2003-06-27	Strategy		MTO	1	R
+Boku no Kabuto Mushi	2001-07-13	Action		MTO	1	R
+Boku no Kuwagata	2001-08-03	Adventure		MTO	1	R
+Boku wa Koukuu Kanseikan	2001-03-21	Construction and Management Simulation	Graphic Research	Tamsoft	1	R
+Bomberman Jetters	2002-10-24		Hudson Soft	Hudson Soft	0	R
+Bomberman Jetters: Game Collection	2003-10-16	Compilation	Hudson Soft	Hudson Soft	0	R
+Bomberman Max 2: Blue Advance	2002-02-07	Puzzle	Hudson Soft	Vivendi Universal Games	4	R
+Bomberman Max 2: Red Advance	2002-05-30	Puzzle	Hudson Soft	Hudson Soft	4	R
+Bomberman Tournament	2001-06-29	Action	Hudson Soft	Hudson Soft	4	R
+Book Worm	2003-02-25	Puzzle	PopCap Games	Majesco Sales	1	R
+Bouken-Ou Beet: Busters Road	2005-01-20	Action · Role-Playing	Namco Bandai Games	Namco Bandai Games	1	R
+Bouken Yuuki Pluster World: Densetsu no Plust Gate	2003-04-24	Role-Playing	Will	Takara	0	R
+Bouken Yuuki Pluster World: Densetsu no Plust Gate EX	2003-12-04				0	R
+Bouken Yuuki Pluster World: Pluston GP	2003-04-24	Racing		Takara	0	R
+Boukyaku no Senritsu	2004-11-25	Adventure	Alpha-Unit	Bandai	1	R
+Boulder Crash	2024-09-12	Action	BriG78cx	BriG78cx	1	H
+Boulder Dash EX	2002-09-16	Action · Puzzle	Vision Works	Kotobuki System	4	R
+Boxing Fever	2001-10-30	Fighting · Sports	Digital Fiction	THQ	2	R
+Bratz	2003-03-12	Music	DC Studios	Ubisoft Entertainment	1	R
+Bratz: Babyz	2006-01-01		Barking Lizards Technologies	THQ	0	R
+Bratz: Forever Diamondz	2006-09-18	Action · Adventure	Barking Lizards Technologies	THQ	0	R
+Bratz: Rock Angelz	2005-01-01	Life Simulation	Altron	THQ	0	R
+Bratz: The Movie	2007-09-24	Life Simulation	Barking Lizards Technologies	THQ	0	R
+Breath of Fire	2001-12-13	Role-Playing	Capcom	Capcom	1	R
+Breath of Fire II	2002-04-15	Role-Playing	Capcom	Capcom	1	R
+Bridge Quest	2021-07-10	Action · Adventure	fixxiefixx		1	H
+Britney's Dance Beat	2002-03-25	Music	Art	THQ	2	R
+Broken Circle	2015-11-06	Role-Playing	7 Raven Studios	Piko Interactive	0	U
+Broken Sword: The Shadow of the Templars	2002-03-17	Adventure	Revolution Software	BAM! Entertainment	0	R
+Bruce Lee: Return of the Legend	2003-03-21	Beat 'em Up · Platform	Vicarious Visions	Universal Interactive	1	R
+BS Fire Emblem: Archanea Saga	2019-03-06	Role-Playing	Sme		0	M
+Bubble Bobble: Old & New	2004-09-28	Platform	Taito	Empire Interactive	2	R
+Buffy the Vampire Slayer: Wrath of the Darkhul King	2003-06-24	Action	Natsume	THQ	1	R
+BulletGBA	2006-02-27	Shooter	Takayama Fumihiko		1	H
+Butano Fighter	2020-11-09	Shooter	Gvaliente	Gvaliente	1	H
+Butt-Ugly Martians: B.K.M. Battles	2002-10-01	Shooter	Runecraft	Vivendi Universal Interactive Publishing	1	R
+Bygone Snow	2025-09-19	Visual Novel	Creatalsoftware		1	H
+Cabbage Patch Kids: The Patch Puppy Rescue	2006-04-11	Platform	1st Playable Productions	D3Publisher of America	1	R
+Cabela's Big Game Hunter	2002-12-11	Sports	ImageBuilder Software	Activision Value Publishing	0	R
+Cabela's Big Game Hunter 2005 Adventures	2004-11-11	Shooter · Sports	Torus Games	Activision Publishing	0	R
+Caesars Palace Advance: Millennium Gold Edition	2001-09-19	Casino	Pipedream Interactictive	Majesco Sales	0	R
+Calciobit	2006-05-18	Sports	ParityBit	Nintendo	0	R
+Camp Lazlo: Leaky Lake Games	2006-11-06	Action	Collision Studios	Crave Entertainment	0	R
+Capcom Classics: Mini Mix	2006-09-19	Compilation	Capcom	Capcom	1	R
+Captain Tsubasa: Eikou no Kiseki	2002-02-21	Sports	Konami	Konami	1	R
+Car Battler Joe	2002-10-21	Role-Playing	Ancient	Natsume	4	R
+Card Captor Sakura: Sakura Card de Mini Game	2003-12-12	Party	Affect	TDK Core	1	R
+Card Captor Sakura: Sakura Card-hen: Sakura Card to Tomodachi	2004-04-23	Board Game	MTO	MTO	1	R
+Card Party	2002-10-25	Board Game	NDcube	Media Kite	4	R
+Cards Football	2024-03-02	Board Game	VG Source Game Studio	VG Source Game Studio	0	H
+Care Bears: Care Quest	2005-11-15	Platform	Sirius Games	The American Game Factory	0	R
+Carrera Power Slide	2003-01-01	Racing	Tiertex Design Studios	Stadlbauer	0	R
+Cars	2006-06-06	Racing	Helixe	THQ	1	R
+Cartoon Network Block Party	2004-08-05	Party	Monkeystone	Majesco Sales	4	R
+Cartoon Network Speedway	2003-11-17	Racing	DC Studios	Majesco Sales	2	R
+Casper	2002-03-22	Action	Planet Interactive Development	Microïds	0	R
+Castlevania: Aria of Sorrow	2003-05-06	Action · Adventure · Platform	Konami	Konami	1	R
+Castlevania: Aria of Sorrow Alter	2019-03-31	Platform	Kseptuple		0	M
+Castlevania: Aria of Sorrow: Definitive Edition (Tommy Edition)	2024-10-07	Role-Playing	sspmog		1	M
+Castlevania: Aria of Sorrow (Genya Arikado)	2016	Action · Adventure · Platform	DarkPrinceAlucard		0	M
+Castlevania: Aria of Sorrow: Magician Mode	2022-05-02	Action · Adventure	AhaRom		1	M
+Castlevania: Aria of Sorrow: Persephone	2019	Action · Platform · Role-Playing	caminopreacher		1	M
+Castlevania: Aria of Sorrow: Recolor (JonataGuitar)	2022-02-02	Action · Role-Playing	JonataGuitar		1	M
+Castlevania: Aria of Sorrow Reprise	2023-02-19	Platform	Xanthus		0	M
+Castlevania: Aria of Sorrow: Symphony of the Colors	2022-02-02		JonataGuitar		0	M
+Castlevania: Circle of the Moon	2001-03-21	Action · Platform · Role-Playing	Konami	Konami	1	R
+Castlevania: Circle of the Moon: Definitive Edition + AutoDash	2025-05-05	Action · Platform	Mureisky		1	M
+Castlevania: Dawn of Symphony	2018-07-09	Action · Adventure · Platform	DarkPrinceAlucard		1	M
+Castlevania Double Pack	2006-01-11	Action · Adventure · Compilation	Konami	Konami	1	R
+Castlevania: Harmony of Dissonance	2002-09-17	Action · Role-Playing	Konami	Konami	1	R
+Castlevania: Harmony of Dissonance: Recolor	2022-08-26	Action · Role-Playing	JonataGuitar		1	M
+Castlevania: Harmony of Dissonance: Visual Improvement	2026-03-27	Role-Playing	Pemburu Vampir		1	M
+Castlevania: Maria of Sorrow	2022-04-18	Action · Adventure	Kyoski		1	M
+Castlevania: Maxim Story Mode	2021-06-20	Role-Playing	caminopreacher		1	M
+Castlevania: Revenge of the Findesiecle	2007-10-04	Action · Adventure	PUNKEMNX		1	M
+Castlevania: Serenade Under the Moon	2021-02-26	Action · Platform	幽0涟		0	M
+Catwoman	2004-07-20	Action · Adventure	Magic Pockets	Electronic Arts	1	R
+Catz	2006-03-28	Life Simulation	Saffire	Mindscape	1	R
+Celeste Advance	2020-07-12	Platform	IsaGoodFriend		1	H
+Celeste Classic	2019	Platform	Matt Thorson		1	H
+Celeste Classic 2	2025-04-12	Platform	Noel Berry		1	H
+Celia's Stupid Romhack	2025-12-14	Role-Playing	Celia Dawn		1	M
+Centipede / Breakout / Warlords	2005-08-21	Compilation	Epicenter Interactive	DSI Games	1	R
+Cesti to Meigurumi-tachi no Mahou no Bouken: Kisekko Gurumii	2003-01-01	Adventure	MTO	MTO	2	R
+Charlie and the Chocolate Factory	2005-07-15	Action	Digital Eclipse Software	2K Games	0	R
+Charlotte's Web	2006-11-16	Platform	Backbone Entertainment	Sega of America	1	R
+Chessmaster	2002-08-28	Board Game · Strategy	Ubi Soft	Ubi Soft Entertainment Software	0	R
+Chicken Shoot	2005-10-18	Shooter	Frontline Studios	Destination Software	0	R
+Chicken Shoot 2	2005-11-10	Shooter	Frontline Studios	Destination Software	0	R
+Chobits: Atashi Dake no Hito	2002-09-27	Action	Marvelous Entertainment	Marvelous Entertainment	1	R
+Chocobo Land: A Game of Dice	2002-12-13	Board Game	Squaresoft	Squaresoft	4	R
+Chopper 2 - The Return			Stealth Studios		1	U
+ChuChu Rocket!	2001-06-11	Puzzle	Sonic Team	Sega of America	4	R
+CIMA: The Enemy	2003-11-17	Role-Playing	Neverland	Natsume	1	R
+Cinnamon: Fuwafuwa Daibouken	2005-12-01	Platform	Rocket Company	Rocket Company	1	R
+Cinnamon: Yume no Daibouken	2004-12-02	Platform	Imagineer	Imagineer	1	R
+Cinnamoroll Koko ni Iru yo	2003-12-05	Puzzle	A.I	Imagineer	1	R
+City Connection	2004-12-31	Platform	Alekmaul	Alekmaul	1	H
+Classic NES Series: Bomberman	2004-02-14	Action	Hudson Soft	Nintendo	1	R
+Classic NES Series: Castlevania	2004-08-10	Action · Platform	Konami	Nintendo	1	R
+Classic NES Series: Donkey Kong	2004-02-14	Platform	Nintendo	Nintendo	2	R
+Classic NES Series: Dr. Mario	2004-05-21	Puzzle	Nintendo	Nintendo	2	R
+Classic NES Series: Excitebike	2004-02-14	Racing	Nintendo R&D1	Nintendo	1	R
+Classic NES Series: Ice Climber	2004-02-14	Platform	Nintendo	Nintendo	2	R
+Classic NES Series: Metroid	2004-08-10	Adventure · Platform · Shooter	Nintendo R&D1	Nintendo	1	R
+Classic NES Series: Pac-Man	2004-02-14	Action	Namco	Nintendo	2	R
+Classic NES Series: Super Mario Bros.	2004-02-14	Platform	Nintendo	Nintendo	2	R
+Classic NES Series: The Legend of Zelda	2004-02-14	Action · Adventure	Nintendo	Nintendo	1	R
+Classic NES Series: Xevious	2004-02-14	Shooter	Nintendo	Nintendo	2	R
+Classic NES Series: Zelda II: The Adventure of Link	2004-08-10	Action · Platform · Role-Playing	Nintendo	Nintendo	1	R
+Clock Tower Advance	2025-09-15	Adventure	BobSchneeder45		1	H
+Cocoto Kart Racer	2005-01-01	Racing	Neko Entertainment	BigBen Interactive	0	R
+Cocoto Platform Jumper	2007-07-10	Platform	Neko Entertainment	BigBen Interactive	0	R
+Codename Hacker	2007-09-15	Platform	Alekmaul	Alekmaul	1	H
+Codename: Kids Next Door: Operation S.O.D.A.	2004-11-02	Action · Platform	Vicarious Visions	Global Star Software	1	R
+Coin Fall	2022-10-16		3DSage	3DSage	0	H
+Colin McRae Rally 2.0	2002-10-08	Racing	Spellbound Interactive	Ubi Soft Entertainment Software	4	R
+Collie Defense	2024-01-01				0	H
+Columns Crown	2001-12-07	Puzzle	WOW Entertainment	Sega	1	R
+Combat Choro Q: Advance Daisakusen	2002-08-08	Strategy	Access	Takara	1	R
+Combo Pack: Sonic Advance + Sonic Pinball Party	2005-11-16	Compilation · Pinball · Platform	Sonic Team	Sega of America	0	R
+Comix Zone	2002-09-11	Action	Virtucraft	SEGA Europe	0	R
+Commandos 2	2002-11-28		Toyonaka Studios		1	X
+Contra Advance: The Alien Wars EX	2002-11-05	Platform · Shooter	TOSE	Konami	2	R
+Corvette	2003-11-11	Racing	Visual Impact	TDK Mediactive	1	R
+Countryball: Catch 'em All!	2019-12-08	Role-Playing	@PolandDev		1	M
+Crash Advance IV	2006	Platform	Sintax	sintax	1	U
+Crash Bandicoot 2: N-Tranced	2003-01-07	Action · Platform	Vicarious Visions	Universal Interactive	2	R
+Crash Bandicoot Blast!	2002-09-17	Shooter	Vicarious Visions	Universal Interactive	2	R
+Crash Bandicoot Purple: Ripto's Rampage	2004-06-03	Platform	Vicarious Visions	Vivendi Universal Games	1	R
+Crash Bandicoot: The Huge Adventure	2002-02-26	Action · Platform	Vicarious Visions	Universal Interactive	1	R
+Crash Bandicoot Twisted	2025-12-19	Platform	Darayner		1	H
+Crash Nitro Kart	2003-11-11	Racing	Vicarious Visions	Universal Interactive	4	R
+Crash of the Titans	2007-10-22	Action	Amaze Entertainment	Sierra Entertainment	1	R
+Crash & Spyro Super Pack Volume 2	2005-10-25	Compilation	Lucky Chicken Games	Sierra Entertainment	0	R
+Crash & Spyro Superpack: Crash Bandicoot: The Huge Adventure/Spyro: Season of Ice	2005-10-25	Compilation	Vicarious Visions	Sierra Entertainment	1	R
+Crash & Spyro Superpack: Spyro Orange: The Cortex Conspiracy / Crash Bandicoot Purple: Ripto's Rampage	2005-10-20	Action · Compilation · Platform	Vicarious Visions	Vivendi Universal Games	4	R
+Crash & Spyro SuperPack Volume 1: Crash N-Tranced and Spyro: Season of Ice	2005-06-22	Action · Compilation · Platform	Vicarious Visions	Vivendi Universal Games	1	R
+Crash SuperPack	2005	Compilation	Vicarious Visions	Sierra Entertainment	1	R
+Crayon Shin-Chan: Arashi o Yobu Cinema-Land no Daibouken!	2004-04-16	Action · Platform	Inti Creates	Atari	1	R
+Crayon Shin-Chan: Densetsu o Yobu Omake no Miyako Shukkugaan!	2006-03-23	Platform	Banpresto	Atari Europe	1	R
+Crazy Chase	2002-10-23	Action · Platform	Kotobuki System	Kotobuki System	1	R
+Crazy Frog Racer	2005-12-16	Racing	Independent Arts Software	dtp entertainment	0	R
+Crazy Taxi: Catch a Ride	2003-04-08	Racing	Graphic State	Sega	1	R
+Creatures	2002-02-01	Life Simulation	ELO Interactive Media	Swing! Entertainment Media	1	R
+Croket! 2: Yami no Bank to Ban Joou	2003-07-17	Role-Playing	Konami	Konami	1	R
+Croket! 3: Granyuu Oukoku no Nazo	2003-12-11	Action		Konami	1	R
+Croket! 4: Bank no Mori no Mamorigami	2004-07-22	Action		Konami	0	R
+Croket! Great Jikuu no Boukensha	2004-12-09	Strategy	Jupiter	Konami	1	R
+Croket! Yume no Banker Survival!	2002-10-17	Action	Konami	Konami	2	R
+Cronela´s Mansion	2025	Adventure · Puzzle	STRAYNUS		1	H
+Crouching Tiger, Hidden Dragon	2003-10-09	Fighting	Genki	Ubi Soft Entertainment Software	1	R
+Cruis'n Velocity	2001-11-27	Racing	Graphic State	Midway Home Entertainment	4	R
+Crushed Baseball	2005-02-22	Sports	Griptonite	Summitsoft Entertainment	0	R
+Crypt Sweeper	2025-04-12	Puzzle	Pocket Pulp		1	H
+CT Special Forces	2004-01-02	Platform	Light & Shadow Production	Light & Shadow Production	2	R
+CT Special Forces 2: Back in the Trenches	2004-06-29	Platform	Light & Shadow Production	Light & Shadow Production	2	R
+CT Special Forces 3: Bioterror	2004-11-05	Platform · Shooter	The Code Monkeys	Light & Shadow Production	1	R
+Cubix: Robots for Everyone: Clash 'n Bash	2002-06-24	Fighting	Blitz Games	3DO	2	R
+Curious George	2006-02-01	Platform	Torus Games	Electronic Arts	1	R
+Custom Robo GX	2002-07-27	Action · Role-Playing	Noise	Nintendo	2	R
+Cyber Drive Zoids: Hatakedamono no Senshi Hugh	2003-07-18	Action · Role-Playing	Amedio	Tomy	1	R
+Dai-Mahjong	2001-12-13	Board Game	Success	Hori	0	R
+Daisenryaku for Game Boy Advance	2001-12-07	Strategy	Media Kite	Media Kite	1	R
+Daisuki Teddy	2002-04-19	Role-Playing	MTO	MTO	2	R
+Dan Doh!! Tobase Shouri no Smile Shot	2004-09-22	Sports	Takara	Takara	0	R
+Dan Doh!! Xi	2002-11-14	Sports	GameVillage	GameVillage	4	R
+Dancing Sword: Senkou	2003-03-28	Beat 'em Up		MTO	1	R
+Danny Phantom: The Ultimate Enemy	2005-09-08	Action · Beat 'em Up	Altron	THQ	1	R
+Danny Phantom: Urban Jungle	2006-09-19	Shooter	Altron	THQ	1	R
+Daredevil	2003-02-03	Action	Griptonite	THQ	1	R
+Darius R	2002-12-13	Shooter	Rideon	PCCW Japan	1	R
+Dark Arena	2002-01-18	Shooter	Graphic State	Majesco Sales	4	R
+Dark Eden		Action · Adventure	Rival Dreams		1	X
+Dark Empire			Marvelous Entertainment		0	X
+Dave Mirra Freestyle BMX 2	2001-11-25	Sports	Full Fat Productions	Acclaim Entertainment	1	R
+Dave Mirra Freestyle BMX 3	2002-11-26	Sports	Full Fat Productions	Acclaim Entertainment	0	R
+David Beckham Soccer	2002-10-07	Sports	Yoyo Entertainment	Majesco Sales	0	R
+Davis Cup Tennis	2002-10-14	Sports	Hokus Pokus	Ubi Soft Entertainment Software	0	R
+Dead to Rights	2004-11-26	Action	Torus Games	Zoo Digital Publishing	0	R
+Deadpool	2019		Techmoon	Techmoon	0	U
+Deal or No Deal	2007-07-19	Puzzle	Gravity-I	Destination Software	0	R
+Defender	2002-11-07	Shooter	OutLook Entertainment	Midway Home Entertainment	2	R
+Defender of the Crown	2002-11-04	Action · Adventure · Strategy	Crawfish Interactive	Metro3D	1	R
+Deflektor	2003-05-14	Action · Puzzle	Foxy	Foxysofts	0	H
+Deimos Defender	2026-02-03	Shooter	oscarbraindead		1	H
+DemiKids: Dark Version	2003-10-07	Role-Playing	Multimedia Intelligence Transfer	Atlus U.S.A.	1	R
+DemiKids: Light Version	2003-10-06	Role-Playing	Multimedia Intelligence Transfer	Atlus	2	R
+Demon Driver: Time to Burn Rubber	2004-09-22	Action	Ignition Entertainment	Ignition Entertainment	0	R
+Demons of Asteborg DX		Action · Platform	Neofid Studios		1	X
+Denki Blocks!	2001-10-18	Puzzle	Denki	Majesco Entertainment	1	R
+Densetsu no Stafy	2002-09-06	Platform	TOSE	Nintendo	1	R
+Densetsu no Stafy 2	2003-09-05	Platform	TOSE	Nintendo	1	R
+Densetsu no Stafy 3	2004-08-05	Platform	TOSE	Nintendo	1	R
+Derby Stallion Advance	2002-12-06	Construction and Management Simulation · Sports	ParityBit	Enterbrain	1	R
+Desert Strike Advance	2002-05-08	Action	Budcat Creations	Electronic Arts	1	R
+Detective Monroe: Murder at Sea	2024-10-28	Adventure	eragnarok	HummusHuster	1	H
+Dexter's Laboratory: Chess Challenge	2002-11-05	Board Game · Strategy	Virtucraft	BAM! Entertainment	0	R
+Dexter's Laboratory: Deesaster Strikes!	2001-09-26	Action · Adventure	Virtucraft	BAM! Entertainment	0	R
+Di Gi Charat: Di Gi Communication	2002-10-25	Life Simulation	M2 Co.	Broccoli	1	R
+Di Gi Communication 2: Datou! Black GemaGema Dan!	2004-07-15	Action	M2 Co.	Broccoli	0	R
+DiaDroids World: Evil Teikoku no Yabou	2001-12-07	Adventure	Epoch	Epoch	1	R
+Diddy Kong Pilot	2003	Racing	Rare	Nintendo	2	X
+Die Wilden Fussball Kerle: Entscheidung im Teufelstopf	2006-05-11	Sports	Morgen Studios	Kiddinx Entertainment	1	R
+Die Wilden Fussball Kerle: Gefahr im Wilde Kerle Land	2007-02-19	Sports	Morgen Studios	Kiddinx Entertainment	1	R
+Digimon Battle Spirit	2003-01-13	Fighting	Dimps	Bandai	2	R
+Digimon Battle Spirit 2	2003-09-24	Fighting	Dimps	Bandai	2	R
+Digimon Escape from Server Island	2019-03-06	Role-Playing	Bijhan		1	M
+Digimon Racing	2004-04-23	Racing	Griptonite	Bandai	4	R
+Digimon: Rury	2003	Role-Playing	Vast Fame		1	U
+Digimon Sapphire	2003		Vast Fame		0	U
+Dinotopia: The Timestone Pirates	2002-04-30	Adventure · Platform	RFX Interactive	TDK Mediactive	1	R
+Discrete Orange	2024-08-17	Platform · Puzzle	Tardigrade	Incube8 Games	0	H
+Disney Cart	2002		Sintax		0	U
+Disney-Pixar Cars: Mater-National Championship	2007-10-29	Racing	Tantalus Interactive	THQ	0	R
+Disney Princess	2003-04-04	Platform	Art	THQ	1	R
+Disney Princess: Royal Adventure	2006-10-05	Role-Playing	Human Soft	Buena Vista Games	0	R
+Disney's Aladdin	2004-09-28	Action · Platform	Disney Interactive	Capcom	0	R
+Disney's American Dragon Jake Long: Rise of the Huntsclan!	2006-10-12	Action	WayForward Technologies	Buena Vista Games	0	R
+Disney's Atlantis: The Lost Empire	2001-09-12	Platform	3d6 Games	THQ	1	R
+Disney's Brother Bear	2003-11-04	Platform	Vicarious Visions	THQ	0	R
+Disney's Chicken Little	2005-10-18	Adventure	Artificial Mind & Movement	Buena Vista Games	0	R
+Disney's Cinderella: Magical Dreams	2005-09-20	Platform	DC Studios	Disney Interactive	1	R
+Disney's Extreme Skate Adventure	2003-09-03	Sports	Vicarious Visions	Activision	0	R
+Disney's Herbie: Fully Loaded	2005-06-21	Racing	Climax Group	Disney Interactive	0	R
+Disney's Kim Possible 2: Drakken's Demise	2004-09-15	Action · Platform	Artificial Mind & Movement	Disney Interactive	1	R
+Disney's Kim Possible 3: Team Possible	2005-08-21	Platform	Artificial Mind & Movement	Disney Interactive Studios	2	R
+Disney's Kim Possible: Revenge of Monkey Fist	2002-11-13	Action · Platform	Digital Eclipse Software	THQ	1	R
+Disney's Lilo & Stitch	2002-06-07	Platform	Digital Eclipse Software	Disney Interactive	1	R
+Disney's Lilo & Stitch 2: Hämsterviel Havoc	2004-10-12	Action	Firemint	Disney Interactive	1	R
+Disney's Magical Quest 2 Starring Mickey & Minnie	2003-11-12	Action · Platform	Klein	Capcom	1	R
+Disney's Magical Quest 3 Starring Mickey & Donald	2004-03-19	Action · Platform	Capcom	Capcom	1	R
+Disney's Magical Quest Starring Mickey & Minnie	2002-08-13	Action · Platform	Capcom Production Studio 3	Nintendo	2	R
+Disney's Party	2003-09-16	Party	Jupiter	Electronic Arts	2	R
+Disney's Peter Pan: Return to Never Land	2002-02-02	Action	Crawfish Interactive	Buena Vista Games	1	R
+Disney's Tarzan: Return to the Jungle	2002-09-14	Platform	Digital Eclipse Software	Activision Publishing	1	R
+Disney's The Lion King 1 1/2	2003-10-07	Adventure · Platform	Vicarious Visions	THQ	1	R
+Disney's The Little Mermaid: Magic in Two Kingdoms	2006-10-03	Platform	Gorilla Systems	Buena Vista Games	0	R
+Disney's Treasure Planet	2002-10-31	Adventure	Bizarre Creations	Ubi Soft Entertainment Software	1	R
+Disney Sports: Basketball	2002-11-23	Sports	Konami	Konami	0	R
+Disney Sports: Football	2002-11-05	Sports	Konami	Konami	2	R
+Disney Sports: Motocross	2003-03-31	Racing	Jupiter	Konami	0	R
+Disney Sports: Skateboarding	2002-11-12	Sports	Konami	Konami	2	R
+Disney Sports: Snowboarding	2003-02-04	Sports	Konami	Konami	2	R
+Disney Sports: Soccer	2002-11-25	Sports	Konami	Konami	4	R
+DK: King of Swing	2005-09-19	Platform · Puzzle	Paon	Nintendo	4	R
+Dogz	2005-11-17	Life Simulation	MTO	Ubisoft Entertainment	1	R
+Dogz 2	2007-04-03	Life Simulation	MTO	Ubisoft Entertainment	2	R
+Dogz: Fashion	2006-09-01	Life Simulation	MTO	Ubisoft Entertainment	1	R
+Dokapon: Monster Hunter	2002-06-21	Role-Playing	Tycoon	Asmik Ace Entertainment	1	R
+DokiDoki Cooking Series 1: Komugi-Chan no Happy Cake	2002-11-22	Strategy	MTO	MTO	1	R
+DokiDoki Cooking Series 2: Gourmet Kitchen: Suteki na Obentou	2003-03-14	Strategy	MTO	MTO	0	R
+Dokodemo Taikyoku: Yakuman Advance	2001-10-26	Board Game	NDcube	Nintendo	4	R
+Domo-kun no Fushigi Terebi	2002-02-21	Action	Suzak	Nintendo	1	R
+Don-chan Puzzle: Hanabi de Doon! Advance	2004-07-29	Puzzle	Aruze	Aruze	1	R
+Donald Duck Adv@nce!*#	2001-11-15	Action · Platform	Shanghai Ubisoft Computer Software	Ubi Soft Entertainment Software	1	R
+Donkey Kong Country	2003-06-09	Platform	Rare	Nintendo	2	R
+Donkey Kong Country 2	2004-11-15	Platform	Rare	Nintendo	1	R
+Donkey Kong Country 3	2005-11-07	Platform	Rare	Nintendo	1	R
+Donkey Kong Plus					0	X
+DOOM	2001-11-05	Shooter	David A. Palmer Productions	Activision	4	R
+DOOM II	2002-10-29	Shooter	Torus Games	Activision	4	R
+Doom II: The Way ID Did	2021-04-01	Shooter	Bazooka_Face		1	M
+Dora the Explorer: Dora's World Adventure!	2006-10-09	Adventure	Black Lantern Studios	Global Star Software	1	R
+Dora the Explorer Double Pack	2007-02-05	Action · Compilation · Education	ImaginEngine	Global Star Software	1	R
+Dora the Explorer: Super Spies	2004-10-25	Adventure	CinéGroupe Interactive	Gotham Games	1	R
+Dora the Explorer: Super Star Adventures	2004-11-29	Adventure	ImaginEngine	Global Star Software	1	R
+Dora the Explorer: The Search for Pirate Pig's Treasure	2002-12-13	Platform · Puzzle	CinéGroupe Interactive	NewKidCo	1	R
+Doraemon Dokodemo Walker	2002-03-29	Board Game		Epoch	0	R
+Doraemon: Midori no Wakusei Doki Doki Daikyuushuutsu!	2001-04-27	Action	Mobile21	Epoch	4	R
+Double Dragon Advance	2003-11-12	Beat 'em Up	Million	Atlus	2	R
+Doubutsujima no Chobi Gurumi	2003-08-08		A.I	Rocket Company	0	R
+Doubutsujima no Chobi Gurumi 2: Tama-chan Monogatari	2004-08-05	Action	A.I	Rocket Company	0	R
+Downforce	2004-12-07	Racing	Smart Dog	Titus Software	0	R
+Dr. Muto	2002-01-01	Action	Digital Eclipse Software	Midway Home Entertainment	0	R
+Dr. Seuss: Green Eggs and Ham	2003-11-17	Platform	Handheld Games	NewKidCo	1	R
+Dr. Seuss': The Cat in the Hat	2003-11-05	Action	Digital Eclipse Software	VU Games	0	R
+Dr. Sudoku	2006-04-26	Puzzle	Success	Mastiff	0	R
+Dragon Ball: Advanced Adventure	2004-11-18	Beat 'em Up · Platform	Dimps	Atari	2	R
+Dragon Ball: Goku Gaiden	2025-01-15	Strategy	竜則事務局	竜則事務局	1	M
+Dragon Ball GT: Transformation	2005-08-09	Action · Beat 'em Up	Webfoot Technologies	Atari	2	R
+Dragon Ball Z: Buu's Fury	2004-09-14	Adventure · Role-Playing	Webfoot Technologies	Atari	1	R
+Dragon Ball Z: Collectible Card Game	2002-05-29	Strategy	ImaginEngine	Infogrames	1	R
+Dragon Ball Z Legend of Kakarot	2020-08-11	Adventure · Role-Playing	2107Y		1	M
+Dragon Ball Z: Supersonic Warriors	2004-03-26	Fighting	Arc System Works	Atari	2	R
+Dragon Ball Z: Taiketsu	2003-11-24	Action · Fighting	Webfoot Technologies	Atari	2	R
+Dragon Ball Z: The Legacy of Goku	2002-05-14	Action · Role-Playing	Webfoot Technologies	Infogrames	1	R
+Dragon Ball Z: The Legacy of Goku I & II	2005-12-08	Action · Role-Playing	Webfoot Technologies	Atari	1	R
+Dragon Ball Z: The Legacy of Goku II	2003-06-17	Action · Role-Playing	Webfoot Technologies	Infogrames	1	R
+Dragon Drive: World D Break	2003-07-18	Role-Playing	Zero One	Banpresto	1	R
+Dragon Quest Characters: Torneko no Daibouken 2 Advance: Fushigi no Dungeon	2001-12-20	Role-Playing	Chunsoft	Enix	1	R
+Dragon Quest Characters: Torneko no Daibouken 3 Advance: Fushigi no Dungeon	2004-06-24	Role-Playing	Chunsoft	Square Enix	1	R
+Dragon Quest Monsters: Caravan Heart	2003-03-29	Role-Playing	TOSE	Enix	1	R
+Dragon's Rock	2006-11-14	Action	Independent Arts Software	East Entertainment Media	0	R
+Dragon Tales: Dragon Adventures	2004-01-01	Adventure	Handheld Games	Global Star Software	1	R
+Drake & Josh	2007-03-15	Action	Artificial Mind & Movement	THQ	1	R
+Drill Dozer	2005-09-22	Action · Platform	Game Freak	Nintendo	1	R
+Driv3r	2005-10-25	Action · Racing · Shooter	Velez & Dubail	Atari	1	R
+Driven	2001-11-28	Racing	Crawfish Interactive	BAM! Entertainment	4	R
+Driver 2 Advance	2002-11-04	Racing	Sennari Interactive	Atari	4	R
+Drome Racers	2003-06-17	Racing	Möbius Entertainment	THQ	2	R
+Droopy's Tennis Open	2002-08-30	Sports	Bit Managers	Light & Shadow Production	0	R
+Dual Blades	2002-10-15	Fighting	Vivid Image	Metro3D	2	R
+Duel Masters 2: Invincible Advance	2004-03-18	Strategy	Amble	Atlus	1	R
+Duel Masters 2: Kirifuda Shoubu Version	2003-03-18	Strategy	Mistic Software	Takara	2	R
+Duel Masters 3	2004-12-12	Strategy	Takara	Atlus	2	R
+Duel Masters: Advance	2003-07-18	Strategy	Mistic Software	Takara	2	R
+Duel Masters: Kaijudo Showdown	2004-11-16	Fighting	Mistic Software	Atari	2	R
+Duel Masters: Sempai Legends	2004-06-01	Strategy	Amble	Atari	0	R
+Duel Masters: Shadow of the Code	2005-10-18	Strategy	Amble	Atlus	0	R
+Duke Nukem Advance	2002-08-12	Shooter	Torus Games	Take-Two Interactive Software	2	R
+Dune: Ornithopter Assault	2002	Flight Simulator	Soft Brigade	Cryo Interactive Entertainment	0	X
+Dungeon Tactics Advance	2024-10-02	Strategy	setsquare		1	H
+Dungeons & Dragons: Eye of the Beholder	2002-10-30	Role-Playing	Pronto Games	Infogrames	1	R
+Dynasty Warriors Advance	2005-08-29	Action	Omega Force	Nintendo	1	R
+E-Reader Balloon Fight	2002-09-16	Action	Nintendo	Nintendo	0	R
+E-Reader Baseball	2002-09-01	Sports	Nintendo	Nintendo	0	X
+E-Reader Clu Clu Land	2003-04-21	Action	Nintendo	Nintendo	0	X
+E-Reader Donkey Kong	2002-11-12	Action	Nintendo	Nintendo	0	X
+E-Reader Donkey Kong 3	2003-04-21	Action	Nintendo	Nintendo	0	X
+E-Reader Donkey Kong Jr.	2002-09-16	Action	Nintendo	Nintendo	0	X
+E-Reader Excitebike	2002-09-16	Racing	Nintendo	Nintendo	0	X
+E-Reader Golf	2003-04-21	Sports	Nintendo	Nintendo	0	X
+E-Reader Ice Climber	2002-11-12	Action	Nintendo	Nintendo	0	X
+E-Reader Mario Bros	2002-11-11	Action	Nintendo	Nintendo	0	X
+E-Reader Pinball	2002-09-16	Pinball	Nintendo	Nintendo	0	R
+E-Reader Tennis	2002-09-16	Sports	Nintendo	Nintendo	0	X
+E-Reader Urban Champion	2002-09-11	Fighting	Nintendo	Nintendo	0	X
+E.T. the Extra-Terrestrial	2001-12-06	Action	Fluid Studios	NewKidCo	1	R
+Earthworm Jim	2001-06-10	Platform · Shooter	Game Titan	THQ	0	R
+Earthworm Jim 2	2002-05-31	Platform · Shooter	Super Empire	Vivendi Universal Games	0	R
+Ebobo	2024-08-14	Action	VG Source Game Studio	VG Source Game Studio	1	H
+Ecks vs. Sever	2001-11-21	Shooter	Crawfish Interactive	BAM! Entertainment	4	R
+Ed, Edd n Eddy: Jawbreakers!	2002-09-16	Platform	Crawfish Interactive	BAM! Entertainment	1	R
+Ed, Edd n Eddy: The Mis-Edventures	2005-11-01	Platform	Artificial Mind & Movement	Midway Home Entertainment	1	R
+Egg Mania	2002-09-17	Puzzle	HotGen Studios	Kemco	0	R
+Elemix	2003-01-03	Action · Role-Playing	SIMS	SIMS	0	R
+Elevator Action: Old & New	2002-12-20	Action · Platform	Taito	MediaKite	2	R
+Elf Bowling 1 & 2	2005-11-28	Sports	Black Lantern Studios	Ignition Entertainment	0	R
+Elf: The Movie	2004-11-04	Action	Jolliford Management	Crave Entertainment	0	R
+Elite Redux					0	X
+Elland: The Crystal Wars	2021	Shooter	The Retro Room Games	The Retro Room Games	1	U
+Enchanted: Once Upon Andalasia	2007-11-15	Adventure · Music	Artificial Mind & Movement	Disney Interactive Studios	1	R
+Eragon	2006-11-14	Role-Playing	Amaze Entertainment	Sierra Entertainment	1	R
+Erementar Gerad: Huuin Sarashi Kyou	2005-07-07	Action	Jupiter	Tomy	1	R
+Escape 2042	2018-05-28	Platform · Puzzle	OrionSoft	OrionSoft	1	H
+ESPN Final Round Golf 2002	2001-03-21	Sports	Konami Computer Entertainment Nagoya	Konami	4	R
+ESPN Great Outdoor Games: Bass 2002	2001-11-29	Sports	Konami	Konami	1	R
+ESPN International Winter Sports 2002	2002-01-31	Action · Sports	Konami	Konami	4	R
+ESPN Winter X-Games Snowboarding 2002	2001-12-20	Sports	Konami Computer Entertainment Osaka	Konami	1	R
+ESPN X Games Skateboarding	2001-09-12	Sports	Konami	Konami	2	R
+European Super League	2001-12-14	Sports	Aqua Pacific	Virgin Interactive Entertainment (Europe)	0	R
+EverGirl	2005-10-04	Adventure	Artificial Mind & Movement	THQ	0	R
+EX Monopoly	2001-07-13	Board Game	Mobile21	Takara	0	R
+Extreme Ghostbusters: Code Ecto-1	2003-04-05	Platform · Shooter	Magic Pockets	DreamCatcher Interactive	1	R
+Extreme Mahjong Deluxe: Terminator 21	2001-08-09	Casino	Athena	Athena	4	R
+Eyeshield 21: DevilBats DevilDays	2006-04-06	Adventure · Visual Novel	Eighting	Nintendo	1	R
+EZ-Talk Shokyuuhen 1	2001-08-01		NDcube	Keynet	1	R
+EZ-Talk Shokyuuhen 2	2001-08-01		NDcube	Keynet	1	R
+EZ-Talk Shokyuuhen 3	2001-08-01		NDcube	Keynet	1	R
+EZ-Talk Shokyuuhen 4	2001-08-01		NDcube	Keynet	1	R
+EZ-Talk Shokyuuhen 5	2001-08-01		NDcube	Keynet	1	R
+EZ-Talk Shokyuuhen 6	2001-08-01		NDcube	Keynet	1	R
+F-14 Tomcat	2001-09-02	Flight Simulator · Shooter	Virtucraft	Majesco Sales	0	R
+F-Zero: Climax	2004-10-21	Racing	Suzak	Nintendo	2	R
+F-Zero: GP Legend	2003-11-28	Racing	Suzak	Nintendo	4	R
+F-Zero: Maximum Velocity	2001-03-21	Racing	Nintendo R&D1	Nintendo	4	R
+F-Zero: Vintage Velocity	2024-05-11	Racing	PowerPanda	Romhacking.net	0	M
+F1 2002	2002-01-07	Racing	Magic Pockets	Electronic Arts	2	R
+F24: Stealth Fighter	2006-11-06	Flight Simulator · Shooter	Skyworks Technologies	Majesco Entertainment	0	R
+Fakemon FireRed	2019-09-23	Role-Playing	Pekin		1	M
+Famicom Mini 08: Mappy	2004-02-14	Action · Platform	Namco	Nintendo	2	R
+Famicom Mini 10: Star Soldier	2004-02-14	Shooter	Hudson Soft	Nintendo	1	R
+Famicom Mini 11: Mario Bros.	2004-05-21	Action · Platform	Nintendo	Nintendo	2	R
+Famicom Mini 12: Clu Clu Land	2004-05-21	Action · Puzzle	Nintendo	Nintendo	1	R
+Famicom Mini 13: Balloon Fight	2004-05-21	Action · Platform	Nintendo	Nintendo	1	R
+Famicom Mini 14: Wrecking Crew	2004-05-21	Platform	Nintendo	Nintendo	2	R
+Famicom Mini 16: Dig Dug	2004-05-21	Action	Namco	Nintendo	2	R
+Famicom Mini 17: Takahashi Meijin no Bouken Jima	2004-05-21	Platform	Hudson Soft	Nintendo	1	R
+Famicom Mini 18: Makaimura	2004-05-21	Platform	Capcom	Nintendo	1	R
+Famicom Mini 19: TwinBee	2004-05-21	Shooter	Konami	Nintendo	1	R
+Famicom Mini 20: Ganbare Goemon! Karakuri Douchuu	2004-05-21	Beat 'em Up	Konami	Nintendo	1	R
+Famicom Mini 21: Super Mario Bros. 2	2004-08-10	Platform	Nintendo EAD	Nintendo	2	R
+Famicom Mini 22: Nazo no Murasame Jō	2004-08-10	Action · Adventure	Nintendo EAD	Nintendo	1	R
+Famicom Mini 24: Hikari Shinwa: Palthena no Kagami	2004-08-10	Platform	TOSE	Nintendo	1	R
+Famicom Mini 26: Famicom Mukashibanashi: Shin Onigashima: Zen, Kouhen	2004-08-10	Adventure	Pax Softnica	Nintendo	1	R
+Famicom Mini 27: Famicom Tantei Club: Kieta Koukeisha: Zen, Kouhen	2004-08-10	Adventure	Nintendo R&D1	Nintendo	1	R
+Famicom Mini 28: Famicom Tantei Club Part II: Ushiro ni Tatsu Shoujo: Zen, Kouhen	2004-08-10	Adventure · Visual Novel	Nintendo	Nintendo	1	R
+Famicom Mini 30: SD Gundam World: Gachapon Senshi Scramble Wars	2004-08-10	Strategy	Nintendo	Nintendo	1	R
+Famicom Mini: Dai-2-ji Super Robot Taisen	2004-12-16	Strategy	Winky Soft	Banpresto	1	R
+Famicom Mini: Kidou Senshi Z Gundam: Hot Scramble	2004-03-18	Platform · Shooter	Game Studio	Bandai	1	R
+Famicom Mini: Super Mario Bros.	2004-02-14	Action · Adventure · Platform			2	R
+Family Feud	2006-10-12	Quiz	Atomic Planet Entertainment	Global Star Software	0	R
+Family Tennis Advance	2002-06-14	Sports	Natsume	Namco	4	R
+Famista Advance	2002-06-28	Sports	Namco	Namco	2	R
+Fancy Pocket	2002-09-27	Strategy	Jorudan	Jorudan	1	R
+Fantastic 4	2005-06-28	Beat 'em Up	Torus Games	Activision	1	R
+Fantastic 4: Flame On	2005-11-08	Action	Torus Games	Activision	0	R
+Fantastic Children	2005-05-19	Action · Adventure	Inti Creates	Bandai	1	R
+Fantastic Marchen: Cake-yasan Monogatari \ Doubutsu Chara Navi Uranai Kosei Shinri Gaku	2002-11-01	Role-Playing	Culture Brain	Culture Brain	1	R
+Fear Factor: Unleashed	2004-11-19	Action	DC Studios	Hip Interactive	0	R
+Feline	2021-07-11	Adventure · Platform	Jono Shields	Jono Shields	0	H
+Field of Nine: Digital Edition 2001	2001-09-20	Sports	Konami	Konami	2	R
+FIFA Soccer 06	2005-09-26	Sports	Electronic Arts	Electronic Arts	0	R
+FIFA Soccer 07	2006-10-03	Sports	Electronic Arts Canada	Electronic Arts	1	R
+FIFA Soccer 2003	2002-11-21	Sports	Exient Entertainment	Electronic Arts	0	R
+FIFA Soccer 2004	2003-11-04	Sports	Exient Entertainment	Electronic Arts	0	R
+FIFA Soccer 2005	2004-10-12	Sports	Electronic Arts	Electronic Arts	0	R
+FIFA World Cup Germany 2006	2006-04-24	Sports	Electronic Arts Canada	Electronic Arts	0	R
+FightBox	2004-02-06	Fighting	Gamezlab	BBC Multimedia	0	R
+FILA Decathlon	2002-03-29	Sports	Athletic Design	THQ	0	R
+Final Fantasy I & II: Dawn of Souls	2004-11-29	Role-Playing	TOSE	Square Enix	1	R
+Final Fantasy I & II: Mod of Balance	2010	Role-Playing	Jeff Ludwig		1	M
+Final Fantasy IV Advance	2005-12-12	Role-Playing	TOSE	Square Enix	1	R
+Final Fantasy Tactics Advance	2003-09-08	Role-Playing · Strategy	Square	Square Enix	2	R
+Final Fantasy Tactics Advance Maeson	2026-02-20	Strategy	Maeson		1	M
+Final Fantasy V Advance	2006-11-06	Role-Playing	TOSE	Square Enix	1	R
+Final Fantasy VI Advance	2007-02-05	Role-Playing	TOSE	Square Enix	2	R
+Final Fight One	2001-05-25	Beat 'em Up	Capcom	Capcom	2	R
+Final Fight One: Arcade Edition	2024-04-29	Beat 'em Up	RealGaea		1	M
+Finding Nemo	2003-05-10	Adventure	Vicarious Visions	THQ	1	R
+Finding Nemo: The Continuing Adventures	2006-06-15	Adventure · Puzzle	Altron	THQ	1	R
+Fire Eaters: Zero Bandits		Fighting	Lost Boys		0	X
+Fire Emblem	2003-11-03	Role-Playing · Strategy	Intelligent Systems	Nintendo	4	R
+Fire Emblem Bloodlines	2014	Role-Playing · Strategy	Faerghast	Faerghast	1	M
+Fire Emblem: Cerulean Crescent	2021-10-12	Strategy	Rivian		1	M
+Fire Emblem: Corrupt Theocracy	2011	Role-Playing · Strategy	Blademaster		1	M
+Fire Emblem: Curse of Lagdou	2026-02-16	Role-Playing · Strategy	DoinThangs		1	M
+Fire Emblem: Drums Of War	2022	Role-Playing · Strategy	Parrhesia		0	M
+Fire Emblem: Eligor's Spear	2025-10-03	Strategy			1	H
+Fire Emblem: Fallen King	2016-09-13	Strategy	MonopolyRubix	Romhacking.net	1	M
+Fire Emblem: Gilmore Girls	2020	Role-Playing	Marlowe Dobbe		1	M
+Fire Emblem: Heaven’s Bloom	2020-05-10	Role-Playing · Strategy	Roosterton		1	M
+Fire Emblem: Illuminated	2019-05-22	Strategy	Sokaballa	Sokaballa	1	M
+Fire Emblem: Justice & Pride	2019	Role-Playing · Strategy	DrGreen3339		0	M
+Fire Emblem: Legends of Avenir	2018	Role-Playing	Snakey1		1	M
+Fire Emblem: Lyn's Bizarre Adventure	2024-07-28	Role-Playing · Strategy	SilverRoy		0	M
+Fire Emblem: Order of the Crimson Arm		Role-Playing	TheMaskedRaider		1	M
+Fire Emblem: Project Ember	2019-10-25	Role-Playing · Strategy	Brunhilda		1	M
+Fire Emblem: Requiem	2015-06-14	Strategy	Sacred Blaze		1	M
+Fire Emblem: Storge	2021-03-29	Role-Playing · Strategy	knabepicer		1	M
+Fire Emblem: The Binding Blade	2002-03-29	Role-Playing · Strategy	Intelligent Systems	Nintendo	1	R
+Fire Emblem: The Black Fang	2022-05-22	Role-Playing · Strategy	HHS		1	M
+Fire Emblem: The Hag in White	2025-04-20	Role-Playing · Strategy	SaintRubenio		1	M
+Fire Emblem: The Last Promise	2013-08-24	Role-Playing	Blazer	Romhacking.net	1	M
+Fire Emblem: The Road to Ruin		Role-Playing	PRIMEFUSION		1	M
+Fire Emblem: The Sacred Echoes	2023-01-07	Role-Playing · Strategy	HyperGammaSpaces	Romhacking.net	1	M
+Fire Emblem: The Sacred Stones	2004-10-07	Role-Playing · Strategy	Intelligent Systems	Nintendo	4	R
+Fire Emblem: The Sacred Stones Reforged	2024-11-10	Role-Playing	Struedelmuffin		1	M
+Fire Emblem: The Sacred Trilogy	2019-04-16	Strategy	bløød		1	M
+Fire Emblem: The Second Scouring	2023-04-15		THE 1	Romhacking.net	0	M
+Fire Emblem: The Sun God's Wrath	2022	Role-Playing · Strategy	Blademaster		1	M
+Fire Emblem: Vision Quest	2021-05-24	Role-Playing · Strategy	Pandan	Pandan	1	M
+Fire Emblem Wars	2021-06-21	Strategy	Kartal		1	M
+Fire Pro Wrestling	2001-03-21	Fighting · Sports	Vaill	BAM! Entertainment	4	R
+Fire Pro Wrestling 2	2002-09-24	Fighting · Sports	Spike	BAM! Entertainment	2	R
+Flame of Recca	2001-12-20	Fighting	Konami	Konami	2	R
+Flappy Bird	2014-12-29		jayvanhutten		1	H
+Flashback Legends	2007-01-01	Adventure	Delphine Software International		1	X
+Flushed Away	2006-10-24	Action	Altron	D3Publisher	1	R
+Ford Racing 3	2005-11-03	Racing	Visual Impact	Empire Interactive	1	R
+Formation Soccer 2002	2002-05-02	Sports	Garden	Spike	0	R
+Fortaleza	2023-07-13				1	H
+Fortress	2001-08-13	Puzzle	Pipedream Interactictive	THQ	0	R
+Foster's Home for Imaginary Friends	2006-10-17	Action	Collision Studios	Crave Entertainment	0	R
+Franklin's Great Adventures	2006-04-01	Adventure · Platform	Neko Entertainment	The Game Factory	1	R
+Franklin the Turtle	2005-11-14	Party	Interactive Vision	The Game Factory	0	R
+Freekstyle	2003-08-25	Racing	Full Fat Productions	Destination Software	0	R
+Freezai's Mountain	2023-12-03	Puzzle	Freezai		1	M
+FRLG.IPS	2026-06-06	Horror · Role-Playing	novameow		1	M
+Frogger Advance: The Great Quest	2002-05-28	Adventure · Platform	Team Angry Robot	Konami of America	1	R
+Frogger's Adventures 2: The Lost Wand	2002-11-05	Adventure	Konami	Konami	1	R
+Frogger's Adventures: Temple of the Frog	2001-11-22	Action · Adventure	Konami Computer Entertainment Hawaii	Konami	1	R
+Frogger's Journey: The Forgotten Relic	2003-10-28	Action	Konami Computer Entertainment Hawaii	Konami	0	R
+From TV animation: One Piece: Mezase! King of Berry	2003-03-28	Board Game	BeanCurd Label	Banpresto	4	R
+From TV animation: One Piece: Nanatsu Shima no Daihihou	2002-11-15	Role-Playing	Banpresto	Banpresto	1	R
+Fruits Mura no Doubutsu Tachi	2004-10-28			TDK Core	0	R
+Funkin' GBA	2026-04-05	Music	Pixel Dimension		1	H
+Funny Bird Game II	2020-04-05	Action	KIM ROYAL		1	H
+Fushigi no Kuni no Alice	2003-01-09	Board Game	Global A Entertainment	Global A Entertainment	1	R
+Fushigi no Kuni no Angelique	2002-03-08	Board Game	Koei	Koei	4	R
+Futari wa Pretty Cure: Arienaai! Yume no Sono wa Daimeikyuu	2004-12-09	Adventure	Open Sesame	Bandai	1	R
+Futari wa Pretty Cure Max Heart : Maji Maji! Fight de IN Janai	2005-07-28	Action · Platform	Open Sesame	Bandai	0	R
+Fuzz & Rocket		Platform	Halfbrick Studios		0	X
+G.I. Joe: A Real American Hero					0	X
+Gacha Hack	2019-03-20	Role-Playing	LeonarthCG	Romhacking.net	1	M
+Gachasute! Dino Device 2: Dragon	2003-12-05	Action	A.I	Rocket Company	1	R
+Gachasute! Dino Device 2: Phoenix	2003-12-05	Action	Rocket Company	Rocket Company	1	R
+Gachasute! Dino Device Blue	2002-07-26	Action	Smilesoft	Smilesoft	2	R
+Gachasute! Dyna Device Red	2002-07-26	Action	A.I	Smilesoft	2	R
+Gachinko Pro Yakyuu	2002-06-21	Sports	Now Production	Now Production	2	R
+Gadget Racers	2001-10-29	Racing	Takara	Conspiracy Entertainment	4	R
+Gakkou no Kaidan: Hyakuyoubako no Fuuin	2004-07-22	Adventure		TDK Core	1	R
+Gakkou o Tsukurou!! Advance	2001-12-07	Strategy	Groove Box Japan	Victor Interactive Software	2	R
+Gakuen Alice: Dokidoki Fushigi Taiken	2004-11-18	Adventure	Rokumendo	Kids Station	1	R
+Gakuen Senki Muryou	2003-12-05	Strategy	MTO	MTO	1	R
+Galacard Advance	2025-01-07	Puzzle	Bipedal Studios	Bipedal Studios	1	H
+Galaxy Angel Game Boy Advance: Moridakusan Tenshi no Full Course Okawari Jiyuu	2002-09-13	Strategy	Marvelous Entertainment	Marvelous Entertainment	1	R
+Galidor: Defenders of the Outer Dimension	2002-10-29	Action	Tiertex Design Studios	Electronic Arts	0	R
+Gambler Densetsu Tetsuya: Yomigaeru Densetsu	2002-07-19			Athena	1	R
+Game Boy Advance Video: All Grown Up!: Volume 1	2004-05-27	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Cartoon Network Collection: Limited Edition	2004	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Cartoon Network Collection: Platinum Edition	2005-04-15	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Cartoon Network Collection: Premium Edition	2004-11-10	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Cartoon Network Collection: Special Edition	2005-03-05	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Cartoon Network Collection: Volume 1	2004-06-24	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Cartoon Network Collection: Volume 2	2004-10-15	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Codename: Kids Next Door: Volume 1	2004-06-29	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Disney Channel Collection: Volume 1	2004-12-24	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Disney Channel Collection: Volume 2	2005-04-04	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Dora the Explorer: Volume 1	2004-05-14	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Dragon Ball GT: Volume 1	2004-09-09	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: DreamWorks Shrek	2005	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Nicktoons Collection: Volume 1	2004	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Nicktoons Collection: Volume 2	2004-09-20	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Nicktoons Collection: Volume 3	2005-04-04	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Pokémon: Volume 1	2004-06-21	Visual Novel	Nintendo	Nintendo	1	R
+Game Boy Advance Video: Pokémon: Volume 2	2004-06-24	Visual Novel	Nintendo	Nintendo	1	R
+Game Boy Advance Video: Pokemon: Volume 3	2004-09-27		Nintendo	Nintendo	0	R
+Game Boy Advance Video: Pokémon: Volume 4	2004-09-27	Visual Novel	Majesco	Nintendo	1	R
+Game Boy Advance Video: Shark Tale	2005-10-26	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Shrek 2	2005	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Shrek + Shark Tale	2006-09-08	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Sonic X: Volume 1	2004-05-14	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Sonic X: Volume 2		Visual Novel	Majesco	Majesco	0	X
+Game Boy Advance Video: SpongeBob SquarePants: Volume 1	2004-05-14	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: SpongeBob SquarePants: Volume 2	2004-05-14	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: SpongeBob SquarePants: Volume 3	2004-11-01	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Strawberry Shortcake: Volume 1	2004-05-14	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Super Robot Monkey Team Hyper Force Go!: Volume 1	2005-04-04	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Teenage Mutant Ninja Turtles: Things Change	2004-07-05	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: The Adventures of Jimmy Neutron Boy Genius: Volume 1	2004-06-10	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: The Fairly OddParents!: Volume 1	2004-05-14	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: The Fairly OddParents!: Volume 2	2004-05-14	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: The Proud Family: Volume 1	2004-03-25	Visual Novel	Majesco	Majesco	1	R
+Game Boy Advance Video: Yu-Gi-Oh!: Yugi vs. Joey	2004-07-05	Visual Novel	Majesco	Majesco	1	R
+Game Boy Wars Advance 1+2	2004-11-25		Intelligent Systems	Nintendo	1	R
+Game & Watch Gallery 4	2002-10-28	Compilation	TOSE	Nintendo	2	R
+Games Explosion!	2006-08-05	Compilation	Frontline Studios	THQ	0	R
+Ganbare! Dodge Fighters	2005-01-27	Sports	Kamui	Bandai	0	R
+Gapman					1	H
+Garfield and His Nine Lives	2006-05-18	Action	Lucky Jump	Game Factory	1	R
+Garfield: The Search for Pooky	2005-11-14	Action · Platform	Interactive Vision	The Game Factory	0	R
+Gauntlet: Dark Legacy	2002-11-25	Action	Pocket Studios	Midway Home Entertainment	0	R
+Gauntlet / Rampart	2005-08-23	Compilation	EC-Interactive	Destination Software	0	R
+GBA Microjam '23	2023-10-31	Compilation	gbadev		1	H
+Gearhead Garage Adventure		Adventure · Vehicle Simulation	Ratloop		0	X
+Gegege no Kitarou: Kiki Ippatsu! Youkai Rettou	2003-12-11	Action · Platform	Konami	Konami	1	R
+Gekido Advance: Kintaro's Revenge	2002-11-08	Beat 'em Up	Na.p.s. Team	Destination Software	1	R
+Gekitou Densetsu Noah: Dream Management	2003-03-20	Fighting · Sports	Game Village	Game Village	2	R
+Gem Smashers	2003-07-01	Action · Puzzle	Frame Studios	Metro3D	2	R
+Genseishin Justirisers: Souchaku Chikyuu no Senshitachi	2004-12-23	Action · Beat 'em Up	Winky Soft	Konami	1	R
+Gensō Suikoden Card Stories	2001-09-13	Strategy	Will	Konami	1	R
+Gensou Maden Saiyuuki: Hangyaku no Toshin Taishi	2003-08-01	Adventure	Digital Kids	Digital Kids	1	R
+Geometry Dash Advance	2026-03-20	Platform	AleFunky		1	H
+GET! Boku no Mushi Tsukamaete	2003-07-11	Adventure	Wizard	Kemco	1	R
+Get Ride! Amdriver: Senkou no Hero Tanjou!	2004-07-22	Action	Winky Soft	Konami	1	R
+Get Ride! Amdriver: Shutsugeki! Battle Party	2004-12-16		Konami Computer Entertainment Japan	Konami	1	R
+GetBackers Dakkanya: Jagan Fuuin!	2003-09-04	Role-Playing	Konami	Konami	1	R
+GetBackers Dakkanya: Jigoku no Scaramouche	2001-04-26	Role-Playing	Konami	Konami	1	R
+GetBackers Dakkanya: Metropolis Dakkan Sakusen!	2003-03-20	Role-Playing	Konami	Konami	1	R
+Getting Around It with Pheasant Birdy	2024-08-18	Platform	Hell Labs	Hell Labs	0	H
+Ghost Rider	2007-02-13	Action · Platform · Racing	Magic Pockets	2K Games	1	R
+Ghost Trap	2002-07-25	Horror	Artoon	Eidos Interactive	1	R
+Glacia Dungeon	2022-10-30		NotImplementedLife		0	U
+Glass Eyes	2025-09-14	Adventure · Role-Playing	Cinemint		1	H
+Go! Go! Beckham! Adventure on Soccer Island	2002-08-01	Platform	Denki	Rage Software	1	R
+Godzilla: Domination!	2002-11-15	Fighting	WayForward Technologies	Infogrames	1	R
+Goemon: New Age Shutsudou!	2002-02-28	Action · Adventure	Konami	Now Production	1	R
+Gold Miner	2023-04-10	Action	FlashPig		1	H
+Golden Nugget Casino	2004-11-16	Casino	Pipe Dream Interactive	Majesco Sales	1	R
+Golden Sun	2001-08-01	Role-Playing	Camelot Software Planning	Nintendo	1	R
+Golden Sun: Dawn of Djinn	2022-11-15	Role-Playing	JackitK		0	M
+Golden Sun: Fallen Star	2019-09-02	Action · Role-Playing	Vanish Mantle	Vanish Mantle	1	M
+Golden Sun: Lost Age Reloaded	2016-12-22	Action · Role-Playing	Caledor	Caledor	1	M
+Golden Sun: Risen Star	2017-05-09	Action · Role-Playing	Vanish Mantle	Vanish Mantle	1	M
+Golden Sun: The Broken Seal Reloaded	2016-12-22	Action · Role-Playing	Caledor	Caledor	1	M
+Golden Sun: The Lost Age	2003-04-14	Role-Playing	Camelot Software Planning	Nintendo	1	R
+Goodboy Galaxy	2023-11-28	Platform	Goodboy Galaxy	Goodboy Galaxy	1	H
+Goodboy Galaxy DEMO	2021-09-03	Platform	Rik Nicol		1	X
+Google Dino Advance	2021-03-03	Action	frzit		1	H
+GP-1 Racing	2003	Racing	Edge Interact		1	X
+Gradius Galaxies	2001-11-09	Shooter	Mobile21	Konami	1	R
+Gradius Generation BLACK LABEL	2026-05-26	Shooter	allanrps		1	M
+Granbo	2001-12-28	Role-Playing	Capcom	Capcom	2	R
+Grand Theft Auto	2004-10-26	Action	Digital Eclipse Software	Rockstar Games	1	R
+GRAVITY: Sylux's Crusade	2024	Action · Platform	Roebloz		0	M
+Green Memories	2022	Action · Role-Playing	Tengukaze Studio		0	U
+Greg Hastings' Tournament Paintball MAX'd	2006-01-24	Shooter · Sports	MachineWorks Northwest	Activision Value Publishing	0	R
+Gremlins: Stripe vs. Gizmo	2002-11-27	Action · Platform · Puzzle	Magic Pockets	DreamCatcher Interactive	2	R
+Groove Adventure Rave: Hikari to Yami no Daikessen	2002-03-20	Beat 'em Up	Konami	Konami	4	R
+GT Advance 2: Rally Racing	2001-12-07	Racing	MTO	THQ	2	R
+GT Advance 3: Pro Concept Racing	2002-04-26	Racing	MTO	THQ	2	R
+GT Advance: Championship Racing	2001-03-21	Racing	MTO	THQ	2	R
+GT Racers	2006-07-28	Racing	Alten8	Liquid Games	1	R
+Guilty Gear X: Advance Edition	2002-01-25	Fighting	Arc System Works	Sammy	1	R
+Gumby vs. The Astrobots	2005-08-09	Action · Platform	Torus Games	Namco Hometek	0	R
+Gunstar Super Heroes	2005-10-25	Platform · Shooter	Treasure	Sega Corporation	1	R
+Guru Logic Champ	2001-11-29	Puzzle	Compile	Compile	1	R
+Gyakuten Saiban	2001-10-11	Adventure · Visual Novel	Capcom	Capcom	1	R
+Gyakuten Saiban 2	2002-10-22	Puzzle	Capcom	Capcom	1	R
+Gyakuten Saiban 3	2004-01-23	Puzzle	Capcom	Capcom	1	R
+Hachiemon	2003-07-04	Action	Natsume	Namco	1	R
+Hagane no Renkinjutsushi: Meisou no Rondo	2003-03-26	Role-Playing	Tom Create	Bandai	1	R
+Hagane no Renkinjutsushi: Omoide no Sonata	2004-07-22	Role-Playing	Tom Create	Bandai	1	R
+Hajime No Ippo: The Fighting!	2002-12-13	Fighting · Sports	Treasure	Entertainment Software Publishing	1	R
+Hajimete no Orusuban		Visual Novel			1	X
+Hamepane Tokyo Mew Mew	2002-07-11	Puzzle	Winky Soft	Takara	1	R
+Hamster Club 3	2002-03-29	Strategy	Nekogumi	Jorudan	1	R
+Hamster Club 4: Shigessa Daidassou	2003-07-18	Adventure	Nekogumi	Jorudan	1	R
+Hamster Monogatari 2 GBA	2001-10-19	Strategy	Culture Brain	Culture Brain	2	R
+Hamster Monogatari 3 GBA	2002-12-24	Strategy	Culture Brain	Culture Brain	1	R
+Hamster Monogatari 3EX 4 Special	2003-11-28	Strategy	Culture Brain	Culture Brain	1	R
+Hamster Monogatari Collection	2003-05-23		Culture Brain	Culture Brain	1	R
+Hamster Paradise Advanchu	2002-07-19	Life Simulation	Digital Kids	Atlus	1	R
+Hamster Paradise: Pure Heart	2003-07-11	Life Simulation	Digital Kids	Atlus	2	R
+Hamtaro: Ham-Ham Games	2004-07-15	Sports	AlphaDream	Nintendo	4	R
+HamTaro: Ham-Ham Heartbreak	2003-04-08	Action · Puzzle	Pax Softnica	Nintendo	1	R
+HamTaro: Rainbow Rescue	2003-05-23	Adventure	AlphaDream	Nintendo	1	R
+Hanabi Hyakkei Advance	2004-07-29	Strategy		Aruze	1	R
+Hanafuda Trump Mahjong: Depachika Wayounaka	2002-06-27	Board Game	Global A Entertainment	Global A Entertainment	1	R
+Happy Feet	2006-11-14	Adventure	Artificial Mind & Movement	Midway Home Entertainment	1	R
+Happy Trump 20	2005-01-14	Board Game	Kouyousha	Success	0	R
+Hardcore Pinball	2002-12-16	Pinball	Paragon Five	Telegames	1	R
+Hardcore Pool	2004	Sports	Frontline Studios	Neko Entertainment	4	R
+Harlem Globetrotters: World Tour	2006-10-02	Sports	Full Fat Productions	DSI Games	0	R
+Harobots: Robo Hero Battling	2002-07-05	Role-Playing	Sunrise Interactive	Sunrise Interactive	2	R
+Harry Potter and the Chamber of Secrets	2002-11-15	Action · Adventure	Eurocom Entertainment Software	Electronic Arts	1	R
+Harry Potter and the Goblet of Fire	2005-11-08	Action · Adventure	Magic Pockets	Electronic Arts	3	R
+Harry Potter and the Order of the Phoenix	2007-07-10	Action · Adventure	Visual Impact	Electronic Arts	0	R
+Harry Potter and the Prisoner of Azkaban	2004-05-25	Role-Playing	Griptonite	Electronic Arts	1	R
+Harry Potter and the Sorcerer's Stone	2001-11-15	Action · Adventure	Griptonite	Electronic Arts	0	R
+Harry Potter Collection	2007-10-10	Compilation	Griptonite Games	Electronic Arts	0	R
+Harry Potter IV		Action · Platform	Sintax Technology	Sintax Technology	1	U
+Harry Potter: Quidditch World Cup	2003-10-28	Sports	Magic Pockets	Electronic Arts	2	R
+Harukanaru Toki no Naka de	2002-08-23	Visual Novel	Koei	Koei	1	R
+Harvest Moon: Friends of Mineral Town	2003-04-18	Life Simulation · Role-Playing	Marvelous Interactive	Natsume	1	R
+Harvest Moon: Friends of Mineral Town True Love Edition	2014				1	M
+Harvest Moon: More Friends of Mineral Town	2003-12-12	Life Simulation · Role-Playing	Marvelous Interactive	Natsume	1	R
+Hatena Satena	2001-10-04	Puzzle	Hudson Soft	Hudson Soft	1	R
+Heartwrench Advance	2025-09-23	Platform	Michael Chase	Michael Chase	1	H
+Heidi: The Game	2005	Platform	Independent Arts Software	East Entertainment Media	0	R
+Hello! Idol Debut	2004-12-09	Strategy		TDK Core	1	R
+Hello Kitty Collection: Miracle Fashion Maker	2001-10-19	Adventure	Access	Imagineer	1	R
+Hello Kitty: Happy Party Pals	2005-10-11	Puzzle	Valusoft	THQ	1	R
+Hexa Virus	2007-09-11	Puzzle	Mollusk	Mollusk	1	H
+Hey Arnold! The Movie	2002-05-29	Platform	Altron Corporation	THQ	1	R
+Hi Hi Puffy AmiYumi: Kaznapped!	2005-12-22	Platform	Altron	D3Publisher	1	R
+Hi Hi Puffy AmiYumi: Puffy Ami Yumi and the Manga Madman	2024-07-04	Action · Adventure · Platform	Altron	D3Publisher	1	X
+Higanbana	2002-11-29	Adventure	Athena	Athena	1	R
+High Heat Major League Baseball 2002	2001-09-25	Sports	Möbius Entertainment	3DO	1	R
+High Heat Major League Baseball 2003	2002-03-05	Sports	Möbius Entertainment	3DO	2	R
+High School Musical: Livin' the Dream	2007	Action	Artificial Mind & Movement	Disney Interactive Studios	1	R
+Hikaru no Go	2001-10-25	Board Game	Konami Computer Entertainment Japan	Konami	2	R
+Hikaru no Go 2	2002-07-18	Board Game	Konami Computer Entertainment Japan	Konami	2	R
+Hollow Knight SilkSong E3 Demake	2021-07-28	Adventure · Platform	Elvies	Elvies	1	H
+Home on the Range	2004-03-31	Platform	Artificial Mind & Movement	Buena Vista Games	1	R
+Horsez	2006-10-10	Life Simulation	Independent Arts Software	Ubisoft Entertainment	1	R
+Hot Potato!	2001-07-01	Action · Puzzle	Pukka Games	BAM! Entertainment	1	R
+Hot Wheels: All Out	2006-01-01	Racing	TwoFiveSix	DSI Games	1	R
+Hot Wheels: Burnin' Rubber	2001-11-20	Racing	Altron	THQ	2	R
+Hot Wheels: Stunt Track Challenge	2004-11-09	Racing	Razorback Developments	THQ	0	R
+Hot Wheels: Velocity X	2002-11-05	Racing	Saffire	THQ	0	R
+Hot Wheels: World Race	2003-11-14	Racing	Climax Studios	THQ	4	R
+Hudson Best Collection Vol. 1: Bomberman Collection	2005-12-16	Compilation	Hudson Soft	Hudson Soft	1	R
+Hudson Best Collection Vol. 2: Lode Runner Collection	2005-12-22	Compilation	Hudson Soft	Hudson Soft	1	R
+Hudson Best Collection Vol. 3: Action Collection	2005-12-22	Compilation	Hudson Soft	Hudson Soft	1	R
+Hudson Best Collection Vol. 4: Nazotoki Collection	2005-12-22	Compilation	Hudson Soft	Hudson Soft	1	R
+Hudson Best Collection Vol. 5: Shooting Collection	2006-01-19	Shooter	Hudson Soft	Hudson Soft	1	R
+Hudson Best Collection Vol. 6: Bouken Jima Collection	2006-01-19	Compilation	Hudson Soft	Hudson Soft	1	R
+Hugo 2 in 1	2005-10-20	Action · Platform · Racing	ITE Media	ITE Media	4	R
+Hugo: Bukkazoom	2003-10-31	Racing	ITE Media	ITE Media	4	R
+Hugo: The Evil Mirror	2005-04-25	Platform	ITE Media	Namco	1	R
+Hunter X Hunter: Minna Tomodachi Daisakusen	2003-04-24	Role-Playing	Konami	Konami	1	R
+Hyokkori Hyotanjima Don Gabacho Daikatsuyaku no Maki	2003-11-21	Action	MTO	MTO	1	R
+I-Ninja		Platform		Destination Software	0	X
+I Spy Challenger!	2002-09-02	Puzzle	Black Hammer Game	Scholastic	1	R
+Ice Age	2002-03-18	Platform	Artificial Mind & Movement	Ubi Soft Entertainment Software	1	R
+Ice Age 2: The Meltdown	2006-03-14	Action	Amaze Entertainment	Vivendi Universal Games	0	R
+Ice Nine	2005-02-28	Shooter	Torus Games	BAM! Entertainment	4	R
+Ignition Collection: Volume 1	2006-03-17	Compilation	Ignition Entertainment	Ignition Entertainment	0	R
+IK+	2003-01-01	Fighting · Sports	Ignition Entertainment	Ignition Entertainment	2	R
+Inheritors of the Oubliette	2021-07-11	Role-Playing	one60hp	Mahou Shoujo ☆ Magical Moestar	0	H
+Initial D: Another Stage	2002-04-26	Role-Playing		Sammy Studios	1	R
+Inky and the Alien Aquarium	2023	Puzzle	Casey Dean	Pocket Pulp	1	H
+Inspector Gadget: Advance Mission	2001-11-29	Action · Platform	Magic Pockets	DreamCatcher Interactive	4	R
+Inspector Gadget Racing	2003-02-28	Racing	Bit Managers	Light & Shadow Production	0	R
+International Karate Advanced	2001-11-30	Fighting · Sports	Studio 3 Interactive Entertainment	Studio 3 Interactive Entertainment	2	R
+International Superstar Soccer	2001-11-23	Sports	Konami	Konami	0	R
+International Superstar Soccer Advance	2003-01-24	Sports	Konami Computer Entertainment Osaka	Konami of Europe	0	R
+Inukko Club: Fukumaru no Daibouken	2002-12-13	Adventure	Jorudan	Jorudan	1	R
+Inuyasha: Naraku no Wana! Mayoi no Mori no Shoutaijou	2003-01-23	Board Game	Winky Soft	Takara	1	R
+Invader	2002-08-27	Shooter	Lost Boys Games	Xicat Interactive	1	R
+Iridion 3D	2001-06-11	Shooter	Shin'en Multimedia	THQ	1	R
+Iridion II	2003-05-12	Shooter	Shin'en Multimedia	Vivendi Universal Games	1	R
+Iron Emblem	2021-06-07	Role-Playing · Strategy	Relic		1	M
+Iron Emblem Gaiden	2022-10-22	Role-Playing · Strategy	knabepicer		1	M
+Iron kid	2007	Action · Platform	Bitmage	Daiwon C&A Holdings	1	R
+Island Xtreme Stunts	2002-11-15	Racing · Sports	Silicon Dreams	Electronic Arts	0	R
+Isseki Hacchou: Kore 1-pon de 8 Shurui!	2002-03-28	Board Game	Konami	Konami	4	R
+It's Mr. Pants	2004-12-07	Puzzle	Rare	THQ	1	R
+J.League Pocket	2001-03-21	Construction and Management Simulation · Sports	Konami Computer Entertainment Osaka	Konami	1	R
+J.League Pocket 2	2002-02-28	Sports	Konami Computer Entertainment Osaka	Konami	1	R
+J.League Pro Soccer Club o Tsukurou! Advance	2002-09-05	Sports	Smilebit	Sega Corporation	2	R
+J-League Winning Eleven Advance 2002	2002-10-10	Sports	Konami Computer Entertainment Tokyo	Konami	2	R
+Jackie Chan Adventures: Legend of The Dark Hand	2001-11-21	Action	Torus Games	Activision	1	R
+JaJaMaru Jr. Denshouki: Jaleco Collection Mo AriSoro	2004-05-27	Action · Compilation	Jaleco Entertainment	Jaleco Entertainment	1	R
+James Pond: Codename ROBOCOD	2005-02-11	Action · Platform	Creature Labs	Valcon Games	1	R
+Jazz Jackrabbit	2002-11-19	Action · Platform	Game Titan	Jaleco	4	R
+Jet Grind Radio	2003-06-26	Platform	Sega	Sega	4	R
+JGTO Kounin Golf Master Mobile: Japan Golf Tour Game	2001-07-26	Sports	Konami Computer Entertainment Nagoya	Konami	4	R
+Jim Henson's Muppets in Spy Muppets: License to Croak	2003-11-18	Action	Vicarious Visions	TDK Mediactive	1	R
+Jimmy Neutron: Boy Genius	2001-11-09	Platform	Human Soft	THQ	0	R
+Jinsei Game Advance	2002-04-18	Board Game	Takara	Takara	4	R
+Jissen Pachi-Slot Hisshouhou! Juuou Advance	2002-03-22	Casino	Sammy	Sammy	1	R
+Jonny Moseley: Mad Trix	2002-02-12	Sports	GFX Construction	3DO	0	R
+Juka and the Monophonic Menace	2006-10-24	Adventure	Orbital Media	SouthPeak Games	0	R
+Jumping Barnabe	2007-09-13	Platform	Alekmaul	Alekmaul	1	H
+Jumping Jim	2005-07-05	Platform	Alekmaul	Alekmaul	1	H
+Jurassic Park III: Island Attack	2001-11-26	Action	Mobile21	Konami	0	R
+Jurassic Park III: Park Builder	2001-09-10	Construction and Management Simulation	Konami	Konami	0	R
+Jurassic Park III: The DNA Factor	2001-07-16	Platform	Konami Computer Entertainment Hawaii	Konami	1	R
+Jurassic Park Institute Tour: Dinosaur Rescue	2003-07-18	Party	KaZe	Rocket Company	1	R
+Justice League: Chronicles	2003-11-12	Action · Platform	Full Fat Productions	Midway Home Entertainment	0	R
+Justice League Heroes: The Flash	2006-10-17	Beat 'em Up	WayForward Technologies	Warner Bros. Interactive Entertainment	1	R
+Justice League: Injustice for All	2002-11-17	Platform	Saffire	Midway Home Entertainment	0	R
+K-1 Pocket Grand Prix	2002-12-30	Fighting · Sports	Daft	Konami	0	R
+K-1 Pocket Grand Prix 2	2002-11-28	Fighting · Sports	Daft	Konami	2	R
+Kadu Bird	2023-06-12	Action	ATSxp		1	H
+Kaeru B Back	2002-03-29	Role-Playing	Fortyfive	Kadokawa Shoten Publishing	1	R
+Kaiketsu Zorori to Mahou no Yuuenchi	2004-07-15	Action	Suzak	Bandai	1	R
+Kamaitachi no Yoru Advance	2002-06-28	Adventure	Chunsoft	Chunsoft	1	R
+Kami no Kijutsu: Illusion of the Evil Eyes	2002-03-28	Board Game	Konami Computer Entertainment Japan	Konami	2	R
+Kao the Kangaroo	2001-12-01	Platform	Titus Interactive	Titus Software	0	R
+Kappa no Kai-Kata: Katan Daibouken	2005-03-17	Platform	Konami Computer Entertainment Japan	Konami	1	R
+Karnaaj Rally	2002-11-21	Racing	Infinite Dreams	Jaleco Entertainment	4	R
+Kawa no Nushi Tsuri 3 & 4	2006-02-09	Sports	Marvelous Entertainment	Marvelous Entertainment	1	R
+Kawa no Nushi Tsuri 5: Fushigi no Mori Kawa	2002-03-15	Sports	TOSE	Victor Interactive Software	0	R
+Kawaii Hamster	2001-10-26	Strategy	MTO	MTO	1	R
+Kawaii Koinu	2002-03-22	Strategy		MTO	1	R
+Kawaii Koinu Mini: Wanko to Asobou!! Kogatainu	2003-07-11	Strategy	MTO	MTO	1	R
+Kawaii Koneko	2002-08-09	Strategy	MTO	MTO	1	R
+Kawaii Pet Game Gallery	2003-09-26		Culture Brain	Culture Brain	1	R
+Kawaii Pet Game Gallery 2	2004-12-17		Culture Brain	Culture Brain	1	R
+Kawaii Pet Shop Monogatari 3	2002-06-28	Strategy	Pacific Century Cyber Works Japan	Pacific Century Cyber Works	1	R
+Keitai Denjuu Telefang 2: Power Version	2002-04-26	Role-Playing	Natsume	Smilesoft	1	R
+Keitai Denjuu Telefang 2: Speed Version	2002-04-26	Role-Playing	Natsume	Smilesoft	1	R
+Kelly Slater's Pro Surfer	2002-08-21	Sports	HotGen Studios	Activision	0	R
+Keroro Gunsou Taiketsu!: Keroro Cart de Arimasu!!	2004-12-04	Racing	Sunrise Interactive	Sunrise Interactive	0	R
+Kessaku-sen! Ganbare Goemon 1 + 2: Yukihime and Magginesu	2005-04-21	Action · Adventure	Konami	Konami	1	R
+Kid Paddle	2005-11-15	Platform	Mistic Software	Atari	0	R
+Kid's Cards	2006-07-15	Strategy	Skyworks Technologies	Majesco Entertainment	4	R
+Kidou Gekidan Haro Ichiza: Haro no Puyo Puyo	2005-07-21	Puzzle	Bandai	Bandai	1	R
+Kidou Senshi Gundam SEED: Destiny	2004-11-25	Action · Fighting	Natsume	Bandai	2	R
+Kidou Senshi Gundam SEED: Tomo to Kimi to Koko de	2004-05-13	Strategy	Dimps	Bandai	1	R
+Kidou Tenshi Angelic Layer: Misaki to Yume no Tenshi-tachi	2001-12-14	Beat 'em Up	Epoch	Epoch	1	R
+Kien	2004	Action · Role-Playing	P.M. Studios	Destination Software	0	X
+Kill.Switch	2004-09-22	Action	Visual Impact	Namco	0	R
+Killer 3D Pool	2005-05-02	Sports	Gravity-I	Destination Software	0	R
+Kingdom Hearts: Chain of Memories	2004-11-11	Action · Role-Playing	Square Enix	Square Enix	1	R
+Kinniku Banzuke: Kimeru! Kiseki no Kanzen Seiha	2001-12-06	Sports	Jupiter	Konami	1	R
+Kinniku Banzuke: Kongou-Kun no Daibouken!	2001-07-26	Sports	KCE Studios	Konami	1	R
+Kirby: Nightmare in Dream Land	2002-10-25	Action · Platform	HAL Laboratory	Nintendo	4	R
+Kirby Slide+	2025-10-18	Puzzle	Dimensional Games		1	H
+Kirby & The Amazing Mirror	2004-04-15	Action · Platform	Capcom	Nintendo	4	R
+Kisekae Angel	2004-03-25	Strategy		Culture Brain	1	R
+Kiss x Kiss: Seirei Gakuen	2004-12-02	Strategy	Kamui	Bandai	1	R
+Klonoa 2: Dream Champ Tournament	2002-08-06	Action · Platform	Now Production	Namco	1	R
+Klonoa: Empire of Dreams	2001-07-19	Action · Platform	Now Production	Namco	1	R
+Klonoa Heroes: Densetsu no Star Medal	2002-12-13	Role-Playing	Namco	Namco	1	R
+Knight Owls	2021-07-29	Strategy	blaise-rascal		1	H
+Knights' Kingdom	2004-10-04	Adventure	Razorback Developments	THQ	2	R
+Koinu-Chan no Hajimete no Osanpo: Koino no Kokoro Ikusei Game	2003-11-14	Life Simulation	TDK Mediactive	TDK Mediactive	1	R
+Koinu to Issho! 2	2004-04-02	Strategy		Culture Brain	1	R
+Koinu to Issho! Aijou Monogatari	2003-08-01	Adventure	Culture Brain	Culture Brain	1	R
+Konami Collector's Series: Arcade Advanced	2002-03-22	Compilation	Konami Computer Entertainment Hawaii	Konami Digital Entertainment	2	R
+Konami Krazy Racers	2001-06-11	Racing	Konami Computer Entertainment Kobe	Konami	4	R
+Konchuu Monster: Battle Master	2005-05-03	Action	Culture Brain	Culture Brain	1	R
+Konchuu Monster: Battle Stadium	2005-05-03	Action	Culture Brain	Culture Brain	1	R
+Konchuu no Mori no Daibouken	2005-08-11	Action	Culture Brain	Culture Brain	1	R
+Kong: King of Atlantis	2005-10-25	Action	Skyworks Technologies	Majesco Entertainment	0	R
+Kong: The 8th Wonder of the World	2005-11-22	Action	Ubisoft Entertainment	Ubisoft Entertainment	0	R
+Kong: The Animated Series	2002-08-13	Action	Planet Interactive Development	BAM! Entertainment	0	R
+Konjiki no Gash Bell!! Makai no Bookmark	2004-07-16	Action · Role-Playing	Banpresto	Banpresto	2	R
+Konjiki no Gash Bell!! Yuujou no Dengeki Dream Tag Tournament	2005-11-24	Fighting	Banpresto	Banpresto	2	R
+Konjiki no Gashbell!! The Card Battle for GBA	2005-07-28	Strategy	Banpresto	Banpresto	1	R
+Konjiki no Gashbell: Unare Yuujou no Zakeru 2	2004-12-12	Fighting	Eighting	Banpresto	2	R
+Koro Koro Puzzle Happy Panechu!	2002-03-08	Puzzle	Mobile21	Nintendo	2	R
+Kotoba no Puzzle: Mojipittan Advance	2003-01-09	Puzzle	Namco	Namco	1	R
+Kouchuu Ouja Mushiking: Greatest Champion e no Michi	2005-06-23	Strategy	Family Entertainment	Sega Corporation	1	R
+Koukou Juken Advance Series: Eigo Koubunhen 26 Units Shuuroku	2001-08-31		Keynet	Keynet	1	R
+Koukou Juken Advance Series: Eijukugohen 650 Phrases Shuuroku	2001-08-31		Keynet	Keynet	1	R
+Koukou Juken Advance Series: Eitangohen 2000 Words Shuuroku	2001-08-31		Keynet	Keynet	1	R
+Kunio-kun Nekketsu Collection 1	2005-08-25		Million	Atlus	1	R
+Kunio-kun Nekketsu Collection 2	2005-10-27		Million	Atlus	0	R
+Kunio-kun Nekketsu Collection 3	2006-02-16		Million	Atlus	0	R
+Kurohige no Golf Shiyouyo	2002-04-19	Sports	Inti Creates	Tomy	2	R
+Kurohige no Kurutto Jintori	2002-04-19	Action	Happy-Smile	Tomy	4	R
+Kuru Kuru Kururin	2001-06-22	Puzzle	Eighting	Nintendo	4	R
+Kururin Paradise	2002-12-06	Action	Eighting	Nintendo	0	R
+Lady Sia	2001-09-27	Action · Adventure · Platform	RFX Interactive	TDK Mediactive	1	R
+Legend of Dynamic Goushouden: Houkai no Rondo	2003-10-24	Role-Playing	Will	Banpresto	1	R
+Legends of Aereven Advance: Sleeping Azure	2024	Action · Adventure	Dreamnoid		0	H
+Legends of Wrestling II	2002-11-25	Fighting · Sports	Powerhead Games	Acclaim Entertainment	0	R
+Legendz: Sign of Necrom	2005-02-17	Role-Playing	BEC	Bandai	1	R
+Legendz: Yomigaeru Shiren no Shima	2004-07-29	Role-Playing	BEC	Bandai	1	R
+LEGO Bionicle	2001-10-03	Action · Adventure	Saffire	Lego Media	4	R
+LEGO Island 2: The Brickster's Revenge	2001-10-02	Action · Adventure · Construction and Management Simulation	Silicon Dreams	Lego Media	1	R
+LEGO Racers 2	2001-11-27	Racing	Pocket Studios	Lego Media	0	R
+LEGO Soccer Mania	2002-06-17	Sports	Tiertex Design Studios	Lego Media	0	R
+LEGO Star Wars II: The Original Trilogy	2006-09-01	Action · Platform	Amaze Entertainment	LucasArts	1	R
+LEGO Star Wars: The Video Game	2005-03-29	Action · Adventure	Griptonite	Eidos Interactive	1	R
+Lemony Snicket's A Series of Unfortunate Events	2004-11-09	Platform	Griptonite	Activision Publishing	1	R
+Let's Ride!: Dreamer	2006-03-10	Life Simulation · Sports	Kritzelkratz 3000	THQ	1	R
+Let's Ride!: Friends Forever	2007	Adventure	Independent Arts Software	dtp young entertainment	0	R
+Let's Ride!: Sunshine Stables	2005-08-04	Sports	Valusoft	THQ	0	R
+Licca-chan no Oshare Nikki	2004-03-26	Adventure		Marvelous Entertainment	1	R
+Lilliput Oukoku: Lillimoni to Issho-puni!	2004-02-12		Alpha-Unit	Sega Corporation	1	R
+Lindsi Luna Blast	2006-05-05	Action	Alekmaul	Alekmaul	1	H
+Line Wobbler Advance	2018-01-19	Action	ohsqueezy	Self-Published	1	H
+Little Buster Q	2002-11-29	Role-Playing	Amedio	Tomy	2	R
+Little Einsteins	2006-09-12	Education	InLight Entertainment	Buena Vista Games	1	R
+Little League Baseball 2002	2002-05-27	Sports	Handheld Games	NewKidCo	0	R
+Little Patissier: Cake no Oshiro	2004-12-16	Action	MTO	MTO	1	R
+Lizzie McGuire 2: Lizzie Diaries	2004-08-12	Action	Artificial Mind & Movement	Disney Interactive Studios	1	R
+Lizzie McGuire 2: Lizzie Diaries: Special Edition	2005-11-17	Action · Platform	Behaviour Interactive	Disney Interactive	1	R
+Lizzie McGuire 3: Homecoming Havoc	2005-08-16	Action	Climax Studios	Disney Interactive	0	R
+Lizzie McGuire: On The Go!	2003-08-12	Action	Digital Eclipse Software	Disney Interactive	0	R
+Lode Runner	2003-02-21	Action · Platform · Puzzle	Success	Success	0	R
+Looney Tunes: Back in Action	2003-11-11	Platform	Warthog Games	Electronic Arts	1	R
+Looney Tunes: Double Pack: Dizzy Driving / Acme Antics	2005-12-31	Compilation	WayForward Technologies	Majesco Entertainment	1	R
+Love Hina Advance: Shukufuku no Kane wa Naru kana	2001-09-07	Life Simulation	Marvelous Entertainment	Marvelous Entertainment	1	R
+Lucky Luke: Wanted!	2001-11-02	Action	Infogrames Europe	Infogrames Europe	0	R
+Lufia: The Ruins of Lore	2003-05-06	Role-Playing	Atelier Double	Atlus	4	R
+Luggage Retrieval Officer	2021	Puzzle	Jono Shields		0	U
+Luigi Mastermind	2006-01-26	Puzzle	N64Francois		1	H
+Luigi Puzzle	2006-01-30	Puzzle	N64Francois		1	H
+Luminesweeper	2005	Puzzle	Damian Yerrick		1	H
+Lunar Legend	2002-04-12	Role-Playing	Japan Art Media	Media Rings	1	R
+LvR	2017-12-23		quisseh		2	H
+M&M's Blast!	2001-12-01	Puzzle	Pipedream Interactictive	Simon & Schuster Interactive	0	R
+M&M's Break 'Em	2007-04-30	Puzzle	Frame Studios	Zoo Digital Publishing	0	R
+Madagascar	2005-05-23	Action · Platform	Vicarious Visions	Activision	1	R
+Madagascar: Operation Penguin	2005-11-07	Action · Platform	Vicarious Visions	Activision	1	R
+Madden NFL 06	2005-08-09	Sports	Exient Entertainment	Electronic Arts	2	R
+Madden NFL 07	2006-08-22	Sports	Exient Entertainment	Electronic Arts	0	R
+Madden NFL 2002	2001-11-01	Sports	Budcat Creations	Electronic Arts	0	R
+Madden NFL 2003	2002-08-12	Sports	Budcat Creations	Electronic Arts	0	R
+Madden NFL 2004	2003-08-12	Sports	Budcat Creations	Electronic Arts	1	R
+Madden NFL 2005	2004-08-09	Sports	Exient Entertainment	Electronic Arts	0	R
+Magi Nation	2002-12-13	Role-Playing	Interactive Imagination	Epoch	1	R
+Magical Houshin	2002-03-29	Role-Playing	Koei	Koei	1	R
+Magical Vacation	2001-12-07	Role-Playing	Brownie Brown	Nintendo	2	R
+Mahjong Keiji	2001-07-12	Board Game · Casino	Hudson Soft	Hudson Soft	1	R
+Mahou Sensei Negima! Private Lesson 2: Ojama Shimasu Parasite de Chu	2006-03-23	Role-Playing	Marvelous Entertainment	Marvelous Entertainment	1	R
+Mahou Sensei Negima! Private Lesson: Dame Desu Toshokan	2005-06-09	Action	Marvelous Entertainment	Marvelous Entertainment	1	R
+Mail de Cute	2002-02-14	Adventure	Konami	Konami	2	R
+Majesco's Rec Room Challenge: 3 Games in One: Darts / Roll-a-Ball / Shuffle Bowl	2005-10-31	Compilation	Skyworks Technologies	Majesco Entertainment	1	R
+Majokko Cream-Chan Gokko Series 1: Wan Nyon Idol Gakuen	2003-12-30	Strategy		Culture Brain	1	R
+Major League Baseball 2K7	2007-05-22	Sports	Skyworks Technologies	2K Games	1	R
+Mandrake the Magician		Action	7th Sense		1	X
+Manga-ka Debut Monogatari: Akogare! Manga Ka Ikusei Game!	2002-12-20	Strategy	TDK Mediactive	TDK Mediactive	1	R
+Manic Miner	2002-08-09	Action	Jester Interactive Publishing	Jester Interactive Publishing	0	R
+Manolo & Benito	2025-12-20	Action	VG Source Game Studio	VG Source Game Studio	1	H
+Mär Heaven: Knockin' on Heaven's Door	2005-06-30	Action · Role-Playing	Alpha-Unit	Konami	1	R
+Marble Madness / Klax	2005-08-22	Compilation	Frame Studios	Destination Software	1	R
+March of the Penguins	2006-11-07	Adventure · Education	Skyworks Technologies	Destination Software	0	R
+Marie, Elie & Anis No Atelier: Soyokaze Kara No Dengon	2003-01-24	Strategy	Banpresto	Banpresto	1	R
+Mario Cart					0	X
+Mario Golf: Advance Tour	2004-04-22	Role-Playing · Sports	Camelot Software Planning	Nintendo	4	R
+Mario Kart R Advance	2024-01-24	Racing	BlueYoshi		1	M
+Mario Kart: Super Circuit	2001-08-27	Racing	Intelligent Systems	Nintendo	4	R
+Mario Kart Super Circuit (Freemastered)	2022	Racing	Niteninja	Niteninja	2	M
+Mario Kart XXL	2004-04-17	Racing	Denaris Entertainment Software	Nintendo	1	X
+Mario & Luigi: Superstar Saga	2003-11-17	Action · Platform · Role-Playing	AlphaDream	Nintendo	1	R
+Mario Party Advance	2005-03-28	Party	Hudson Soft	Nintendo	4	R
+Mario Party-e	2003-02-18	Action · Party · Puzzle	HAL Laboratory	Nintendo	4	R
+Mario Pinball Land	2004-08-26	Pinball	Fuse Games	Nintendo	1	R
+Mario's Carnival Quest	2024-06-29	Party	planet clue		1	M
+Mario Tennis: Power Tour	2005-12-05	Sports	Camelot Software Planning	Nintendo	4	R
+Mario vs. Donkey Kong	2004-05-24	Platform · Puzzle	Nintendo STC	Nintendo	1	R
+MarioBreak!	2006-11-20	Action	Hugo Smits		1	H
+MarioMon	2011	Role-Playing			1	M
+Marvel's The Invincible Iron Man	2002-12-20	Platform	Torus Games	Activision	1	R
+Marvel: Ultimate Alliance	2006-10-24	Beat 'em Up	Barking Lizards Technologies	Activision Publishing	0	R
+Mary-Kate and Ashley: Girls Night Out	2002-03-14	Action	Powerhead Games	Acclaim Entertainment	0	R
+Mary-Kate and Ashley: Sweet 16: Licensed to Drive	2002-11-01	Racing	Powerhead Games	Acclaim Entertainment	1	R
+Masters of the Universe: He-Man: Power of Grayskull	2002-10-29	Adventure	Taniko	TDK Mediactive	1	R
+Mat Hoffman's Pro BMX	2001-11-19	Sports	HotGen Studios	Activision	2	R
+Mat Hoffman's Pro BMX 2	2002-08-13	Sports	HotGen Studios	Activision	0	R
+Matantei Loki Ragnarok: Gensou no Labyrinth	2003-10-16	Role-Playing	J-Wing	J-Wing	1	R
+Matchbox: Cross Town Heroes	2002-08-01	Action	Imagine Engine	THQ	0	R
+Matchbox Missions: Air, Land and Sea Rescue & Emergency Response	2006-08-30	Action	Gravity-I	DSI Games	0	R
+Math Patrol: The Kleptoid Threat	2007	Shooter	TOMY	GXB Interactive	1	R
+Max Payne	2003-12-16	Action	Möbius Entertainment	Rockstar Games	1	R
+Maya the Bee: Sweet Gold	2002-03-27	Platform	Shin'en Multimedia	Midway Games	1	R
+Maya the Bee: The Great Adventure	2002-06-15	Platform	Shin'en Multimedia	Acclaim Entertainment	0	R
+Mazes of Fate	2006-12-06	Role-Playing	Sabarasa	Graffiti Entertainment	0	R
+MazezaM	2013-08-17	Puzzle	Alekmaul	Alekmaul	1	H
+Mech Platoon	2001-11-28	Strategy	Will	Kemco	2	R
+Mechanic Mechanica			Art Co. Ltd		0	X
+Medabots AX: Metabee Ver.	2002-06-27	Fighting	Natsume	Natsume	1	R
+Medabots AX: Rokusho Ver.	2002-07-09	Action · Fighting · Platform	Natsume	Natsume	2	R
+Medabots: Metabee	2002-11-22	Role-Playing	Natsume	Natsume	2	R
+Medabots: Rokusho	2002-06-25	Role-Playing · Strategy	Natsume	Natsume	4	R
+Medal of Honor: Infiltrator	2003-11-17	Action · Shooter	Netherock	Electronic Arts	2	R
+Medal of Honor: Underground	2002-12-02	Shooter	Rebellion Developments	Destination Software	4	R
+Medarot G: Kabuto Version	2002-07-19	Fighting · Platform	Natsume	Imagineer	2	R
+Medarot G: Kuwagata Version	2002-07-19	Fighting · Platform	Natsume	Imagineer	2	R
+Medarot Navi: Kabuto	2001-09-07	Role-Playing · Strategy	Natsume	Imagineer	1	R
+Medarot Navi: Kuwagata	2001-09-07	Role-Playing · Strategy	Natsume	Imagineer	1	R
+Mega Man & Bass	2002-08-10	Action	Capcom	Capcom	1	R
+Mega Man: Battle Chip Challenge	2004-03-02	Role-Playing · Strategy	Inti Creates	Capcom	1	R
+Mega Man Battle Network	2001-10-31	Action · Role-Playing	Capcom	Capcom	1	R
+Mega Man Battle Network 2	2002-06-11	Action · Role-Playing	Capcom Production Studio 2	Capcom	2	R
+Mega Man Battle Network 3: Blue Version	2003-06-24	Action · Role-Playing	Capcom	Capcom	2	R
+Mega Man Battle Network 3: White Version	2003-06-24	Action · Role-Playing	Capcom Production Studio 2	Capcom	2	R
+Mega Man Battle Network 4.5 Real Operation	2004-08-06	Role-Playing · Strategy	Capcom Production Studio 2	Capcom	2	R
+Mega Man Battle Network 4: Blue Moon	2004-06-29	Action · Role-Playing	Capcom Production Studio 2	Capcom	2	R
+Mega Man Battle Network 4: Red Sun	2004-06-29	Action · Role-Playing	Capcom Production Studio 2	Capcom	2	R
+Mega Man Battle Network 5: Team Colonel	2005-06-21	Action · Role-Playing	Capcom	Capcom	1	R
+Mega Man Battle Network 5: Team Protoman	2005-06-21	Action · Role-Playing	Capcom	Capcom	2	R
+Mega Man Battle Network 6: Cybeast Falzar: MegaRock	2010-12-25	Action	MegaRockEXE		1	M
+Mega Man Battle Network 7: Lost Dimension	2014	Role-Playing	DARKMIDNIGHTNOVA		1	M
+Mega Man Zero	2002-04-26	Platform · Shooter	Inti Creates	Capcom	1	R
+Mega Man Zero 2	2003-05-02	Platform · Shooter	Inti Creates	Capcom	2	R
+Mega Man Zero 3	2004-04-23	Action · Platform	Inti Creates	Capcom	1	R
+Mega Man Zero 4	2005-04-21	Action · Platform	Inti Creates	Capcom	1	R
+Mega Moémon Fire Red		Role-Playing			0	M
+Megaman Battle Network 6: Cybeast Falzar	2006-06-13	Action · Role-Playing	Capcom	Capcom	2	R
+Megaman Battle Network 6: Cybeast Gregar	2006-06-13	Action · Role-Playing	Capcom	Capcom	2	R
+Meitantei Conan: Akatsuki no Monument	2005-04-21	Puzzle	BEC	Banpresto	0	R
+Meitantei Conan: Nerawareta Tantei	2003-07-25	Adventure	Fortyfive	Banpresto	1	R
+Men in Black: The Series	2002-01-01	Shooter	David A. Palmer Productions	Crave Entertainment	0	R
+Mermaid Melody: Pichi Pichi Picchi Pichi Pichitto Live Start!	2004-03-18	Music	Konami	Konami	4	R
+Mermaid Melody: Pichi Pichi Pitch	2003-10-09	Music	Konami	Konami	1	R
+Mermaid Melody: PichiPichi Pitch: PichiPichi Party	2003-12-18	Music	Konami	Konami	1	R
+Metal Max 2 Kai	2003-06-20	Role-Playing	Now Production	Now Production	1	R
+Metal Slug Advance	2004-11-18	Platform · Shooter	Noise Factory	Ignition Entertainment	1	R
+Metal Slug: Super Vehicle-001		Shooter	SNK Playmore		1	X
+Metal Warrior 4		Action	Covert Bitops		0	U
+Metalgun Slinger	2002-09-27	Platform · Shooter	Open Sesame	Atmark	1	R
+MeteoRain	2021-07-11	Action	Dr. Ludos		1	M
+Metroid: Crocomire's Last Stand	2023	Platform · Shooter	Roebloz		0	M
+Metroid Desolation	2023-03-20	Platform · Shooter	Jasinchen	Jasinchen	1	M
+Metroid: Freeze Flame II: Twisted Dimensions	2021-01-11	Platform · Shooter	Conner	Metroid Construction	1	M
+Metroid Fusion	2002-11-01	Action · Adventure · Platform	Nintendo R&D1	Nintendo	1	R
+Metroid: Juicy Mission lite	2023-10-21	Action · Adventure	Frydi		1	M
+Metroid Oil Spill	2019-08-01	Platform · Shooter	Spedimus	Spedimus	1	M
+Metroid Pro Mission	2012-04-01	Platform · Shooter	Lunaria	Metroid Construction	1	M
+Metroid Project ZM	2022-10-07	Platform	Cosmic	Cosmic	1	M
+Metroid RE: Fusion	2024-08-25	Action · Platform	Meinos Belfort		1	M
+Metroid: Return to Zebes	2018-12-24	Action · Adventure	alexman25		1	M
+Metroid: Salt Mission	2023-04-01	Action · Adventure	alexman25		1	M
+Metroid: Scrolls Six	2021-02-10	Platform · Role-Playing	Conner	Metroid Construction	1	M
+Metroid: So Little Bubble	2021-02-01	Action · Adventure · Platform	Conner		1	M
+Metroid: Spooky Mission	2018-02-26	Action · Adventure · Platform			1	M
+Metroid: Spooky Mission II: The Nightmare Before Christmas	2021	Adventure · Platform · Shooter	Spooky Team		0	M
+Metroid: SR387	2018-07-06	Platform · Shooter	OneOf99	Metroid Construction	1	M
+Metroid: Subzero	2020-03-20	Action · Adventure	Conner		1	M
+Metroid: Zero Mission	2004-02-09	Action · Adventure · Platform	Nintendo R&D1	Nintendo	1	R
+Mezase! Koushien	2005-03-01	Sports	Tasuke	Tasuke	1	R
+Micro Machines	2003-03-31	Racing	Infinite Dreams	Infogrames Europe	4	R
+Midnight Club: Street Racing	2001-11-14	Racing	Rebellion Developments	Destination Software	1	R
+Midway's Greatest Arcade Hits	2001-11-22	Compilation	Pocket Studios	Midway Home Entertainment	0	R
+Mighty Beanz Pocket Puzzles	2004-06-24	Puzzle	Radius9	Majesco Sales	0	R
+Mike Tyson Boxing	2002-03-06	Fighting · Sports	Virtucraft	Ubi Soft Entertainment Software	0	R
+Millipede / Super Breakout / Lunar Lander	2005-08-15	Compilation	Gravity-I	DSI Games	0	R
+Minami no Umi no Odyssey	2002-10-03	Adventure	Global A Entertainment	Global A Entertainment	1	R
+Minicraft	2022-11-19	Sandbox	Vulcalien		1	H
+Minimoni: Mika no Happy Morning Chatty	2002-04-01	Strategy	Shogakukan Productions	Shogakukan Productions	1	R
+MiniMoni: Onegaio Hoshisama!	2002-12-12		Konami	Konami	2	R
+Minna no Ouji-sama	2003-12-04		Konami	Konami	1	R
+Minna no Shogi	2004-09-24	Board Game		Success	0	R
+Minna no Soft Series: Minna no Mahjong	2003-10-31	Board Game	MTO	MTO	1	R
+Minna no Soft Series: Shanghai	2003-10-31	Board Game		Success	0	R
+Minority Report: Everybody Runs	2002-11-12	Action	Torus Games	Activision	0	R
+Mintroid	2020-06-18	Action · Adventure	Golden Warrior		1	M
+Mirakuru! Panzou: 7-tsu no Hoshi no Uchuu Kaizoku	2005-11-03	Platform · Shooter	Atlus	Atlus	1	R
+Misfortune Advance		Adventure	Sterophonick		0	U
+Mission: Impossible: Operation Surma	2003-12-02	Action	M4 Ltd.	Atari	0	R
+MLB SlugFest 20-04	2003-03-18	Sports	Handheld Games	Midway Home Entertainment	0	R
+Mobile Pro Yakyuu: Kantoku no Saihai	2001-07-26	Sports	Mobile21	Konami	1	R
+Mobile Suit Gundam SEED: Battle Assault	2004-09-07	Fighting	Natsume	Bandai America	0	R
+Moémon Ash Gray Version		Role-Playing			0	M
+Moémon Devil 3RdX		Role-Playing			0	M
+Moémon Emerald Version	2013-03-20	Adventure · Role-Playing			0	M
+Moemon FireRed		Adventure · Role-Playing			4	M
+Moemon Islas Naranjas					0	M
+Moémon Mega FireRed	2023-08-21	Adventure · Role-Playing	Moemon Project		1	M
+Moémon Mystical Version		Role-Playing			0	M
+Moemon Ruby		Role-Playing			0	M
+Moémon Star Emerald	2024		Septentrion		1	M
+Moero!! Jaleco Collection	2004-10-28			Jaleco Entertainment	0	R
+Momotarou Dentetsu G: Gold Deck o Tsukure!	2005-06-30	Board Game	Hudson Soft	Hudson Soft	1	R
+Momotarou Matsuri	2001-03-21	Role-Playing	Hudson Soft	Hudson Soft	1	R
+Monopoly	2004-11-26	Board Game	Full Fat Productions	Destination Software	0	R
+Monster! Bass Fishing	2004-09-28	Sports	Ignition Entertainment	AIA	0	R
+Monster Force	2002-08-29	Action	Digital Eclipse Software	Universal Interactive	0	R
+Monster Gate	2002-07-04	Role-Playing	KCE Studios	Konami	4	R
+Monster Gate: Ooinaru Dungeon: Fuuin no Orb	2003-06-12	Role-Playing	KCE Studios	Konami	1	R
+Monster Guardians	2001-03-21	Role-Playing · Strategy	Konami	Konami	1	R
+Monster House	2006-07-18	Action · Adventure	Artificial Mind & Movement	THQ	1	R
+Monster Jam: Maximum Destruction	2002-03-26	Action	Unique Development Studios	Ubi Soft Entertainment Software	0	R
+Monster Maker 4: Flash Card	2002-12-13	Role-Playing	Success	Success	1	R
+Monster Maker 4: Killer Dice	2002-12-13	Role-Playing	Success	Success	1	R
+Monster Rancher Advance	2001-11-28	Life Simulation · Role-Playing	Tecmo	Tecmo	2	R
+Monster Rancher Advance 2	2002-10-25	Life Simulation	Tecmo	Tecmo	0	R
+Monster Summoner	2004-07-15	Strategy	Think & Feel	Ertain	1	R
+Monster Truck Madness	2003-08-11	Racing	Tantalus Media	THQ	1	R
+Monster Trucks	2004-11-16	Racing	Skyworks Technologies	Majesco Sales	1	R
+Monster Trucks Mayhem	2006-09-05	Racing	Apex Designs	Destination Software	0	R
+Monsters, Inc.	2001-10-25	Platform	Natsume	THQ	1	R
+Mooncat's Trio	2018	Puzzle	Peter Bone		0	U
+Moorhen 3: Chicken Chase	2002	Shooter	Phenomedia	Ubi Soft Entertainment Software	1	R
+Morita Shogi Advance	2001-07-12	Board Game	Yuki Enterprise	Hudson Soft	2	R
+Mortal Kombat Advance	2001-12-12	Fighting	Virtucraft	Midway Games	1	R
+Mortal Kombat: Deadly Alliance	2002-11-22	Fighting	Midway Games	Midway Home Entertainment	2	R
+Mortal Kombat: Tournament Edition	2003-08-25	Fighting	Midway Games	Midway Home Entertainment	2	R
+Mother 1+2	2003-06-20	Role-Playing	HAL Laboratory	Nintendo	1	R
+Mother 3	2006-04-20	Role-Playing	HAL Laboratory	Nintendo	1	R
+Mother 3: Claus's Journey	2019	Role-Playing	spiderfreak1011		1	M
+Moto GP	2002-03-08	Racing	Visual Impact	THQ	0	R
+Moto Racer Advance	2002-12-05	Racing	Delphine Software International	Ubi Soft Entertainment Software	2	R
+Motocross Challenge	2007	Racing	DHG games	DHG games	0	X
+Motocross Maniacs Advance	2002-03-21	Racing	Konami Computer Entertainment Hawaii	Konami	4	R
+Movie Version: Spider-Man 3					0	U
+Mr. Driller 2	2005-04-10	Action · Puzzle	Namco	Namco	2	R
+Mr. Driller Ace: Fushigi na Pacteria	2002-08-23	Strategy	Namco	Namco	4	R
+Mr Nutz	2001	Action · Platform	DREAM ON STUDIO	Infogrames	1	R
+Ms. Pac-Man Maze Madness	2004-11-03	Action	Full Fat Productions	Namco Hometek	1	R
+Ms. Pac-Man: Maze Madness & Pac-Man World	2005-10-01	Compilation	Full Fat Productions	Namco	4	R
+¡Mucha Lucha! Mascaritas of the Lost Code	2003-11-18	Beat 'em Up	Digital Eclipse Software	Ubisoft Entertainment	0	R
+Mugen Kinogyou Zero Tours	2001-07-27	Role-Playing	Amedio	Media Rings	2	R
+Mugenborg	2003-01-16	Action	Konami Computer Entertainment Tokyo	Konami	2	R
+Muppet Pinball Mayhem	2002-05-18	Pinball	Digital Eclipse Software	NewKidCo	0	R
+Mutsu: Water Looper Mutsu	2001-12-21	Life Simulation	Alpha-Unit	Tomy	2	R
+MX 2002 featuring Ricky Carmichael	2001-09-27	Racing	Tiertex Design Studios	THQ	0	R
+My Animal Centre in Africa	2006-11-29	Construction and Management Simulation · Life Simulation	Zeal Game Studios	koch Media	0	R
+My Little Pony: Crystal Princess: The Runaway Rainbow	2006-09-12	Adventure	Webfoot Technologies	THQ	1	R
+Nakayoshi Mahjong: Kapu Richi	2001-10-25	Board Game	Konami Computer Entertainment Tokyo	Konami	1	R
+Nakayoshi Youchien	2002-10-04	Strategy		TDK Core	1	R
+Namco Museum	2001-06-11	Compilation	Mass Media	Namco	1	R
+Namco Museum: 50th Anniversary	2005-08-30	Compilation	Namco	Electronic Arts	1	R
+Nancy Drew: Message in a Haunted Mansion	2001-11-13	Adventure	Handheld Games	DreamCatcher Interactive	1	R
+Napoleon: L’Aigle de Guerre	2001-11-21	Strategy	Genki	Nintendo	1	R
+Naruto: Konoha Senki	2003-09-12	Strategy	TOMY		0	R
+Naruto: Ninja Council	2006-03-22	Action · Beat 'em Up	Arc System Works	Tomy	1	R
+Naruto: Ninja Council 2	2006-10-10	Action · Beat 'em Up	Aspect	Tomy	4	R
+Naruto RPG: Uketsugareshi Hi no Ishi	2004-07-22	Role-Playing	TOSE	Tomy	1	R
+NASCAR Heat 2002	2002-05-07	Racing	Crawfish Interactive	Infogrames	0	R
+Natural 2: Duo	2002-06-28	Visual Novel		Omega Micott	1	R
+NBA Jam 2002	2002-02-17	Sports	DC Studios	Acclaim Entertainment	0	R
+Necropolis	2021-07-11	Role-Playing · Strategy	jehoz	jehoz	1	H
+Need for Speed Carbon: Own the City	2006-10-31	Racing	Electronic Arts Canada	Electronic Arts	0	R
+Need for Speed: Most Wanted	2005-11-15	Racing	Electronic Arts Canada	Electronic Arts	1	R
+Need for Speed: Porsche Unleashed	2004-03-15	Racing	Pocketeers	Destination Software	4	R
+Need for Speed: Underground	2003-12-18	Racing	Pocketeers	Electronic Arts	0	R
+Need for Speed: Underground 2	2004-11-15	Racing	Pocketeers	Electronic Arts	2	R
+Neo Racing Genesis	2001-12-27	Racing	Dan Prati		1	H
+NFL Blitz 2002	2001-09-17	Sports	OutLook Entertainment	Midway Home Entertainment	0	R
+NFL Blitz 2003	2002-08-12	Sports	OutLook Entertainment	Midway Home Entertainment	0	R
+NGT: Next Generation Tennis	2002-06-04	Sports	Spark Creative	Wanadoo Edition	4	R
+NHL 2002	2002-03-07	Sports	Budcat Creations	Electronic Arts	0	R
+NHL Hitz 2003	2002-10-31	Sports	Exient Entertainment	Midway Home Entertainment	2	R
+Nicktoons: Attack of the Toybots	2007-10-23	Adventure · Platform	Natsume	THQ	1	R
+Nicktoons: Battle for Volcano Island	2006-11-28	Action · Platform	Halfbrick Studios	THQ	1	R
+Nicktoons: Freeze Frame Frenzy	2004-09-27	Action	Altron	THQ	1	R
+Nicktoons Racing	2002-06-14	Racing	Crawfish Interactive	Infogrames	2	R
+Nicktoons Unite!	2005-10-26	Platform	Climax Group	THQ	1	R
+NiGHTS into Dreams: Score Attack	2002	Action	Sonic Team	Sega	1	R
+Ninja Five-O	2003-04-11	Action	Hudson Soft	Konami	1	R
+Nippon Pro Mahjong Renmei Kounin: Tetsuman Advance ~Menkyo Kaiden Series~	2002-04-26	Board Game	Kaga Tech	Kaga Tech	4	R
+No Rules: Get Phat	2001-11-01	Action · Platform	Flying Tiger Development	TDK Mediactive	1	R
+Nobunaga Ibun	2002-07-04	Strategy	Global A Entertainment	Global A Entertainment	1	R
+Nobunaga no Yabou	2001-09-28	Strategy	Koei	Koei	4	R
+Noddy: A Day in Toyland	2006-10-16	Action	Lucky Jump	The Game Factory	0	R
+Nonono Puzzle Chairian	2005-06-16	Puzzle	Nintendo	Nintendo	2	R
+Notenogram	2022-10-30	Puzzle	kva64		1	H
+Nyan Nyan Nyanko no Nyan Collection	2005-03-24	Action	MTO	MTO	1	R
+Ochaken Kururin ~ Honwaka Puzzle de Ho~ttoshiyou?	2004-10-28	Puzzle	MTO	MTO	1	R
+Ochaken no Bouken Jima: Honwaka Yume no Island	2005-12-22		MTO	MTO	1	R
+Ochaken no Heya	2003-12-19		MTO	MTO	1	R
+Ochaken no Yume Bouken	2005-04-28		MTO	MTO	1	R
+Oddworld: Munch's Oddysee	2003-09-24	Adventure · Platform	Art	THQ	1	R
+Ohanaya-san Monogatari GBA	2002-07-19	Strategy		TDK Core	1	R
+Ojarumaru: Gekkou Machi Sanpo de Ojaru	2003-09-05	Action		MTO	1	R
+Okuman Chouja Game: Nottori Daisakusen!	2001-11-30	Board Game	Mobile21	Takara	1	R
+One Piece: Dragon Dream!	2005-04-28	Role-Playing	M2 Co.	Bandai	1	R
+One Piece: Going Baseball: Kaizoku Yakyuu	2004-03-11	Sports	Now Production	Bandai	1	R
+Onimusha Tactics	2003-11-11	Role-Playing · Strategy	Capcom	Capcom	1	R
+Onmyou Taisenki: Zeroshiki	2004-12-09	Role-Playing	Kamui	Bandai	1	R
+Open Season	2006-09-19	Action	Ubisoft Entertainment	Ubisoft Entertainment	1	R
+Operation: Armored Liberty	2003-11-03	Shooter · Vehicle Simulation	Eastridge Technology	Majesco Sales	1	R
+Oriental Blue	2003-10-24	Role-Playing	Hudson Soft	Nintendo	1	R
+Orn	2003-10-16	Action · Adventure · Platform	Tom Happ		1	H
+Oshaberi Inko Club	2002-04-26	Strategy		Alpha-Unit	3	R
+Oshare Princess	2002-05-24	Action		Culture Brain	1	R
+Oshare Princess 2 / Doubutsu Kyaranabi Uranai	2002-12-20	Life Simulation		Culture Brain	1	R
+Oshare Princess 3	2003-08-29	Adventure		Culture Brain	1	R
+Oshare Princess 5	2005-07-07	Adventure	Culture Brain	Culture Brain	1	R
+Ottifanten Pinball	2005-12-15	Pinball	Independent Arts Software	Trend Verlag	1	R
+Over the Hedge	2006-05-05	Platform	Vicarious Visions	Activision	1	R
+Over the Hedge: Hammy Goes Nuts!	2006-10-12	Action	Vicarious Visions	Activision	0	R
+Overstorm		Action · Platform	Quantized Bit		1	X
+Ozzy & Drix	2003-12-17	Action	Raylight Studios	Midway Home Entertainment	0	R
+Pac-Man Collection	2001-07-12	Compilation	Mass Media	Namco	1	R
+Pac-Man Pinball Advance	2005-05-02	Pinball	Human Soft	Namco	0	R
+Pac-Man World	2004-11-17	Platform	Full Fat Productions	Zoo Digital Publishing	0	R
+Pac-Man World 2	2005-10-09	Platform	Full Fat Productions	Namco	1	R
+Paco-Man	2002-12-02	Action			1	H
+Panda World	2005	Platform	Unite Lucky Technology	Unite Lucky Technology	1	U
+Paperboy / Rampage	2005-08-21	Compilation	Midway	DSI Games	1	R
+Patrick Star in Mario Kart: Super Circuit	2021-10-30	Racing	8-NabBit	8-NabBit	0	M
+Paws & Claws Pet Resort	2006-02-13	Life Simulation	Independent Arts Software	THQ	0	R
+Paws & Claws: Pet Vet	2006	Life Simulation	Radon Labs	THQ	1	R
+Payback	2004-11-19	Action	Apex Designs	DSI Games	2	R
+Perplexus Diodomin			James Boulton		0	X
+Peter Pan: The Motion Picture Event	2003-12-10	Action	Saffire	Atari	0	R
+Petz: Hamsterz 2	2007-11-13	Life Simulation	Jorudan	Ubisoft Entertainment	1	R
+Petz Vet	2007-03-26	Life Simulation	Sensory Sweep Studios	Ubisoft	1	R
+Pferd & Pony: Mein Pferdehof & Lass Uns Reiten 2	2007-07-13	Life Simulation	Independent Arts	dtp young entertainment	0	R
+Phalanx	2001-10-26	Shooter	Zoom	Kemco	1	R
+Phantasy Star Collection	2002-11-24	Compilation · Role-Playing	Sega	THQ	1	R
+Phil of the Future	2006-09-26	Action	Handheld Games	Buena Vista Games	0	R
+Pia Carrot e Youkoso!! 3.3	2004-04-23	Visual Novel	F&C FC01	NEC Interchannel	1	R
+Picross Advance	2005	Puzzle	Phantom	GBAX 2005	0	H
+Piglet's Big Game	2003-03-11	Action · Adventure · Platform	Doki Denki	Disney Interactive	1	R
+Pikapika Nurse Monogatari: Nurse Ikusei Game	2003-12-12	Strategy		TDK Core	1	R
+Pinball Advance	2002-10-18	Pinball	Rebellion Developments	Digital Worldwide	0	R
+Pinball Challenge Deluxe	2002-07-05	Pinball	Binary 9 Studios	Ubi Soft Entertainment Software	0	R
+Pinball Tycoon	2003-01-02	Pinball	Ignition Entertainment	AIA USA	4	R
+Ping-Pong Diplomacy Advance	2016-08-12		Ryoga		0	H
+Pink Panther: Pinkadelic Pursuit	2002-01-01	Platform	SuperEmpire Interactive	Wanadoo Edition	0	R
+Pinky and the Brain: The Master Plan	2002-01-01	Platform	Warthog	Swing! Entertainment Media	0	R
+Pinky Monkey Town	2001-12-21			Starfish	1	R
+Pinobee & Phoebee	2002-07-18	Action · Platform	Artoon	Hudson Soft	1	R
+Pinobee: Wings of Adventure	2001-06-11	Platform	Artoon	Activision	1	R
+Pirates of the Caribbean: Dead Man's Chest	2006-06-27	Action · Adventure	Amaze Entertainment	Buena Vista Games	0	R
+Pirates of the Caribbean: The Curse of the Black Pearl	2003-07-01	Role-Playing	Pocket Studios	TDK Mediactive	0	R
+Pitfall: The Lost Expedition	2004-02-18	Platform	Torus Games	Activision	0	R
+Pitfall: The Mayan Adventure	2001-06-10	Action · Platform	Pipedream Interactictive	THQ	0	R
+Pixeline i Pixieland	2008	Adventure	Krea Medie	Krea Medie	0	R
+Planet Monsters	2001-12-06	Action	Planet Interactive Development	Titus Software	0	R
+Planet of the Apes	2001-11-30	Action	Torus Games	Ubi Soft Entertainment Software	0	R
+Play Novel: Silent Hill	2001-03-21	Visual Novel	Konami Computer Entertainment Tokyo	Konami	1	R
+Play-Yan	2005-04-02		Nintendo	Nintendo	0	R
+Pocket Dogs	2005-12-22	Life Simulation	Agatsuma Entertainment	Agatsuma Entertainment	0	R
+Pocket Meat	2016-07-07	Platform	BomberDev		1	H
+Pocket Monsters Diamond: Pocket Monsters Pearl: Manaphy Present Campaign Senyou Cartridge	2006		Gamefreak	Nintendo	1	X
+Pocket Monsters Diamond: Tomodachi to Issho ni!: Present Campaign Senyou Cartridge	2006		Gamefreak	Nintendo	1	X
+Pocket Music	2002-02-01	Music	Jester Interactive	Rage Interactive	0	R
+Pocket Professor: KwikNotes Volume One	2006-03-13	Education	Pocket Direct	Pocket Direct	1	R
+Pocky & Rocky with Becky	2001-12-05	Shooter	Altron	Natsume	1	R
+PokéEscape	2023-10-03	Puzzle · Role-Playing	Atsign		1	M
+Pokémblem	2020-07-17	Strategy	Vesly		1	M
+PokeMetroid	2021-12-12	Role-Playing	GuilhermeRM	Romhacking.net	1	M
+Pokémon 2awesome	2011-09-03	Role-Playing	hinkage		1	M
+Pokémon A GRAND DAY OUT	2012-03-20	Role-Playing	Cutlerine		1	M
+Pokémon: A New Dawn	2015	Role-Playing	Joexv		1	M
+Pokémon Abandoned Ruby	2015-05-11	Role-Playing	ilovemycows		1	M
+Pokémon Adamantite	2009	Role-Playing	rauzeruk		1	M
+Pokémon Advanced	2019-04-03	Role-Playing	Deepak		1	M
+Pokémon Advanced Adventure	2010-09-14	Adventure · Role-Playing	Dbzmay		1	M
+Pokémon Adventure Blue Chapter	2013-11-10	Role-Playing	c067912881		1	M
+Pokémon Adventure Green Chapter	2013-11-11	Role-Playing	c067912881		1	M
+Pokémon Adventures Gold Chapter	2015	Role-Playing	Zero.4		1	M
+Pokémon Adventures Red Chapter	2013-03-24	Role-Playing	Aethestode (rockmanmegaman)		1	M
+Pokémon Adventures Yellow Chapter	2014-07-23	Role-Playing	c067912881		1	M
+Pokémon Aesthetic Red	2025-12-10	Adventure · Role-Playing	LibertyTwins	PokéCommunity	1	M
+Pokémon Alpha	2013	Role-Playing	AO Project		1	M
+Pokémon Altair	2020-11-27	Role-Playing	Pokémon Vega Team		1	M
+Pokémon AlteRed	2023-06-15	Role-Playing	kingfin128		1	M
+Pokémon: Altered Emerald	2016-12-25	Adventure · Role-Playing	luuma		0	M
+Pokémon Alternate Evolutions	2017	Role-Playing	TheEdgeOfForever		1	M
+Pokémon Alternate Nusantara	2014	Role-Playing	Marsya Modeus Herdamas		1	M
+Pokémon Amaryllis	2016-05-04	Role-Playing	Mantager		1	M
+Pokémon Amazing Cortana	2019-08-08	Role-Playing	Anzu Blue		1	M
+Pokémon Amethyst	2026-05-25	Role-Playing	duck_caper		1	M
+Pokémon Amnesia	2008	Role-Playing	Hedgehogger		1	M
+Pokémon Ancient	2015		nachoius		0	M
+Pokémon Apocalypse	2008-11-09	Role-Playing	Kingdomhearts2luv3r		1	M
+Pokémon Apollo	2013-02-05	Role-Playing	MrDollSteak		1	M
+Pokémon Aqua Blue	2015-06-02	Role-Playing	Criminon		1	M
+Pokémon Aquamarine	2019-10-31	Role-Playing	AquamarineVaporeon		1	M
+Pokémon Arcoiris	2009	Role-Playing	Numus and Ra		1	M
+Pokémon Ash Journey	2017	Role-Playing	Shovraj Sengupta		1	M
+Pokémon Ash's Quest	2008	Role-Playing	ice_nine		1	M
+Pokémon AshGray	2009-05-31	Adventure · Role-Playing	Metapod23		1	M
+Pokémon Atlas Emerald	2023-06-02	Role-Playing	CAulin		1	M
+Pokémon Avventura a Fento	2013	Role-Playing	Richard_		1	M
+Pokémon Azure Horizons	2008-08-25	Role-Playing	Frostbite		1	M
+Pokémon Battle Ultimate	2017-03-31	Role-Playing	Brock		1	M
+Pokémon Bidoof Version	2022-03-04	Role-Playing	CrystalMarowak		1	M
+Pokémon Black Dark					0	M
+Pokémon Blast Burn	2019	Role-Playing	PkmonTitanium		1	M
+Pokémon Blazed Glazed	2015-10-22	Adventure · Role-Playing	Redriders180		1	M
+Pokémon Blue Stars 2	2019-06-16	Role-Playing			1	M
+Pokémon Brutal Version	2012-08-20	Role-Playing	Gerokunz		1	M
+Pokémon Bug Version	2018	Role-Playing	Frog		1	M
+Pokémon: BugLime Version	2026-10-10	Role-Playing	Spearmintz		1	M
+Pokémon Burning Ruby Advanced	2017-04-07	Role-Playing	Anurag Srivstava		1	M
+Pokémon Catastrophe			Grimm		0	M
+Pokémon: Cave Escape	2024-12-31	Puzzle · Role-Playing	Ketchupplant		1	M
+Pokémon CAWPS	2016	Adventure · Role-Playing	Crizzle		1	M
+Pokémon Cerice	2014	Role-Playing	KnSlash		1	M
+Pokémon Chaos 2	2021	Adventure	DaTateYT	DaTateYT	1	M
+Pokémon Chaos Black	2004-12-30	Adventure · Role-Playing	Mike25		1	M
+Pokémon Chileno Version	2021-05-24	Role-Playing	Claudiomon	Claudiomon	1	M
+Pokémon Chrome	2012	Role-Playing	Melash		1	M
+Pokémon Chronicles of Soala	2016-04-01	Role-Playing	Christos		1	M
+Pokémon Cintrine	2008	Role-Playing	Poke_a_Dialga!		1	M
+Pokémon Classic 151	2016-09-22	Role-Playing		Oscar Brock	0	M
+Pokémon Classified	2016	Role-Playing	Submachine39 AKA Mechakhan		1	M
+Pokémon Clay's Calamity II	2018	Role-Playing	frabulator		1	M
+Pokémon Clays' Calamity	2016	Role-Playing	frabulator		1	M
+Pokémon Clays' Calamity III	2018	Role-Playing	frabulator		1	M
+Pokémon Clear Ocean	2021-03-28	Role-Playing	Gui Artes		1	M
+Pokémon Cloud White	2015-04-11	Adventure · Role-Playing	Shogun		1	M
+Pokémon Cloud White 2	2019-05-26	Role-Playing	Shogun	Shogun	1	M
+Pokémon Cloud White 3	2017-05-12	Role-Playing	Shogun	Shogun	1	M
+Pokémon Clover	2017-06-01	Role-Playing	Mantager		1	M
+Pokémon Coastal Version	2024-07-08	Role-Playing	RandomAce42		1	M
+Pokémon Cobalt	2011	Role-Playing	Spherical Ice		1	M
+Pokémon Conversion Emerald	2016	Role-Playing	Ravendeth		1	M
+Pokémon Cosmic Emerald	2018-08-15	Role-Playing	Skyvorpal A.K.A. SkyOfBlades		1	M
+Pokémon Creepy Black	2012	Role-Playing	Creepy		1	M
+Pokémon Crimson	2011-07-22	Role-Playing	Destiny Demon A.K.A. Soul		1	M
+Pokémon Crimson Red		Adventure · Role-Playing			0	M
+Pokémon Crono	2009-02-24	Role-Playing	Dante		1	M
+Pokémon Crossroads	2026-03-03	Role-Playing	Crossroads Dev Team		1	M
+Pokémon Crown	2022-01-22	Role-Playing	Jake		1	M
+Pokémon Crush	2014-05-08	Role-Playing	RedMort		1	M
+Pokémon Crystal Shards	2009	Role-Playing	Kike-Scott		1	M
+Pokémon CrystalDust	2010-10-16	Role-Playing	Diegoisawesome	diegoisawesome Productions	1	M
+Pokémon Crystallos	2018-05-04	Role-Playing	Markusfer47		1	M
+Pokémon Cyan	2016-09-08	Role-Playing	Chrunch		1	M
+Pokémon Daia	2017-04-11	Role-Playing	Dyskinesia		1	M
+Pokémon Dardusk	2016-07-16	Role-Playing	Bulbadon		1	M
+Pokémon Dark	2016	Role-Playing	Tyler Frisbee		1	M
+Pokémon Dark Begin	2008	Role-Playing	Vincent		1	M
+Pokémon Dark Blue	2015	Role-Playing	LEX a.k.a. Jaizu		1	M
+Pokémon Dark Cry: The Legend of Giratina	2009	Role-Playing	mitchel1		1	M
+Pokémon Dark Cry Version	2004	Role-Playing	mitchel1		1	M
+Pokémon Dark Crystal	2015	Role-Playing	Sky High		1	M
+Pokémon Dark Knight	2017-05-23	Role-Playing	pikachu18		1	M
+Pokémon Dark Realm	2017-03-25	Role-Playing	Duchuy		1	M
+Pokémon Dark Rising	2012-04-28	Role-Playing	DarkRisingGirl	DarkRisingGirl	1	M
+Pokémon Dark Rising II	2013-03-07	Role-Playing	DarkRisingGirl		1	M
+Pokémon Dark Rising: Order Destroyed	2016-06-26	Adventure · Role-Playing	DarkRisingGirl		1	M
+Pokémon Dark Rising Origins: Worlds Collide	2016	Adventure · Role-Playing	DarkRisingGirl		0	M
+Pokémon Dark Violet	2019-04-08	Role-Playing	Chaos Rush		1	M
+Pokémon Darkfire	2019-05-24	Role-Playing	Ray Maverick		1	M
+Pokémon DarkJasper	2013	Role-Playing	shinyabsol1		1	M
+Pokémon Darkness Falls	2018-03-29	Role-Playing	Team Salamence		1	M
+Pokémon Delta Emerald	2014	Role-Playing	Ludovic		1	M
+Pokémon Delta Fusion	2017	Role-Playing	Delta		1	M
+Pokémon Delta Green	2017-12-12	Role-Playing	3uminator		1	M
+Pokémon Deneb	2018-04-01	Role-Playing	( )		1	M
+Pokémon Derp Emerald	2011-08-18	Role-Playing	Karp		1	M
+Pokémon Derpizard	2013-03-07	Role-Playing	karatekid552		1	M
+Pokémon Desert Version	2018-06-25	Role-Playing	777ID777		1	M
+Pokémon Diabound	2016-02-14	Role-Playing	-Piccolo-		1	M
+Pokémon Digimon FireRed	2010	Role-Playing	Epitaph93		1	M
+Pokémon Dimension Legends	2009-04-10	Role-Playing	Crimson Stardust		1	M
+Pokémon Discovery	2013-09-01	Role-Playing	Le Pug		1	M
+Pokémon Distortion Black	2021-01-22	Role-Playing	Nex		1	M
+Pokémon DPS Edition	2019-11-06	Role-Playing	Joshua82		1	M
+Pokémon DR	2015	Role-Playing	MrTienduc		1	M
+Pokémon Drab Conspiracy	2019-06-19	Role-Playing	E²VaN		1	M
+Pokémon Dragon Ball Z Team Training	2015-09-26	Role-Playing	Z-Max		1	M
+Pokémon Dragonstone	2012	Role-Playing	AlexTheRose		1	M
+Pokémon Dragonstone 2	2011	Role-Playing	Ptudia		1	M
+Pokémon Dream Seasons	2019-08-29	Role-Playing	Aaghat		1	M
+Pokémon: Dreams	2020-12-17	Role-Playing	MonopolyRubix		1	M
+Pokémon Dreamstone Mysteries	2025-07-07	Role-Playing	dsmyst		1	M
+Pokémon Dreary	2019-03-26	Role-Playing	Anthroyd		1	M
+Pokémon Easter Revolution	2015-04-01	Role-Playing	Joexv		1	M
+Pokémon Eccentric Emerald	2013	Role-Playing	Cruztown		1	M
+Pokémon Echo Emerald	2019-09-07	Role-Playing	/u/DrCraigSmash		1	M
+Pokémon Eclipse	2016-07-12	Role-Playing	Christos		1	M
+Pokémon: Edición Chileno	2018	Role-Playing			1	M
+Pokémon Edición Team Rocket	2021-03-15	Role-Playing			0	M
+Pokémon Electric Yellow	2008-04-12	Role-Playing	Melash		1	M
+Pokémon Electro Ball	2014-11-25	Role-Playing	FAARSAL		1	M
+Pokémon Elegant Emerald	2015	Role-Playing	PurpleOrange		1	M
+Pokémon Elemental Rift	2013-08-03	Role-Playing	shamus24		1	M
+Pokémon Elite Quest	2010-07-11	Role-Playing	Chrunch		1	M
+Pokémon Elite Redux	2023	Role-Playing	Darkyy92x		1	M
+Pokémon Emerald 386	2024-08-05	Role-Playing	Razormime	Razormime	1	M
+Pokémon Emerald 802	2017	Role-Playing	Che Kin Wong		1	M
+Pokémon Emerald Advanced	2017	Role-Playing	Z-nogyroP		1	M
+Pokémon Emerald Ambulation	2022-11-03		Inkbox Software		0	M
+Pokémon Emerald Balanced	2019-05-05	Role-Playing	Gegalix		1	M
+Pokémon Emerald Chaos Ambulation	2022-11-03		Inkbox Software		0	M
+Pokémon Emerald Crest	2022		Aaghat		0	M
+Pokémon Emerald Double Version	2018-05-20	Role-Playing	Saiklex		1	M
+Pokémon Emerald DX	2022-04-06	Role-Playing	danenders	danenders	1	M
+Pokémon Emerald Enhanced	2023-06-26	Role-Playing	Ryuhouji		1	M
+Pokémon Emerald Epsilon	2016-10-16	Role-Playing	Alex Sanchez		1	M
+Pokémon Emerald Expert	2011-10-06	Role-Playing	Blue		1	M
+Pokémon Emerald Final	2018-07-08	Role-Playing	dearman4		1	M
+Pokémon Emerald Genesis	2019	Role-Playing	Hillsy13		1	M
+Pokémon Emerald Green	2017	Role-Playing	Sulfurous		1	M
+Pokémon Emerald Hard Edition	2016	Role-Playing	blue Gucci		1	M
+Pokémon Emerald Horizons	2023		BrandonXL		0	M
+Pokémon Emerald Imperium	2025-01-24	Role-Playing	iriv24	iriv24	1	M
+Pokémon Emerald Kaizo	2020-03-14	Role-Playing	SinisterHoodedFigure	Romhacking.net	0	M
+Pokémon: Emerald Legacy	2024-12-12	Role-Playing	Patrick Smith (Thesmithplayes)		0	M
+Pokémon Emerald Legacy Enhanced	2024-12-29	Role-Playing	Exclsior		0	M
+Pokémon Emerald Lucario	2014	Role-Playing	FerventFlames		1	M
+Pokémon Emerald of Dreams	2017	Role-Playing	LinkandZelda		1	M
+Pokémon Emerald Omega	2014	Role-Playing	mamamama		1	M
+Pokémon Emerald Renewal	2017	Role-Playing	Skyro005		1	M
+Pokémon Emerald Rogue	2022-08-22	Role-Playing	Pokabbie	Project Pokémon	1	M
+Pokémon Emerald Rotate	2026-09-17	Role-Playing	Rotate		1	M
+Pokémon Emerald Seaglass	2024-09-06	Role-Playing	Nemo622		1	M
+Pokémon Emerald Version	2004-09-16	Adventure · Role-Playing	Game Freak	Nintendo	4	R
+Pokémon Emerald Version: Party Randomizer	2020-02-07	Role-Playing	Googleben		1	M
+Pokémon Emerald: Wally Version		Role-Playing	Bladecraft		1	M
+Pokémon Eruption	2008-02-08	Role-Playing	cooley		1	M
+Pokémon Eternal Snow	2016-04-01	Adventure · Role-Playing	Reshiram white as snow		1	M
+Pokemon Evergreen Version	2026	Role-Playing	Cimbachu888	WoRLAND Studios	2	M
+Pokémon Evil Drill 1 Star Stone	2015	Role-Playing	xiang		1	M
+Pokémon : Evolved	2025-03-26	Role-Playing	AtSign8877		1	M
+Pokémon Extra	2004	Role-Playing	Xtrude		1	M
+Pokémon Extreme Red	2018-02-11	Role-Playing	J-Steven		1	M
+Pokémon Fantasia	2017	Role-Playing	Markuzz Kaizuka		1	M
+Pokémon Faria Version	2021-10-09		Ricardo de Faria		0	M
+Pokémon Fat Kid	2018	Role-Playing	Le Pug		1	M
+Pokémon Final Red	2015	Role-Playing	Sage0ne		1	M
+Pokémon Fire Blast	2016-05-26	Role-Playing	Alex Sanchez		1	M
+Pokémon Fire Gold	2022-05-11	Role-Playing	Tzx211		1	M
+Pokémon Fire of Victory					0	M
+Pokémon: Fire Red 20XX	2019-03-01	Role-Playing	Manekimoney		1	M
+Pokémon Fire Red Extended	2023		DjTarma		0	M
+Pokémon Fire Red Legacy	2021		chainfire57		0	M
+Pokémon Fire Red Legends	2023-06-03		caminopreacher		0	M
+Pokémon Fire Red Multiverse	2023-12-22	Role-Playing	Gohan's Tips		1	M
+Pokémon Fire Red Omega	2009-06-04	Role-Playing	Drayano		1	M
+Pokémon FireRed Backwards Edition	2012	Role-Playing	Slike		1	M
+Pokémon FireRed Bill's Secret Garden	2024-08-10		TibJib		0	M
+Pokémon FireRed Evolution	2014-06-27	Role-Playing	jimmies		1	M
+Pokémon FireRed Reignited	2025-03-14		Spikecation		0	M
+Pokémon FireRed Remixed	2015-07-10	Adventure · Role-Playing	RemixV4		1	M
+Pokémon FireRed Rocket Edition	2020-04-09	Adventure · Role-Playing	colonelsalt		1	M
+Pokémon FireRed Version	2004-01-29	Adventure · Role-Playing	Game Freak	Nintendo	4	R
+Pokémon FireRed: VR Missions	2018-07-14	Role-Playing	Ephraim225		1	M
+Pokémon Flare		Role-Playing	PokemonAce123		1	X
+Pokémon Flora Sky	2011-08-05	Adventure · Role-Playing	Sky		1	M
+Pokémon Fuligin	2012	Adventure · Role-Playing	Sloo		0	M
+Pokémon Fusion Origins	2020-06-16	Role-Playing	Lil Ralph		0	M
+Pokémon Gaia	2011-05-11	Role-Playing	Spherical Ice		1	M
+Pokémon Galacta	2015-04-18	Role-Playing	Harshdeep Singh a.k.a Bunny		1	M
+Pokémon Genesis	2019-08-23	Role-Playing	Thrace		1	M
+Pokémon: Ghost Grey Version	2026-08-20	Role-Playing	JoeyZeed		1	M
+Pokémon Giratina Strikes Back	2017-10-17	Role-Playing	Sloo		0	M
+Pokémon Girls Hunter		Adventure · Role-Playing			0	M
+Pokémon Girls Hunter 2		Adventure			0	M
+Pokémon Girls Hunter Halloween		Adventure			0	M
+Pokémon Glazed	2015-11-17	Role-Playing	Redriders180		1	M
+Pokémon Glimmering Emerald	2023		paccy		0	M
+Pokémon Grand Dad Version	2016-07-08	Role-Playing	SiIvaGunner		1	M
+Pokémon GS Chronicles	2020-11-23	Adventure · Role-Playing	Gold	RUKI Studios	1	M
+Pokémon HarvestCraft	2014-06-29	Role-Playing	quil09		1	M
+Pokémon Heart & Soul	2025-09-26		lildill01		0	M
+Pokémon Hoenn Adventures	2010-12-18	Adventure · Role-Playing	Oscar Brock	Oscar Brock	1	M
+Pokémon Holidays Hacks Halloween (Cursed Version)	2016-07-25	Role-Playing	Joexv		1	M
+Pokémon Hollow Mysteries	2016-08-02	Role-Playing	Freddy F1shf1nger		1	M
+Pokémon Hypno's Lullaby	2012-12-09	Horror · Role-Playing	7G06		1	M
+Pokémon Inflamed Red	2021-10-09	Role-Playing	Greenphx		1	M
+Pokémon Islas Doradas	2016-06-10	Role-Playing	TEAM DORADAS	TEAM DORADAS	0	M
+Pokémon Jupiter	2008	Role-Playing	Corvus of the Black Night		1	M
+Pokémon Kanlara Ultimate	2019-10-25	Role-Playing	Sakakii		1	M
+Pokémon Kanto Adventures	2020-06-13	Role-Playing			0	M
+Pokémon Korosu		Action · Adventure	Crizzle		1	M
+Pokémon Lazarus	2025-11-14	Role-Playing	Nemo622	Nemo622	1	M
+Pokémon LeafGreen Regrown	2025-03-14		Spikecation		0	M
+Pokémon LeafGreen Version	2004-01-29	Adventure · Role-Playing	Game Freak	Nintendo	4	R
+Pokémon Legends Red		Role-Playing			0	M
+Pokémon Let's Go Eevee!		Role-Playing	Kevin PokeFan		0	M
+Pokémon Let's Go Lugia!	2020-11-03	Role-Playing	Stone Team		0	M
+Pokémon Let's Go Pikachu!	2019-10-14	Role-Playing	Kevin PokeFan		1	M
+Pokémon Life		Action · Adventure	Dionen		0	M
+Pokémon Light Platinum	2011-08-24	Role-Playing	WesleyFG		1	M
+Pokémon Liquid Crystal	2012-08-29	Role-Playing	LinkandZelda		1	M
+Pokémon Liquid Ocean	2008-09-13	Role-Playing	Christos		1	M
+Pokémon Lithium	2026-05-29	Role-Playing	outrageous_thought		1	M
+Pokémon Magikarp’s Adventure	2016	Role-Playing	LegendaryMohawk		1	M
+Pokémon Mansion Mystery					0	X
+Pokémon Marble		Role-Playing			0	M
+Pokémon Marron Merda	2010	Adventure	The Skulls	The Skulls	1	M
+Pokémon Maxie's Island	2024-09-25	Puzzle	wiz1989		1	M
+Pokémon Mega Blue	2020-04-20		STikER		0	M
+Pokémon Mega Fire Red	2015-01-01	Adventure · Role-Playing	Versekr Dark	Versekr Dark	1	M
+Pokémon Mega Power	2014-05-04	Adventure · Role-Playing	Wind1158		1	M
+Pokémon Mirage of Tales	2013-09-18	Role-Playing	Avara	Avara	1	M
+Pokémon: Mirage of Tales The Ages of Faith	2015-03-21	Role-Playing	Avara		1	M
+Pokémon Modern Emerald	2023		resetes12	resetes12	0	M
+Pokémon Monomyth	2026-10-30	Role-Playing	Team Monomyth		1	M
+Pokémon Moon Emerald	2016-11-18	Role-Playing	LukaBat		4	M
+Pokémon Moon Galaxy	2020-11-03	Role-Playing	Gohan's Tips		1	M
+Pokémon: My Ass Version	2010-08-02				1	M
+Pokémon Mystery Dungeon: Red Rescue Team	2005-11-17	Role-Playing	Chunsoft	Nintendo	1	R
+Pokémon Mystery Dungeon: Red Rescue Team EX	2020-11-28	Role-Playing			1	M
+Pokémon Mystical		Role-Playing	Ulquiorra		0	M
+Pokémon Mythic Legends	2010-08-26	Role-Playing	psychicboy		1	M
+Pokémon Nameless		Role-Playing	Wind1158		1	M
+Pokémon Naranja	2012-10-17	Role-Playing	Serg!o	Serg!o	0	M
+Pokémon: National History Museum	2024-01-17	Puzzle	wiz1989		1	M
+Pokémon Neon Blue	2021		mcferaligatr		0	M
+Pokémon: New Hoenn					0	M
+Pokémon Normal Version	2012		FrozenInfernoZX		0	M
+Pokémon Null	2026-04-13	Role-Playing	TERRA		1	M
+Pokémon Odyssey	2023	Role-Playing	PacoScarso		1	M
+Pokémon Omega Red		Role-Playing	Jolt Steven		0	M
+Pokémon Orange Islands	2019-09-19	Role-Playing	kalarie		1	M
+Pokémon Order & Chaos	2016-05-21	Adventure · Role-Playing	EasyBakeStudios		1	M
+Pokémon Outlaw	2015-06-27	Adventure · Role-Playing	Crizzle		1	M
+Pokémon Pesadilla		Horror · Role-Playing	ReoNeky		0	M
+Pokémon Pinball: Ruby & Sapphire	2003-08-01	Pinball	Jupiter	Nintendo	1	R
+Pokémon Pisces	2025-03-31	Role-Playing	Chairry		1	M
+Pokémon: Pit of 100 Trials	2024-05-08	Role-Playing	Archie		1	M
+Pokémon Polka Aqua		Role-Playing	Latios Azurill		1	X
+Pokémon Puffy Pink	2023-12-08	Role-Playing	TheUltraNerd		1	M
+Pokémon Quartz	2006	Adventure · Role-Playing	Baro		0	M
+Pokémon Quartz Minus	2026-04-07	Role-Playing	Camerupt		1	M
+Pokémon Quetzal	2022	Role-Playing	TenmaRH	TenmaRH	4	M
+Pokémon R.O.W.E.	2020-11-29	Adventure · Role-Playing	rioluwott		1	M
+Pokémon Radical Red	2020-09-13	Adventure · Role-Playing	soupercell		1	M
+Pokémon Recharged Emerald	2024-04-24	Role-Playing	Jaizu		1	M
+Pokémon Recharged Yellow	2022-09-27	Role-Playing	Jaizu		1	M
+Pokémon Record Keepers	2025-09-28	Role-Playing	Turtleye	Turtleye	1	M
+Pokémon Resolute	2014	Adventure · Role-Playing	Wnd1158		0	M
+Pokémon Revelation	2023-10-10	Role-Playing	RichterSnipes		1	M
+Pokémon Rocket Science	2014	Adventure · Role-Playing	LocksmithArmy		0	M
+Pokémon Rocket Strike	2014-02-20	Role-Playing	AmazingCharizard		1	M
+Pokémon Ruby Destiny Life of Guardians	2008	Adventure · Role-Playing	Destinedjagold		0	M
+Pokémon Ruby Destiny Reign of Legends	2007	Adventure · Role-Playing	Destinedjagold		0	M
+Pokémon Ruby Destiny Rescue Ranges	2008	Adventure · Role-Playing	Destinedjagold		0	M
+Pokémon Ruby Stars					0	M
+Pokémon Ruby Version	2002-11-21	Adventure · Role-Playing	Game Freak	Nintendo	4	R
+Pokémon Run & Bun	2023-03-19	Role-Playing	dekzeh		1	M
+Pokémon Saffron	2019	Role-Playing	mattymannnn		1	M
+Pokémon Saiph		Role-Playing	#Vytron		1	M
+Pokémon Sapphire Version	2002-11-21	Adventure · Role-Playing	Game Freak	Nintendo	4	R
+Pokémon Scarlet Blaze	2017-10-21		ASDBUDDY		1	M
+Pokémon Scorched Silver	2024-08-17	Role-Playing	Sloo		1	M
+Pokémon Septo Conquest		Role-Playing	Magneto20, Andyp159		1	M
+Pokémon Sevii	2021		Child Amnesiac		0	M
+Pokémon Shining Victory	2019-03-29	Role-Playing	Deepak		1	M
+Pokémon Shiny Gold Sigma	2015	Adventure · Role-Playing	Ash_Milotic		1	M
+Pokémon Sienna Version	2010	Role-Playing	Manipulation	Manipulation	1	M
+Pokémon Sigma Red					0	M
+Pokémon Sirius	2020-11-27	Role-Playing	Pokémon Vega Team		1	M
+Pokémon Snakewood	2013	Role-Playing	Cutlerine		0	M
+Pokémon Sors	2021		#Vytron		0	M
+Pokémon SoulGold	2026-09-12	Role-Playing	rahtak		1	M
+Pokémon Sovereign of the Skies	2011		Dragonfly		0	M
+Pokémon Star Twinkle	2025-12-01	Role-Playing	Stella Animation Files	Stella Animation Files	1	M
+Pokémon Stigma Version		Role-Playing	Scarlet D., Megacyber		1	M
+Pokémon Stone Dragon	2017				0	M
+Pokémon Stone Dragon 2	2018	Role-Playing			0	M
+Pokémon Sun Sky	2021-01-18	Role-Playing	Gohan's Tips		1	M
+Pokémon Super Fire Red	2015	Adventure · Role-Playing			1	M
+Pokémon Super Rising Thunder	2017	Role-Playing	Perri Lightfoot		1	M
+Pokémon Sweet: 2th Edition	2017-08-22	Role-Playing	Ephraim225	Ephraim225	0	M
+Pokémon Sweet Version	2014	Role-Playing	Ephraim225		1	M
+Pokémon Sword and Shield GBA	2022		PCL.G		0	M
+Pokémon Sword and Shield Ultimate Plus	2024-10-18	Role-Playing	PCL.G		1	M
+Pokémon Team Rocket Jessie&James	2025-03-10		MrNightology	MrNightology	1	M
+Pokémon: The Darkest Timeline		Role-Playing	PunsAreFun		1	M
+Pokémon The Fall of Heroes	2021-04-15				0	M
+Pokémon Theta Emerald	2015-05-20	Role-Playing	LCCoolJ95	LCCoolJ95	0	M
+Pokémon Theta Emerald EX	2016-12-25	Role-Playing	LCCoolJ95		0	M
+Pokémon Theta Emerald Renev	2018	Adventure · Role-Playing	LCCoolJ95	LCCoolJ95	1	M
+Pokémon Thief Ruby & Sapphire	2018-07-22		huderlem		0	M
+Pokémon Throwback	2021-10-01	Role-Playing	RichterSnipes		0	M
+Pokémon ThunderYellow	2012	Role-Playing	Feather		1	M
+Pokémon Too Many Types	2023-09-20	Adventure · Role-Playing · Strategy	Kobazco	Alpharad	1	M
+Pokémon Too Many Types 2	2025-12-19	Role-Playing	Too Many Productions		1	M
+Pokémon Topaz	2008	Adventure · Role-Playing	Bazza		0	M
+Pokémon Tourmaline	2024-03-26	Role-Playing	tdilos		1	M
+Pokémon Trashlocke	2019-05-03	Role-Playing	PokemonChallenges		1	M
+Pokémon Triángulo Origen		Role-Playing	ReoNeky		0	M
+Pokémon Ultra Violet	2013-07-02	Role-Playing	LocksmithArmy		1	M
+Pokémon Unbound	2020-12-02	Role-Playing	Skeli		1	M
+Pokémon Unbound Battle Frontier	2022-08-21	Role-Playing	Skeli		1	M
+Pokémon Vega	2016	Adventure · Role-Playing	Pokémon Vega Team		1	M
+Pokémon Verde Musgo	2019-09-29	Role-Playing	Purple Brothers		1	M
+Pokémon: Version Éclat Pourpre	2015	Role-Playing	Myst		4	M
+Pokémon Version Émeraude Plus	2019	Role-Playing	TDAMO1		1	M
+Pokémon Victory Fire	2012-07-23	Adventure · Role-Playing	Wind1158		1	M
+Pokémon WaterBlue Version	2022-09-26	Adventure · Role-Playing	caminopreacher		1	M
+Pokémon Wish	2018		Prof. Leon Dias		0	M
+Pokémon: Wishes of Tomorrow	2026-09-24	Role-Playing	flatfootlabs	flatfootlab	1	M
+Pokémon World Stadium	2023-04-02	Role-Playing	Sacred GBC		1	M
+Pokémon Zandite	2014-05-14	Role-Playing	SpyGuy		1	M
+Pokémon Zephyr	2008	Role-Playing	Twilite Darkrai		1	M
+Pokémon Zero Negative		Role-Playing	ELV13S		1	M
+PokéScape	2023-12-29	Adventure · Role-Playing	Demonheadge		1	M
+Polarium Advance	2006-11-14	Puzzle	Mitchell	Nintendo	1	R
+Polly Pocket! Super Splash Island	2003-09-17	Action	Digital Illusions	VU Games	0	R
+Pong / Asteroids / Yars' Revenge	2005-08-23	Compilation	EC-Interactive	Destination Software	2	R
+Pong Fighter	2007-11-12	Sports	GUYFAWKS		2	H
+Ponymon: Dawn Version		Adventure · Role-Playing	DuskShine, Chaosfission, flutteryayl, Cobalt, Mi	FunnyJunk	1	M
+Popeye Meets Ali Baba's Forty Thieves	2023-05-17		Bilalscape12		1	H
+Popeye: Rush for Spinach	2005-04-24	Racing	Magic Pockets	Namco	0	R
+Portal Advance	2016-11-13	Puzzle	Ashley Samuelson		1	H
+Postman Pat and the Greendale Rocket	2007	Action · Platform	Neko Entertainment	The Game Factory	0	R
+Powder	2004-06-05	Role-Playing	Jeff Lait		1	H
+Power Pig	2013-08-21	Platform · Puzzle			0	H
+Power Poke Dash	2006-03-23	Sports	Konami	Konami	1	R
+Power Pro Kun Pocket 1 and 2	2004-07-29	Sports	Diamond Head Production	Konami	1	R
+Power Pro Kun Pocket 3	2001-03-21	Sports	Diamond Head Production	Konami	2	R
+Power Pro Kun Pocket 4	2002-03-20	Sports	Diamond Head Production	Konami	1	R
+Power Pro Kun Pocket 5	2003-01-23	Sports	Diamond Head Production	Konami	1	R
+Power Pro Kun Pocket 6	2003-12-04	Sports	Diamond Head Production	Konami	1	R
+Power Pro Kun Pocket 7	2004-12-02	Sports		Konami	1	R
+Power Rangers: Dino Thunder	2004-09-22	Action	Natsume	THQ	1	R
+Power Rangers: Ninja Storm	2003-09-05	Action	Natsume	THQ	1	R
+Power Rangers: S.P.D.	2005-09-08	Beat 'em Up · Racing	Natsume	THQ	0	R
+Power Rangers: Time Force	2001-09-15	Action	Vicarious Visions	THQ	1	R
+Power Rangers: Wild Force	2002-08-19	Beat 'em Up	Natsume	THQ	4	R
+Prehistorik Man	2001-10-16	Action · Platform	Titus Interactive	Titus Software	1	R
+Premier Action Soccer	2006-06-09	Sports	Independent Arts Software	East Entertainment Media	0	R
+Premier Manager 2003-04	2003-11-28	Construction and Management Simulation · Sports	Tuna Technologies	Zoo Digital Publishing	0	R
+Premier Manager 2004-2005	2004-11-26	Construction and Management Simulation · Sports	Tuna Technologies	Zoo Digital Publishing	0	R
+Premier Manager 2005-2006	2005-08-12	Construction and Management Simulation · Sports	Tuna Technologies	Zoo Digital Publishing	0	R
+Prince of Persia: The Sands of Time	2003-10-28	Platform	Ubisoft Entertainment	Ubisoft Entertainment	1	R
+Prince of Persia: The Sands of Time & Lara Croft Tomb Raider: The Prophecy	2006-04-28	Adventure · Platform	Ubisoft Entertainment	Ubisoft Entertainment	1	R
+Princess Blue: Hime Kishi Monogatari	2002-08-29	Visual Novel	Tonkin House	Tonkin House	1	R
+Princess Natasha: Student, Secret Agent, Princess	2006-10-02	Action	Frame Studios	DSI Games	0	R
+Pro Mahjong Tsuwamono Advance	2005-08-11	Board Game	Culture Brain	Culture Brain	1	R
+Pro Yakyuu Team o Tsukurou! Advance	2002-08-08	Construction and Management Simulation · Sports	Smilebit	Sega Corporation	1	R
+Professor Sinister and his Marauding Mechanicals	2019-04-18	Platform	ant512		0	H
+PROJECT ZELDAMON	2019	Role-Playing	Danno		1	M
+PukuPuku Tennen Kairanban	2002-04-26	Action		Victor Interactive Software	1	R
+PukuPuku Tennen Kairanban: Koi no Cupid Daisakusen	2004-03-26	Adventure		Marvelous Entertainment	1	R
+PukuPuku Tennen Kairanban: Youkoso! Illusion Land he	2004-12-09	Action	Marvelous Entertainment	Marvelous Entertainment	1	R
+Punch King	2002-05-30	Fighting · Sports	Full Fat Productions	Acclaim Entertainment	1	R
+Puppy Luv: Spa and Resort	2007-09-18	Life Simulation	Humagade	Activision	0	R
+Puyo Pop	2002-02-11	Puzzle	Sonic Team	Sega	0	R
+Puyo Pop Fever	2004-07-24	Puzzle	Sonic Team	Sega	2	R
+Puzzle & Tantei Collection	2003-03-28	Board Game		Culture Brain	1	R
+Pyuu to Fuku! Jaguar Byuu to Deru! Megane-Kun	2004-04-29	Beat 'em Up	Intense! Interactive	Konami	1	R
+Quad Desert Fury	2003-09-25	Racing	Skyworks Technologies	Majesco Sales	1	R
+Quake		Shooter	Randy Linden		1	X
+Qwak	2006	Action	Jamie Woodhouse		2	U
+R-Type III: The Third Lightning	2004-03-26	Shooter	Raylight Studios	Destination Software	1	R
+Racing Fever	2005-01-01	Racing	NAPS Team	Neko Entertainment	0	R
+Racing Gears Advance	2005-02-08	Racing	Orbital Media	Orbital Media	4	R
+Radicorn	2020-12-12	Action	TimDeve		1	H
+Rampage Puzzle Attack	2001-11-19	Puzzle	Ninai Games	Midway Home Entertainment	2	R
+Rapala Pro Fishing	2004-08-31	Sports	Torus Games	Activision	0	R
+Ratatouille	2007-06-26	Action	Helixe	THQ	1	R
+Rave Master: Special Attack Force!	2005-03-08	Fighting	Konami	Konami	2	R
+Rayman 10th Anniversary Collection	2005-09-06	Compilation	Ubisoft Entertainment	Ubisoft Entertainment	1	R
+Rayman 3	2003-03-04	Platform	Ubi Soft Entertainment	Ubi Soft Entertainment Software	1	R
+Rayman Advance	2001-06-11	Action · Platform	Digital Eclipse Software	Ubi Soft Entertainment Software	1	R
+Rayman: Hoodlum's Revenge	2005-03-15	Adventure · Platform	Digital Eclipse Software	Ubisoft Entertainment	1	R
+Rayman IV		Action · Platform	Sintax Technology	Sintax Technology	1	U
+Rayman: Raving Rabbids	2006-12-06	Platform	Visual Impact	Ubisoft Entertainment	1	R
+Razor Freestyle Scooter	2001-11-01	Sports	Crawfish Interactive	Crave Entertainment	0	R
+Ready 2 Rumble Boxing: Round 2	2001-06-11	Fighting · Sports	Crawfish Interactive	Midway Home Entertainment	1	R
+Rebelstar: Tactical Command	2005-09-06	Strategy	Codo Technologies	Atari Europe	2	R
+Reign of Fire	2002-10-31	Adventure	Crawfish Interactive	BAM! Entertainment	0	R
+Relaxuma na Mainichi	2005-04-28	Action	Imagineer	Imagineer	1	R
+Rescue Heroes: Billy Blazes	2003-08-27	Action	WayForward Technologies	Vivendi Universal Games	0	R
+Resident Evil 2		Horror	Raylight Studios		1	X
+RetroKid	2026-05-29	Platform	VG Source Game Studio		1	H
+Rhino Express	2023-05-01	Puzzle	Seb_gamedev	Seb_gamedev	1	H
+Rhythm Tengoku	2006-08-03	Music	J.P. Room	Nintendo	1	R
+Rhythm Tengoku: Tempo Up!	2021-08-21	Music	Jornker		1	M
+Rick Dangerous	2013-08-19	Platform	Alekmaul	Alekmaul	1	H
+Rick Dangerous 2	2011-11-01	Platform	Alekmaul	Alekmaul	1	H
+RingDash GBA	2024-07-11	Puzzle	BriG78cx		1	H
+River City Ransom EX	2004-03-05	Beat 'em Up	Million	Atlus	1	R
+Riviera: The Promised Land	2005-06-28	Role-Playing	Sting	Atlus	1	R
+Road Rash: Jailbreak	2003-09-17	Racing	Magic Pockets	Destination Software	2	R
+Road Trip: Shifting Gears	2004-04-06	Racing	Takara	Conspiracy Entertainment	4	R
+RoboCop			Planet Interactive Development	Titus Interactive	0	X
+Robopon 2: Cross Version	2002-06-11	Role-Playing	Hudson Soft	Atlus	0	R
+Robopon 2: Ring Version	2002-06-11	Role-Playing	Hudson Soft	Atlus	0	R
+Robot Wars: Advanced Destruction	2002-11-22	Fighting	Crawfish Interactive	BBC Multimedia	0	R
+Robot Wars: Extreme Destruction	2002-10-25	Fighting	Gamezlab	BBC Multimedia	0	R
+Robotech: The Macross Saga	2002-11-15	Shooter	Lucky Chicken Games	TDK Mediactive	4	R
+Robots	2005-02-24	Action	Amaze Entertainment	Sierra Entertainment	0	R
+Rock'Em Sock'Em Robots	2006-10-02	Fighting	Full Fat Productions	DSI Games	0	R
+Rock n' Roll Racing	2003-06-23	Racing	Mass Media	Blizzard Entertainment	2	R
+Rocket Power: Beach Bandits	2002-10-19	Sports	Halfbrick Studios	THQ	0	R
+Rocket Power Dream Scheme	2001-09-14	Platform	Helixe	THQ	1	R
+Rocket Power: Zero Gravity Zone	2003-09-04	Sports	Altron	THQ	0	R
+Rockman & Crystal	2016-12-26	Platform · Shooter	Vast Fame	Vast Fame	1	U
+Rocky	2002-11-17	Fighting · Sports	Virtucraft	Ubi Soft Entertainment Software	0	R
+RPG Tsukuru Advance	2003-04-25	Role-Playing	Enterbrain	Enterbrain	1	R
+Rugrats: Castle Capers	2001-09-25	Action · Platform	Software Creations	THQ	1	R
+Rugrats: Go Wild	2003-05-28	Action · Platform	ImaginEngine	THQ	1	R
+Rugrats: I Gotta Go Party	2002-11-18	Action · Party	Eurocom Entertainment Software	THQ	4	R
+S World 3: Bounty Hunter X	2004	Shooter	Shen Mansell		0	H
+Sabre Wulf	2004-06-08	Action · Platform	Rare	THQ	1	R
+Sabrina the Teenage Witch: Potion Commotion	2002	Action	Ubi Soft Entertainment	Ubi Soft Entertainment Software	1	R
+Saibara Rieko no Dendou Mahjong	2001-09-28	Board Game	Warashi	Media Rings	1	R
+Sakura Momoko no UkiUki Carnival	2002-07-05	Action	indieszero	Nintendo	1	R
+Salt Lake 2002	2002-01-19	Sports	DC Studios	Ubi Soft Entertainment Software	0	R
+Samurai Deeper Kyo	2008-02-12	Action	Marvelous Entertainment	Bold Games	1	R
+Samurai Evolution: Oukoku Geist	2002-09-20	Role-Playing	TeaSet	Enix	1	R
+Samurai Jack: The Amulet of Time	2003-03-25	Action	Virtucraft	BAM! Entertainment	1	R
+Samus Goes to the Fridge to Get a Glass of Milk	2020-03-02	Platform	kkzero		0	M
+Sangokushi	2001-11-30	Strategy	Koei	Koei	0	R
+Sangokushi: Eiketsuden	2005-01-27	Strategy	Koei	Koei	1	R
+Sangokushi: Koumeiden	2005-01-27	Strategy	Koei	Koei	1	R
+Sanrio Puroland: All Characters	2003-11-01	Action	TOMY	Tomy	1	R
+Sansara Naga 1x2	2001-12-14	Role-Playing	Groove Box Japan	Victor Interactive Software	1	R
+Santa Claus Jr. Advance	2002-11-01	Platform	NEON Software	JoWooD Productions Software	1	R
+Santa Claus Saves the Earth	2002-12-15	Action · Platform	Ivolgamus	Telegames	1	R
+Scan Hunter: Sennen Kaigyo o Oe!	2002-11-15	Sports	DA1	Pacific Century Cyber Works	1	R
+Scooby-Doo	2002-06-04	Adventure	Winky Soft	THQ	1	R
+Scooby-Doo 2: Monsters Unleashed	2004-03-15	Platform	Altron	THQ	1	R
+Scooby-Doo and the Cyber Chase	2001-10-02	Platform	Software Creations	THQ	1	R
+Scooby-Doo!: Mystery Mayhem	2003-09-10	Action	Artificial Mind & Movement	THQ	1	R
+Scooby-Doo! Unmasked	2005-09-12	Action	Artificial Mind & Movement	THQ	0	R
+Scrabble	2005-04-12	Board Game · Puzzle	Runecraft	Ubisoft Entertainment	0	R
+Scrabble Blast!	2005-05-02	Board Game · Puzzle	Visual Impact	Destination Software	2	R
+Scrolls of Fire	2022-01-01	Action · Role-Playing	akouzoukos		0	H
+Scurge: Hive	2006-10-31	Action	Orbital Media	Southpeak Interactive	1	R
+SD Gundam Force	2004-10-10	Shooter	Tom Create	Bandai	1	R
+SD Gundam G Generation Advance	2003	Strategy	Bandai	Vanguard Works	1	R
+Sea Boy		Platform · Puzzle	Rival Dreams		1	X
+Sea Trader: Rise of Taipan	2003-01-03	Puzzle	Jaleco Entertainment	Jaleco Entertainment	0	R
+Secret Agent Barbie: Royal Jewels Mission	2002-10-08	Action	Digital Illusions	VU Games	0	R
+Sega Arcade Gallery	2003-05-21	Action	Bits Studios	Sega	0	R
+Sega Rally Championship	2002-12-19	Racing	DiCE	Sega of America	4	R
+Sega Smash Pack	2002-09-23	Compilation	CodeFire	Sega	1	R
+Sekhmet's Playground	2024-08-18	Action	Pyro_Pyro		1	H
+Sengoku Kakumei Gaiden	2003-02-27	Role-Playing	KCE Studios	Konami	1	R
+Sennen Kazoku	2005-03-10		indieszero	Nintendo	1	R
+Sentouin: Yamada Hajime	2004-10-21	Action	Rokumendo	Kids Station	1	R
+Serious Sam	2004-04-14	Shooter	Climax London	Global Star Software	4	R
+Shaman King Card Game: Chou Senjiryakketsu 2	2002-07-26	Action · Adventure	Studio Saizensen	King Records	1	R
+Shaman King Card Game: Chou Senjiryakketsu 3	2002-12-13	Role-Playing	Studio Saizensen	King Records	1	R
+Shamu's Deep Sea Adventures	2005-11-08	Action	Humagade	Activision	0	R
+Shanghai Advance	2001-12-14	Puzzle		Sunsoft	1	R
+Shantae Advance: Risky Revolution	2024	Action · Adventure	WayForward	WayForward	4	U
+Shark Tale	2004-09-29	Action · Platform	Vicarious Visions	Activision	1	R
+Shaun Palmer's Pro Snowboarder	2001-11-27	Sports	Natsume	Activision	0	R
+Sheep	2002-03-15	Puzzle · Strategy	Capcom	Empire Interactive	1	R
+Shikakui Atama o Maru Kusuru Advance: Kanji Keisanhen	2004-11-04			IE Institute	1	R
+Shikakui Atama o Maru Kusuru Advance: Kokugo Sansuu Shakai Rikahen	2004-11-04			IE Institute	1	R
+Shimura Ken no Bakatono-sama: Bakushou Tenka Touitsu Game	2002-12-06	Board Game	Kamui	TDK Core	1	R
+Shin Bokura no Taiyou: Gyakushuu no Sabata	2005-07-28	Role-Playing	Konami Computer Entertainment Japan	Konami	1	R
+Shin Kisekae Monogatari	2003-09-05	Adventure		Marvelous Entertainment	1	R
+Shin Megami Tensei	2003-03-28	Role-Playing	Atlus	Atlus	1	R
+Shin Megami Tensei Devil Children: Fire Book	2003-09-12	Role-Playing	Atlus	Atlus	1	R
+Shin Megami Tensei Devil Children: Ice Book	2003-09-12	Role-Playing	Atlus	Atlus	1	R
+Shin Megami Tensei Devil Children: Messiah Riser	2004-11-04	Strategy	Rocket Company	Atlus	1	R
+Shin Megami Tensei Devil Children: Puzzle de Call!	2003-07-25	Puzzle		Atlus	1	R
+Shin Megami Tensei II	2003-03-18	Role-Playing	Atlus	Atlus	1	R
+Shin Nihon Pro Wrestling: Toukon Retsuden Advance	2002-03-29	Fighting · Sports	TOMY	Tomy	1	R
+Shingata Medarot: Kabuto Version	2004-12-16	Role-Playing	Natsume	Imagineer	1	R
+Shingata Medarot: Kuwagata Version	2004-12-16	Role-Playing	Natsume	Imagineer	1	R
+Shining Force: Resurrection of the Dark Dragon	2004-06-08	Role-Playing · Strategy	Amusement Vision	Atlus U.S.A.	1	R
+Shining Soul	2003-09-16	Action · Role-Playing	Grasshopper Manufacture	Sega	4	R
+Shining Soul II	2004-04-20	Action · Role-Playing	Grasshopper Manufacture	Sega	4	R
+Shinpi no Sekai El-Hazard	2003-05-01	Adventure			1	H
+Shiren Monsters: Netsal	2004-04-22	Sports	Chunsoft	Chunsoft	4	R
+Shonen Jump's One Piece	2005-09-07	Platform	Dimps	Bandai Games	0	R
+Shonen Jump's Shaman King: Legacy of the Spirits, Soaring Hawk	2005-02-08	Role-Playing	Konami Computer Entertainment Japan	Konami	1	R
+Shonen Jump's Shaman King: Legacy of the Spirits, Sprinting Wolf	2005-02-08	Action · Adventure	Konami Computer Entertainment Japan	Konami	1	R
+Shonen Jump's Shaman King: Master of Spirits	2004-11-09	Action · Adventure · Platform	Konami Computer Entertainment Japan	Konami	1	R
+Shonen Jump's: Shaman King: Master of Spirits 2	2005-08-02	Role-Playing	Konami Computer Entertainment Japan	Konami	1	R
+Shoot for the Moon	2023-12-07	Platform	lunarApocalypse		1	H
+Shrek 2	2004-04-28	Platform	Vicarious Visions	Activision	1	R
+Shrek 2: Beg for Mercy!	2004-10-27	Adventure	Vicarious Visions	Activision	1	R
+Shrek: Hassle at the Castle	2002-10-10	Fighting	TOSE	TDK Mediactive	0	R
+Shrek: Reekin' Havoc	2003-07-30	Platform	TOSE	TDK Mediactive	1	R
+Shrek: Smash n' Crash Racing	2006-11-15	Action	Torus Games	Activision	0	R
+Shrek: Super Slam	2005-10-25	Action	Amaze Entertainment	Activision	1	R
+Shrek: Swamp Kart Speedway	2002-03-19	Racing	Prolific	TDK Mediactive	0	R
+Shrek the Third	2007-05-15	Action	Vicarious Visions	Activision	0	R
+Sigma Star Saga	2005-08-16	Role-Playing · Shooter	WayForward Technologies	Atari	1	R
+Sigma Star Saga DX	2026	Role-Playing · Shooter	WayForward Technologies	Limited Run Games	1	R
+Silent Scope	2002-09-04	Shooter	Now Production	Konami	4	R
+Silk to Cotton	2002-10-31	Action · Role-Playing	Hakuhodo	Mig Entertainment	1	R
+SimCity 2000	2003-11-13	Construction and Management Simulation	Maxis	Destination Software	0	R
+Simple 2960 Tomodachi Series Vol. 1: The Table Game Collection	2003-03-20	Compilation	Access	D3Publisher	1	R
+Simple 2960 Tomodachi Series Vol. 2: The Block Kuzushi	2003-03-20	Action	Access	D3Publisher	4	R
+Simple 2960 Tomodachi Series Vol. 3: The Itsudemo Puzzle: Massugu Soroete Straws	2003-12-18	Puzzle	BeeWorks	D3Publisher	1	R
+Simple 2960 Tomodachi Series Vol. 4: The Trump: Minna de Asoberu 12 Shurui no Trump Game	2003-12-18	Compilation	Access	D3Publisher	4	R
+Sips	2023		Jono Shields		0	U
+Sister Princess: Re Pure	2003-03-20	Visual Novel	Marvelous Entertainment	Marvelous Entertainment	1	R
+Sitting Ducks	2004-06-30	Action	Light & Shadow Production	Hip Interactive	1	R
+Sky Dancers	2005-10-25	Action · Platform	David A. Palmer Productions	Crave Entertainment	2	R
+Skyland	2021-07-11	Strategy	Evan Bowman	Evan Bowman	2	H
+Slime Mori Mori Dragon Quest	2003-11-14	Action · Adventure	TOSE	Square Enix	1	R
+Slot! Pro 2 Advance: GoGo Juggler & New Tairyou	2002-04-26			Nippon Telenet	1	R
+Slot! Pro Advance: Takarabune & Ooedo Sakurafubuki 2	2001-12-28			Nippon Telenet	1	R
+Smashing Drive	2004-11-03	Racing	Raylight Studios	Destination Software	0	R
+Smuggler's Run	2002-09-25	Racing	Rebellion Developments	Destination Software	0	R
+Snakes		Action	Neal Hunt		1	H
+Snapkid's	2002-01-17	Role-Playing	GameKids	Enix	2	R
+Snood	2001-09-28	Puzzle	Rebellion Developments	Destination Software	2	R
+Snood 2: On Vacation	2005-10-28	Puzzle	Gravity-I	Destination Software	0	R
+Soccer Kid	2002-09-30	Platform	Telegames	Telegames	0	R
+Sonic Advance	2001-12-20	Action · Platform	Sonic Team	Sega	4	R
+Sonic Advance 2	2002-12-19	Platform	Sonic Team	Sega	1	R
+Sonic Advance 2 SP	2023	Platform	Tracker_TD		1	M
+Sonic Advance 3	2004-06-07	Platform	Sonic Team	Sega	1	R
+Sonic Advance 3 SP	2026-05-21	Platform	Tracker_TD		1	M
+Sonic AdvanceD	2026-07-13	Platform	alexman25		1	M
+Sonic Battle	2004-01-07	Fighting	Sonic Team	Sega	4	R
+Sonic Epoch	2000-04-12	Action · Platform	Captain Southbird	Captain Southbird	1	H
+Sonic in Mario Kart: Super Circuit	2022-05-27	Racing	8-NabBit	8-NabBit	0	M
+Sonic Pinball Party	2003-07-17	Pinball	Sonic Team	Sega	4	R
+Sonic Pocket Advance	2026	Platform	CartoonsAnimate22		1	M
+Sonic the Hedgehog: Genesis	2006-11-14	Action · Platform	Sonic Team	Sega of America	1	R
+Sonicmon	2018-12-18		The Pech		0	M
+Sonyc	2002	Platform	Manuel Pazos		1	H
+Sorry! / Aggravation / Scrabble Junior	2005-08-21	Compilation	Gravity-I	Destination Software	0	R
+South Park: Bigger, Longer, and Uncut		Beat 'em Up			1	U
+Space Channel 5: Ulala's Cosmic Attack	2003-06-17	Music	Art	THQ	1	R
+Space Hexcite: Maetel Legend EX	2001-04-27	Puzzle		Jorudan	2	R
+Space Invaders	2002-03-19	Shooter	Torus Games	Activision	2	R
+SpaceTwins		Platform · Puzzle			0	H
+Speedball 2	2001	Sports	Crawfish Interactive	Wanadoo Edition	2	R
+Spider-Man	2002-04-16	Action	Digital Eclipse Software	Activision Publishing	1	R
+Spider-Man 2	2004-06-29	Action	Digital Eclipse Software	Activision Publishing	1	R
+Spider-Man 3	2007-05-04	Action	Vicarious Visions	Activision	0	R
+Spider-Man: Battle for New York	2006-11-14	Action	Torus Games	Activision	1	R
+Spider-Man: Mysterio's Menace	2001-09-18	Action · Platform	Vicarious Visions	Activision	1	R
+Spirit: Stallion of the Cimarron	2002-05-28	Adventure	Hyperspace Cowgirls	THQ	1	R
+Spirits & Spells	2003-02-05	Platform	Magic Pockets	DreamCatcher Interactive	1	R
+SpongeBob's Atlantis SquarePantis	2007-10-23	Action	Altron	THQ	2	R
+SpongeBob SquarePants: Battle for Bikini Bottom	2003-10-31	Action · Platform	Vicarious Visions	THQ	1	R
+SpongeBob SquarePants: Creature from the Krusty Krab	2006-10-16	Adventure · Platform	WayForward Technologies	THQ	1	R
+SpongeBob SquarePants: Lights, Camera, Pants!	2005-10-21	Action	WayForward Technologies	THQ	1	R
+SpongeBob SquarePants: Revenge of the Flying Dutchman	2002-09-10	Action · Platform	Vicarious Visions	THQ	1	R
+SpongeBob SquarePants: SuperSponge	2001-11-05	Action · Platform	The Climax Group	THQ	1	R
+Sports Illustrated for Kids: Baseball	2001-09-02	Sports	Sennari Interactive	BAM! Entertainment	0	R
+Sports Illustrated for Kids: Football	2003-08-31	Sports	Sennari Interactive	BAM! Entertainment	0	R
+Sportsmans Pack 2 in 1: Cabela's Big Game Hunter and Rapala Pro Fishing	2004-06-01	Compilation	Torus Games	Activision	1	R
+Spout GBA	2006-06-23	Action	Alekmaul	Alekmaul	1	H
+Spy Hunter	2002-05-13	Racing · Shooter	Midway Games	Midway Home Entertainment	2	R
+Spy Hunter / Super Sprint	2005-08-16	Compilation	Black Lantern Studios	Destination Software	0	R
+Spy Kids 3-D: Game Over	2003-06-30	Platform	InLight Entertainment	Disney Interactive	0	R
+Spy Kids Challenger	2002-08-21	Platform	Game Titan	Disney Interactive Studios	0	R
+Spyro 2: Season of Flame	2002-09-25	Action	Digital Eclipse Software	Universal Interactive	1	R
+Spyro: Attack of the Rhynocs	2003-10-28	Action · Platform	Digital Eclipse Software	Universal Interactive	2	R
+Spyro Orange: The Cortex Conspiracy	2004-06-01	Platform	Vicarious Visions	Vivendi Universal Games	2	R
+Spyro: Season of Ice	2001-11-07	Platform	Digital Eclipse Software	Konami	1	R
+Spyro SuperPack: Season of Flame/Season of Ice	2001-10-29	Platform	Digital Eclipse Software	Universal Interactive	1	R
+SRS: Street Racing Syndicate	2005-10-04	Racing	Raylight Studios	Namco Hometek	0	R
+SSX 3	2003-11-11	Sports	Visual Impact	Electronic Arts	0	R
+SSX Tricky	2002-10-31	Sports	Visual Impact	Electronic Arts	0	R
+Stadium Games	2004-11-03	Sports	Ignition Entertainment	Crave Entertainment	0	R
+Star Wars: Episode II: Attack of the Clones	2002-05-30	Action	David A. Palmer Productions	THQ	1	R
+Star Wars: Episode III: Revenge of the Sith	2005-05-05	Action	Ubisoft Montreal	Ubisoft Entertainment	1	R
+Star Wars: Flight of the Falcon	2003-11-18	Action · Shooter	Pocket Studios	THQ	1	R
+Star Wars: Jedi Power Battles	2002-11-21	Action	HotGen Studios	THQ	0	R
+Star Wars: The New Droid Army	2002-11-14	Platform	Helixe	THQ	1	R
+Star Wars Trilogy: Apprentice of the Force	2004-09-22	Action · Platform	Ubisoft Entertainment	Ubisoft Entertainment	2	R
+Star X	2002-04-15	Shooter	Graphic State	BAM! Entertainment	2	R
+Starcom: Star Communicator	2001-07-26			Konami	1	R
+Starsky & Hutch	2003-09-12	Action	Spellbound Interactive	Empire Interactive	1	R
+Steel Empire	2005-08-12	Shooter	Hot-B	Zoo Digital Publishing	0	R
+Steven Gerrard's Total Soccer 2002	2001-06-01	Sports	Exient Entertainment	Ubi Soft Entertainment Software	2	R
+Strawberry Shortcake: Ice Cream Island: Riding Camp	2006-02-03	Action	Gorilla Systems	The Game Factory	1	R
+Strawberry Shortcake: Summertime Adventure	2004-11-16	Adventure	Gorilla Systems	Majesco Sales	0	R
+Strawberry Shortcake: Summertime Adventure: Special Edition	2005	Life Simulation · Platform	Gorilla Systems	Majesco Sales	1	R
+Strawberry Shortcake: Sweet Dreams	2006-09-19	Action	Gorilla Systems	Majesco Entertainment	1	R
+Street Fighter Alpha 3	2002-12-04	Action · Fighting	Crawfish Interactive	Capcom	2	R
+Street Jam Basketball	2004-04-25	Sports	Prograph Research	DSI Games	2	R
+Strike Force Hydra	2004-09-22	Shooter	Awesome Developments	Ignition Entertainment	0	R
+Stuart Little 2	2002-07-17	Platform	Creations	Activision	1	R
+Stuntman	2003-06-24	Platform · Racing · Sports	Velez & Dubail	Atari	1	R
+Sudoku Fever	2006-02-08	Puzzle	Puzzle.tv	Global Star Software	1	R
+Sudoku Micro	2006	Puzzle	DJP		1	H
+Sugar Sugar Rune: Heart Ga Ippai! Moegi Gakuen	2005-12-08	Action	Open Sesame	Bandai	1	R
+Summon Night: Craft Sword Monogatari: Hajimari no Ishi	2005-12-08	Action · Role-Playing	Flight-Plan	Banpresto	2	R
+Summon Night: Swordcraft Story	2003-04-25	Role-Playing	Flight-Plan	Atlus	1	R
+Summon Night: Swordcraft Story 2	2004-08-20	Action · Role-Playing	Flight-Plan	Atlus	1	R
+Super Army War	2005-02-23	Shooter	Neko Entertainment	Atlus	1	R
+Super Block Jump: Game Boy Advance Edition	2017	Platform	Sterophonick	Sterophonick	1	H
+Super Bubble Pop	2003-01-03	Puzzle	Runecraft	Jaleco Entertainment	0	R
+Super Bust-A-Move	2001-11-07	Puzzle	Altron	Taito	2	R
+Super Chinese 1+2 Advance	2004-06-24	Action · Compilation		Culture Brain	1	R
+Super Collapse! II	2004-03-05	Puzzle	pixelStorm entertainment studios	Majesco Sales	0	R
+Super Dodge Ball Advance	2001-03-21	Sports	Million	Atlus	2	R
+Super Dropzone: Intergalactic Rescue Mission	2004-10-26	Shooter	Pocket Studios	Ignition Entertainment	0	R
+Super Duper Sumos	2003-10-26	Beat 'em Up	Handheld Games	Midway Home Entertainment	1	R
+Super Ghouls 'n Ghosts	2002-09-23	Action · Platform	Capcom	Capcom	1	R
+Super Hornet F/A-18F	2004-11-16	Action	UK Magic	Majesco Sales	0	R
+Super Mario Advance	2001-03-21	Action · Platform	Nintendo R&D2	Nintendo	4	R
+Super Mario Advance 2: Super Mario World	2002-02-11	Action · Platform	Nintendo	Nintendo	1	R
+Super Mario Advance 3: Yoshi's Island	2002-09-20	Action · Platform	Nintendo R&D2	Nintendo	1	R
+Super Mario Advance 4: Super Mario Bros. 3	2003-10-21	Platform	Nintendo EAD	Nintendo	1	R
+Super Mario DX		Action · Platform	Sintax Technology	Sintax Technology	1	U
+Super Mario: The Last GBA Quest		Action · Platform	YodaJr	Player Advance	1	H
+Super MarioMon	2025-04-01	Role-Playing	Kobazco	Kobazco	1	M
+Super Metroid: GBA Edition	2020-12-15	Platform · Shooter	The Brothers Crafters	Romhacking.net	1	M
+Super Metroid: Revamp	2022-07-28	Platform · Shooter	The Brothers Crafters	Metroid Construction	1	M
+Super Monkey Ball Jr.	2002-11-19	Puzzle	Software Creations	THQ	4	R
+Super Puzzle Fighter II	2003-04-01	Puzzle	Atomic Planet Entertainment	Capcom	2	R
+Super Real Mahjong Dousoukai	2004-11-04	Board Game · Casino	A.I	Rocket Company	1	R
+Super Robot Taisen A	2001-09-21	Strategy	A.I	Banpresto	1	R
+Super Robot Taisen D	2003-08-08	Strategy	Banpresto	Banpresto	1	R
+Super Robot Taisen J	2005-09-15	Role-Playing · Strategy	A.I	Banpresto	1	R
+Super Robot Taisen: Original Generation	2002-11-22	Role-Playing · Strategy	Banpresto	Atlus	1	R
+Super Robot Taisen: Original Generation 2	2005-02-03	Role-Playing · Strategy	Banpresto	Atlus	1	R
+Super Robot Taisen R	2002-08-02	Strategy	A.I	Banpresto	1	R
+Super Robot Wars: Ultimate Edition	2003	Strategy	Vast Fame	Vast Fame	1	U
+Super Star Shooter Advance	2003	Shooter	Koji Ando		0	H
+Super Street Fighter II Turbo: Revival	2001-11-01	Fighting	Capcom Production Studio 3	Capcom	2	R
+Super Tux		Platform			1	X
+Superman: Countdown to Apokolips	2003-03-26	Platform	Mistic Software	Atari	1	R
+Superman Returns: Fortress of Solitude	2006-11-20	Puzzle	Santa Cruz Games	Electronic Arts	0	R
+Surf's Up	2007-05-30	Action	Ubisoft Quebec	Ubisoft Entertainment	0	R
+Sushi the Cat	2007-11-12	Platform	N3TKAT	N3TKAT	0	H
+Sweet Cookie Pie	2001-12-21	Action		Culture Brain	1	R
+Sword of Mana	2003-08-29	Action · Role-Playing	Brownie Brown	Nintendo	1	R
+Sword of Mana: Ultimate Hack	2026-04-19	Role-Playing	hoost		2	M
+Sylvanian Families 4: Meguru Kisetsu no Tapestry	2002-12-06	Role-Playing		Epoch	1	R
+Sylvanian Families: Fashion Designer ni Naritai! Kurumi-risu no Onnanoko	2004-12-02	Role-Playing		Epoch	1	R
+Sylvanian Families: Yousei no Stick to Fushigi no Ki: Marron-inu no Onnanoko	2003-12-05	Role-Playing		Epoch	1	R
+Symbol★Merged	2021-07-11	Platform · Puzzle	copyrat90	copyrat90	1	H
+Sys*Crusher	2024-08-03	Shooter	OutOfSync		1	H
+Tactics Ogre: The Knight of Lodis	2002-05-07	Role-Playing · Strategy	Quest	Nintendo	2	R
+Taiketsu! Ultra Hero	2004-03-05	Fighting	Jorudan	Jorudan	2	R
+Tak 2: The Staff of Dreams	2004-10-11	Action · Adventure	Helixe	THQ	2	R
+Tak and the Power of Juju	2003-10-15	Action · Platform	Helixe	THQ	1	R
+Tak: The Great Juju Challenge	2005-09-19	Action · Platform	WayForward Technologies	THQ	0	R
+Tales of Phantasia	2003-08-01	Action · Role-Playing	Namco Tales Studio	Namco	1	R
+Tales of the World: Narikiri Dungeon 2	2002-10-25	Role-Playing	AlfaSystem	Namco	1	R
+Tales of the World: Narikiri Dungeon 3	2005-01-06	Role-Playing	AlfaSystem	Namco	1	R
+Tales of the World: Summoner's Lineage	2003-03-07	Strategy	Magical Company	Namco	1	R
+Talisman	2007-05-06	Strategy	My Wife Rocks	My Wife Rocks	0	X
+Tanbi Musou: Meine Liebe	2001-04-26	Visual Novel	Mobile21	Konami	2	R
+Tang Tang	2001-08-28	Puzzle	GameVision	Take-Two Interactive Software	1	R
+Tantei Gakuen Q: Kyuukyoku Trick ni Idome!	2004-03-04	Adventure		Konami	1	R
+Tantei Gakuen Q: Meitantei wa Kimi da!	2003-09-18	Adventure		Konami	1	R
+Tantei Jinguuji Saburou: Shiroi Kage no Shoujo	2005-01-27	Adventure	WorkJam	Marvelous Entertainment	1	R
+Taxi 3	2003	Racing	Visual Impact	Ubi Soft Entertainment Software	1	R
+Teen Titans	2005-10-11	Action	Artificial Mind & Movement	Majesco Entertainment	1	R
+Teen Titans 2	2006-10-23	Action · Platform	Artificial Mind & Movement	Majesco Entertainment	1	R
+Teenage Mutant Ninja Turtles	2003-10-21	Action · Beat 'em Up	Konami	Konami	1	R
+Teenage Mutant Ninja Turtles 2	2008	Action	Sintax Technology	Sintax Technology	1	U
+Teenage Mutant Ninja Turtles 2: Battle Nexus	2004-10-19	Platform	Konami	Konami	4	R
+Teenage Mutant Ninja Turtles: Double Pack	2006-06-06	Compilation	Konami	Konami Digital Entertainment	0	R
+Tekken Advance	2002-01-28	Fighting	Eighting	Namco	2	R
+Ten Pin Alley 2	2004-04-26	Sports	Pronto Games	XS Games	0	R
+Tennis Masters Series 2003	2002-09-25	Sports	Kaolink	Microids	2	R
+Tennis no Ouji-sama 2003: Cool Blue	2003-02-20	Sports		Konami	1	R
+Tennis no Ouji-sama 2003: Passion Red	2003-02-20	Sports		Konami	1	R
+Tennis no Ouji-sama 2004: Glorious Gold	2004-03-18	Sports		Konami	1	R
+Tennis no Ouji-sama 2004: Stylish Silver	2004-03-18	Sports		Konami	1	R
+Tennis no Ouji-sama: Aim at the Victory!	2002-12-12	Sports	Konami Computer Entertainment Japan	Konami	1	R
+Tennis no Ouji-sama: Genius Boys Academy	2002-04-25	Sports	Konami Computer Entertainment Japan	Konami	1	R
+Terminator 3: Rise of the Machines	2003-11-18	Action	Taniko	Atari	1	R
+Tetrigram	2005-11-17	Puzzle	François Pessaux		1	H
+Tetris Advance	2003-11-28	Puzzle	Success	THQ	0	R
+Tetris Worlds	2001-09-05	Puzzle	3d6 Games	THQ	0	R
+Texas Hold 'em Poker	2004-11-01	Casino	Skyworks Technologies	Majesco Sales	0	R
+That's SO Raven	2004-10-12	Action	Vicarious Visions	Disney Interactive	0	R
+That's SO Raven 2: Supernatural Style	2005-07-26	Action	Artificial Mind & Movement	Buena Vista Games	1	R
+The Adventures of Jimmy Neutron Boy Genius: Attack of the Twonkies	2004-09-13	Action	Tantalus Interactive	THQ	0	R
+The Adventures of Jimmy Neutron Boy Genius: Jet Fusion	2003-09-23	Platform	Helixe	THQ	1	R
+The Adventures of Jimmy Neutron Boy Genius vs. Jimmy Negatron	2002-09-24	Action	Human Soft	THQ	0	R
+The Amazing Virtual Sea-Monkeys	2002	Action · Puzzle	ELO Interactive Media	Conspiracy Entertainment	0	R
+The Ant Bully	2006-07-24	Action	Artificial Mind & Movement	Midway Home Entertainment	1	R
+The Barbie Diaries: High School Mystery	2006-10-30	Adventure	Gorilla Systems	Activision Publishing	0	R
+The Bee Game	2007-11-05	Platform	Spielkind	Midway Home Entertainment	0	R
+The Berenstain Bears and the Spooky Old Tree	2005-09-20	Adventure	Program Ace	Namco Hometek	0	R
+The Bible Game	2005-10-25	Action · Education	Alpine Studios	Crave Entertainment	1	R
+The Cat in the Hat	2005-04-26	Action	Game Titan	NewKidCo	0	R
+The Cheetah Girls	2006-09-26	Action	Gorilla Systems	Buena Vista Games	0	R
+The Chronicles of Narnia: The Lion, the Witch and the Wardrobe	2005-11-14	Action · Adventure	Amaze Entertainment	Buena Vista Games	0	R
+The Fairly OddParents!: Breakin da Rules	2003-11-10	Action	Helixe	THQ	1	R
+The Fairly OddParents! Clash with the Anti-World	2005-10-17	Platform	Razorback Developments	THQ	1	R
+The Fairly OddParents! Enter the Cleft	2002-11-06	Action	THQ	Altron	0	R
+The Fairly OddParents! Shadow Showdown	2004-09-08	Action	Helixe	THQ	1	R
+The Flintstones: Big Trouble in Bedrock	2001-12-09	Platform	H2O Entertainment	Conspiracy Entertainment	1	R
+The Grim Adventures of Billy & Mandy	2006-10-31	Action · Beat 'em Up	Full Fat Productions	Midway Home Entertainment	1	R
+The Haunted Mansion	2003-11-03	Action	Pocket Studios	TDK Mediactive	0	X
+The Hobbit: The Prelude to the Lord of the Rings	2003-11-11	Action · Adventure	Saffire	Sierra Entertainment	1	R
+The Incredible Hulk	2003-05-28	Platform	Pocket Studios	Universal Interactive	4	R
+The Incredibles	2004-11-01	Action · Adventure · Beat 'em Up	Helixe	THQ	1	R
+The Incredibles: Rise of the Underminer	2005-11-01	Action · Adventure · Beat 'em Up	Helixe	THQ	1	R
+The King of Fighters EX 2: Howling Blood	2003-12-11	Fighting	Marvelous Entertainment	Atlus	2	R
+The King of Fighters EX: Neo Blood	2002-11-05	Fighting	Artoon	Marvelous Entertainment	2	R
+The Koala Brothers: Outback Adventures	2006-04-25	Action	Sirius Games	The Game Factory	0	R
+The Land Before Time Collection	2002-02-28	Compilation	Full Fat Productions	Conspiracy Entertainment	1	R
+The Land Before Time: Into the Mysterious Beyond	2006-03-03	Action	Sirius Games	Game Factory	0	R
+The Legend of Spyro: A New Beginning	2006-10-10	Platform	Krome Studios	Sierra Entertainment	0	R
+The Legend of Spyro: The Eternal Night	2007-10-02	Platform	Amaze Entertainment	Sierra Entertainment	1	R
+The Legend of Zelda: A Link to the Past and Four Swords	2002-12-02	Action · Adventure · Compilation	Nintendo	Nintendo	4	R
+The Legend of Zelda: Sacred Paradox	2016-11-14	Adventure · Role-Playing	Meowth		1	M
+The Legend of Zelda: The Minish Cap	2005-01-10	Action · Adventure · Role-Playing	Capcom	Nintendo	1	R
+The Legend of Zelda: The Minish Cap: Definitive Edition	2026-09-08	Adventure	zeldafangirl		1	M
+The Lord of the Rings IV: The Fellowship of the Ring		Action			0	U
+The Lord of the Rings: The Fellowship of the Ring	2002-09-25	Role-Playing	Pocket Studios	Black Label Games	1	R
+The Lord of the Rings: The Return of the King	2003-11-04	Action · Role-Playing	Griptonite	Electronic Arts	2	R
+The Lord of the Rings: The Return of the King (unlicensed)	2003	Action · Shooter	Vast Fame	Vast Fame	1	U
+The Lord of the Rings: The Third Age	2004-11-02	Role-Playing	Griptonite	Electronic Arts	2	R
+The Lord of the Rings: The Two Towers	2002-11-11	Role-Playing	Griptonite	Electronic Arts	2	R
+The Lost Vikings	2003-03-03	Platform · Puzzle	Blizzard Entertainment	Blizzard Entertainment	0	R
+The Mandarin 2	2024-03-06	Platform	Mananuk	Mananuk	1	H
+The Morning Adventure	2003	Platform	Bit Managers	Virtual Toys	1	R
+The Mummy	2002-11-22	Action	Ubi Soft Studios	Ubi Soft Entertainment Software	1	R
+The Muppets: On With the Show!	2003-04-05	Action	Vicarious Visions	TDK Mediactive	1	R
+The Phantom: The Ghost Who Walks		Action · Adventure	7th Sense		1	X
+The Pinball of the Dead	2002-06-18	Pinball	WOW Entertainment	Sega	4	R
+The Polar Express	2004-11-02	Adventure	Tantalus Interactive	THQ	1	R
+The Porygon Trail	2026-09-10	Role-Playing	agustin		1	M
+The Powerpuff Girls: Him and Seek	2002-11-05	Action	Vicarious Visions	BAM! Entertainment	0	R
+The Powerpuff Girls: Mojo Jojo-A-Go-Go	2001-11-01	Action	Sennari Interactive	BAM! Entertainment	0	R
+The Proud Family	2005-11-13	Adventure	Gorilla Systems	Buena Vista Games	1	R
+The Return to Dinosaurland	2023-06-20	Platform	Oquendo		1	M
+The Revenge of Shinobi	2002-11-13	Action · Platform	3d6 Games	Sega	1	R
+The Revenge of the Smurfs	2002-10-11	Action	Bit Managers	Infogrames	0	R
+The Ripping Friends: The World's Most Manly Men!	2002-03-24	Action	Creations	THQ	1	R
+The Santa Clause 3: The Escape Clause	2006-11-01	Action	1st Playable Productions	Buena Vista Games	0	R
+The Scorpion King: Sword of Osiris	2002-04-02	Action · Platform	WayForward Technologies	Universal Interactive	1	R
+The Simpsons: Road Rage	2003-06-23	Racing	Altron	THQ	2	R
+The Sims 2	2005-10-25	Life Simulation	Maxis	Electronic Arts	1	R
+The Sims 2: Pets	2006-11-07	Life Simulation	Artificial Mind & Movement	Electronic Arts	1	R
+The Sims: Bustin' Out	2003-12-02	Life Simulation	Griptonite	Electronic Arts	2	R
+The SpongeBob SquarePants Movie	2004-10-27	Action · Platform	WayForward Technologies	THQ	1	R
+The Suite Life of Zack & Cody: Tipton Caper	2006-10-24	Action	Artificial Mind & Movement	Buena Vista Games	0	R
+The Sum of All Fears	2002-11-19	Action	Crawfish Interactive	Ubi Soft Entertainment Software	0	R
+The Three Stooges	2002-03-31	Action	Cinemaware	Metro3D	1	R
+The Tower SP	2006-03-21	Construction and Management Simulation	VIVARIUM	Nintendo	1	R
+The Ultimate Doom	2023-05-20	Shooter	SubliminalSiren		1	M
+The Urbz: Sims in the City	2004-11-09	Life Simulation	Griptonite	Electronic Arts	4	R
+The Wild Thornberrys: Chimp Chase	2001-10-05	Action · Platform	Helixe	THQ	1	R
+The Wild Thornberrys Movie	2002-11-12	Action	Human Soft	THQ	0	R
+Thinking With Boxes	2021-06-13	Puzzle	GitOut		1	H
+Thunder Alley	2004-06-11	Racing	Pronto Games	XS Games	0	R
+Thunderbirds	2004-08-10	Action	Saffire	Vivendi Universal Games	0	R
+Thunderbirds International Rescue	2001-12-01	Action · Racing	Pukka Games	SCi Games	1	R
+Tiger Woods PGA Tour 2004	2003-09-22	Sports	Digital Eclipse Software	Electronic Arts	0	R
+Tiger Woods PGA Tour Golf	2002-05-29	Sports	Rebellion Developments	Destination Software	0	R
+Tim Burton's The Nightmare Before Christmas: The Pumpkin King	2005-10-10	Action · Adventure	TOSE	Buena Vista Interactive	1	R
+Tiny Chao Garden	2001		Sonic Team	Sega	0	R
+Tiny Toon Adventures: Scary Dreams	2002-07-05	Platform	Treasure	Conspiracy Entertainment	1	R
+Tiny Toon Adventures: Wacky Stackers	2002-05-04	Puzzle	Warthog	Conspiracy Entertainment	0	R
+Tir et But: Edition Champions du Monde	2002-05-17	Strategy	Titus Interactive	Titus Interactive	1	R
+Titeuf: Méga-Compet'	2004-10-01	Party	DreamOn Studio	Atari	2	R
+Titeuf: Ze Gag Machine	2002-11-29	Adventure	3D Lights	Infogrames	1	R
+TMNT	2007-03-20	Action · Beat 'em Up	Ubisoft Entertainment	Ubisoft Entertainment	1	R
+Toadally Awesome Game	2021-07-12	Puzzle	Squishyfrogs		1	H
+TOCA: World Touring Cars	2003-03-07	Racing	Spellbound Interactive	Ubi Soft Entertainment Software	4	R
+Tokimeki Yume Series 1: Ohanaya-san ni Narou!	2002-07-19	Strategy	Avit	MTO	1	R
+Tokyo Majin Gakuen: Fuju Houroku	2004-04-01	Strategy	Marvelous Entertainment	Marvelous Entertainment	1	R
+Tokyo Xtreme Racer Advance	2005-04-20	Racing	David A. Palmer Productions	Crave Entertainment	1	R
+Toll Runner	2024-08-17	Action	Jenka Lab		1	H
+Tom and Jerry in Infurnal Escape	2003-03-14	Platform	CinéGroupe Interactive	NewKidCo	1	R
+Tom and Jerry Tales	2006-12-08	Action	Sensory Sweep Studios	Warner Bros. Interactive Entertainment	1	R
+Tom and Jerry: The Magic Ring	2001-11-01	Action	Cave Barn Studios	NewKidCo	1	R
+Tom Clancy's Rainbow Six: Rogue Spear	2002-03-18	Action · Shooter · Strategy	Red Storm Entertainment	Red Storm Entertainment	0	R
+Tom Clancy's Splinter Cell	2003-04-27	Action	Ubi Soft Entertainment	Ubi Soft Entertainment Software	1	R
+Tom Clancy's Splinter Cell: Pandora Tomorrow	2004-03-24	Action · Stealth	Ubisoft Entertainment	Ubisoft Entertainment	1	R
+Tomato Adventure	2002-01-25	Role-Playing	AlphaDream	Nintendo	1	R
+Tomb Raider: Legend	2006-11-14	Action · Adventure	Human Soft	Eidos Interactive	1	R
+Tomb Raider: The Prophecy	2002-11-13	Action · Adventure	Ubi Soft Milan	Ubi Soft Entertainment Software	1	R
+Tonka On the Job	2006-11-15	Action	Webfoot Technologies	THQ	1	R
+Tony Hawk's American Sk8land	2005-10-18	Sports	Vicarious Visions	Activision	0	R
+Tony Hawk's Downhill Jam	2006-11-07	Sports	Visual Impact	Activision	0	R
+Tony Hawk's Pro Skater 2	2001-05-30	Sports	Vicarious Visions	Activision	1	R
+Tony Hawk's Pro Skater 3	2002-03-04	Sports	Vicarious Visions	Activision	1	R
+Tony Hawk's Pro Skater 4	2002-10-24	Sports	Vicarious Visions	Activision	4	R
+Tony Hawk's Underground	2003-10-27	Sports	Vicarious Visions	Activision	0	R
+Tony Hawk's Underground 2	2004-10-04	Sports	Vicarious Visions	Activision	1	R
+Top Gear GT Championship	2001-07-09	Racing	Vision Works	Kemco	0	R
+Top Gear Rally	2003-10-28	Racing	Tantalus Interactive	Nintendo	2	R
+Top Gun: Combat Zones	2004-12-01	Flight Simulator	Titus Software	Mastiff	1	R
+Top Gun: Firestorm Advance	2002-11-26	Shooter	Fluid Studios	Titus France	2	R
+Top Spin 2	2006-03-29	Sports	Magic Pockets	2K Games	2	R
+Tortoises	2024-03-28	Action	John Hancock	John Hancock	1	H
+Totally Spies!	2005-11-15	Action · Platform	Mistic Software	Atari	1	R
+Totally Spies! 2: Undercover	2006-11-17	Action	Mistic Software	Atari	0	R
+Touhai Densetsu Akagi: Yami ni Mai Orita Tensai	2006-03-03	Board Game	Culture Brain	Culture Brain	1	R
+Touhou Kaisekiki: Arabasiri	2006-12-05	Platform	selmer	Tontokaimo	1	H
+Touhoumon: Another World	2011-08-11	Role-Playing	Aichiya Sanae		1	M
+Touhoumon Another World: Retold	2022-02-16		Zeta Sukuna	Zeta Sukuna	1	X
+Touhoumon Another World: Revised	2023-06-26	Role-Playing	BluShell		1	M
+Touhoumon: Marisa’s Magic World	2011-09-07	Role-Playing	Aichiya Sanae		1	M
+Touhoumon: Puppet Play Enhanced (Reloaded)	2016-07-16				0	M
+Touhoumon: Purple	2012-10-22		Agastya	Agastya	1	M
+Touhoumon: World Link	2012-01-31	Role-Playing	Aichiya Sanae		1	M
+Touhoumon World Link: Revised	2025-06-26		BluShell	BluShell	1	M
+Toukon Heat	2002-12-20	Fighting		Pacific Century Cyber Works	0	R
+Toy Robo Force	2001-06-28	Action · Shooter	Global A Entertainment	Global A Entertainment	1	R
+Travis Pastrana's Pro Moto X			Small Rockets		0	X
+Tremblay Island	2021-12-21	Adventure	Cinemint	Cinemint	1	H
+Trick Star	2006-08-18	Racing	Tantalus Interactive	Liquid Games	4	R
+Tringo	2006-05-16	Puzzle	David A. Palmer Productions	Liquid Games	2	R
+Trollz: Hair Affair!	2005-11-01	Action	Powerhead Games	Ubisoft Entertainment	1	R
+Tron 2.0: Killer App	2004-10-20	Action	Digital Eclipse Software	Buena Vista Interactive	0	R
+Turbo Turtle Adventure	2002-09-14	Puzzle	Iridon Interactive	Majesco Sales	1	R
+Turok Advance					0	X
+Turok: Evolution	2002-09-01	Shooter	RFX Interactive	Acclaim Entertainment	2	R
+Tweety & The Magic Gems	2001-07-09	Action	Kotobuki System	Kemco	0	R
+Twin Series 1: Mezase Debut!: Fashion Designer Monogatari / Kawaii Pet Game Gallery 2	2004-08-12			Culture Brain	1	R
+Twin Series 2: Oshare Princess 4 + Renai Uranai Daisakusen! + Renai Party Game: Sweet Heart	2004-10-22	Compilation		Culture Brain	1	R
+Twin Series 3: Konchuu Monster: Ouja Ketteisen / Super Chinese Labyrinth	2004-12-10		Culture Brain	Culture Brain	1	R
+Twin Series 4: Hamu Hamu Monster EX: Hamster Monogatari RPG / Fantasy Puzzle: Hamster Monogatari: Mahou no Meikyuu 1.2.3	2004-12-10		Culture Brain	Culture Brain	1	R
+Twin Series 5: Mahou no Kuni no Cake-ya-san Monogatari / Wanwan Meitantei EX	2004-12-10		Culture Brain	Culture Brain	1	R
+Twin Series 6: Wannyan Idol Gakuen / Koinu to Issho Special	2004-12-10		Culture Brain	Culture Brain	1	R
+Twin Series 7: Twin Puzzle: Kisekae Wanko EX / Nyaa to Chuu no Rainbow Magic 2	2004-12-17	Puzzle	Culture Brain	Culture Brain	1	R
+Ty the Tasmanian Tiger 2: Bush Rescue	2004-10-12	Platform	Halfbrick Studios	Electronic Arts	1	R
+Ty the Tasmanian Tiger 3: Night of the Quinkan	2005-11-02	Platform	Krome Studios	Activision	0	R
+Tyrian 2000	2007	Shooter	World Tree Games Productions	Symmetry Entertainment	1	X
+Uchuu Daisakusen Choco Vader: Uchuu kara no Shinryakusha	2002-12-20	Role-Playing		Namco	1	R
+Uchuu no Stellvia	2004-04-23	Strategy		King Records	1	R
+Ueki no Housoku: Jingi Sakuretsu! Nouryokusha Battle	2006-03-02	Action · Fighting	Banpresto	Banpresto	1	R
+Ultimate Arcade Games	2005-10-17	Compilation	Nocturnal Entertainment Australia	Telegames	0	R
+Ultimate Beach Soccer	2003-11-03	Sports	Magic Pockets	Wanadoo Edition	0	R
+Ultimate Brain Games	2003-03-18	Board Game · Puzzle	Cosmigo	Telegames	2	R
+Ultimate Card Games	2004-05-25	Compilation	Cosmigo	Telegames	4	R
+Ultimate Doom: The Way ID Did	2021-04-01	Shooter	Bazooka_Face		1	M
+Ultimate Muscle: The Kinnikuman Legacy: The Path of the Superhero	2003-06-05	Fighting	Banpresto	Bandai	0	R
+Ultimate Puzzle Games	2005-11-14	Puzzle	Telegames	Telegames	2	R
+Ultimate Spider-Man	2005-09-22	Action	Vicarious Visions	Activision	1	R
+Ultimate Winter Games	2003-12-04	Sports	Sproing Interactive Media	Telegames	2	R
+Ultra Keibitai: Monster Attack	2004-08-05	Action	Rocket Company	Rocket Company	1	R
+Unfabulous	2006-09-25	Action	WayForward Technologies	THQ	1	R
+UNO 52	2006-10-03	Strategy	Black Lantern Studios	DSI Games	0	R
+UNO Free Fall	2007-03-06	Puzzle	Black Lantern Studios	DSI Games	0	R
+UNO / Skip-Bo	2006-10-02	Board Game · Strategy	Black Lantern Studios	Jack of All Games	0	R
+Urban Yeti!	2002-08-16	Action	Cave Barn Studios	Telegames	1	R
+V.I.P	2002-10-01	Action	Planet Interactive Development	Ubi Soft Entertainment Software	1	R
+V-Master Cross	2002-07-26	Role-Playing · Strategy	Birthday	Success	0	R
+V-Rally 3	2002-06-20	Racing	Velez & Dubail Dev. Team	Atari	2	R
+Van Helsing	2004-05-06	Shooter	Saffire	VU Games	1	R
+Varooom 3D	2021-07-26	Racing	Gvaliente		0	H
+Vattroller X	2004-10-28	Role-Playing	Ganbarion	Bandai	1	R
+VeggieTales: LarryBoy and the Bad Apple	2006-08-01	Adventure	DC Studios	Crave Entertainment	0	R
+Viewpoint			In-Cubus		0	X
+Virtua Fighter	2012-05-30		Jim Bagley		0	H
+Virtua Tennis	2002-09-25	Sports	Altron	THQ	4	R
+Virtual Kasparov	2002-04-05	Strategy	Titus Software	Titus Software	0	R
+Voltorb's Escape	2025-08-06	Puzzle	AceMan	AceMan	1	H
+Vulkano	2025-05-11	Shooter	manu2097	manu2097	1	H
+Vulkanon		Shooter	Takayama Fumihiko		1	H
+W.I.T.C.H.	2005-10-07	Platform	Climax Studios	Buena Vista Games	1	R
+Wade Hixton's Counter Punch	2004-03-16	Fighting	Inferno Games	Destination Software	1	R
+Wagamama Fairy Mirumo de Pon!: 8 Nin no Toki no Yousei	2003-12-11	Adventure	Jupiter	Konami	1	R
+Wagamama Fairy Mirumo de Pon!: Dokidoki Memorial Panic	2005-09-08	Adventure	Konami	Konami	1	R
+Wagamama Fairy Mirumo de Pon!: Nazo no Kagi to Shinjitsu no Tobira	2004-12-16	Adventure	Jupiter	Konami	1	R
+Wagamama Fairy Mirumo de Pon!: Ougon Maracas no Densetsu	2002-12-19	Adventure	Jupiter	Konami	1	R
+Wagamama Fairy Mirumo de Pon!: Taisen Mahoudama	2003-09-11	Puzzle		Konami	1	R
+Wagamama Fairy Mirumo de Pon!: Yume no Kakera	2004-07-15	Adventure		Konami	1	R
+Waimanu: Grinding Blocks Adventure		Action · Puzzle	Disjointed Studios		1	H
+Wakeboarding Unleashed Featuring Shaun Murray	2003-11-03	Sports	Small Rockets	Aspyr Media	1	R
+Walt Disney Pictures Presents Meet the Robinsons	2007-03-27	Action	Climax Handheld Games	Buena Vista Games	0	R
+Walt Disney Pictures Presents: The Wild	2006-09-08	Action · Adventure · Platform	The Climax Group	Buena Vista Games	1	R
+Walt Disney's The Jungle Book	2003-02-11	Platform	Visual Impact	Ubi Soft Entertainment Software	1	R
+Wanko de Kururin! Wancle	2004-06-25	Adventure		MTO	1	R
+Wanko Mix Chiwanko World	2004-12-16	Adventure		TDK Core	1	R
+Wannyan Doubutsu Byouin: Doubutsu no Oishasan Ikusei Game	2003-07-25	Strategy		TDK Core	1	R
+Wanwan Meitantei	2003-12-19	Adventure		Culture Brain	1	R
+War Room Challenge 2012: Advance Wars 2	2015-06-18	Strategy	Xenesis	Xenesis	0	M
+Wario Land 4	2001-08-21	Platform	Nintendo R&D1	Nintendo	1	R
+Wario Land 4: Burning Nightmares	2022-06-08	Platform	Hiro-sofT		1	M
+Wario Land 4: Jungle Rumble!	2025-08-03	Platform	djedditt		1	M
+Wario Land 4: Parallel World	2021-08-27	Platform	beco		1	M
+Wario Land 4: Perfect Version	2025-02-23	Platform	Kertra		1	M
+WarioWare, Inc.: Mega Microgame$!	2003-05-26	Action	Nintendo R&D1	Nintendo	2	R
+WarioWare, Inc.: Trial Version	2003-05-30	Action	Nintendo	Nintendo	1	R
+WarioWare: Twisted!	2005-05-23	Action · Puzzle	Intelligent Systems	Nintendo	1	R
+Watman	2012	Adventure	Kakarot		1	H
+Whac-A-Mole	2005-09-20	Action	DC Studios	Activision Value Publishing	0	R
+Whistle! Dai-37-kai Tokyo-to Chuugakkou Sougou Taiiku Soccer Taikai	2003-02-27	Sports	Intense! Interactive	Konami	1	R
+Who Wants To Be A Millionaire	2002-10-18	Quiz	Hothouse Creations	Zoo Digital Publishing	0	R
+Who Wants To Be A Millionaire? 2nd Edition	2004-10-15	Quiz	Hothouse Creations	Zoo Digital Publishing	0	R
+Who Wants To Be a Millionaire Junior	2005-09-30	Puzzle	Hothouse Creations	Zoo Digital Publishing	1	R
+Wi-El: World Soccer Winning Eleven	2002-04-25	Sports	Konami	Konami	1	R
+Wing Commander: Prophecy	2003-06-04	Flight Simulator · Shooter	Raylight Studios	Destination Software	0	R
+Wings	2003-02-11	Flight Simulator · Shooter	Crawfish Interactive	Metro3D	1	R
+Winnie the Pooh's Rumbly Tumbly Adventure	2005-02-08	Adventure · Platform	Phoenix Studio	Ubisoft Entertainment	1	R
+Winnie the Pooh's Rumbly Tumbly Adventure & Rayman 3	2006-06-16	Platform	Phoenix Studio	Ubisoft Entertainment	0	R
+Winning Post for Game Boy Advance	2001-03-21	Construction and Management Simulation · Sports	Koei	Koei	1	R
+Winter Sports	2006-02-12	Sports	Independent Arts Software	East Entertainment Media	1	R
+WinX Club	2005-11-15	Adventure	Rainbow Studios	Konami	0	R
+WinX Club: Quest for the Codex	2006-11-13	Adventure · Shooter	Powerhead Games	Konami	1	R
+Wizardry: Summoner	2001-12-21	Role-Playing	Fupac	Media Rings	1	R
+Wolfenstein 3D	2002-03-31	Shooter	Stalker Entertainment	BAM! Entertainment	1	R
+Woody Woodpecker in Crazy Castle 5	2003-12-02	Platform	Tantalus Interactive	Kemco	1	R
+Word Safari: The Friendship Totems	2007-12-01	Education	GXB Interactive		1	R
+World Advance Soccer: Shouri e no Michi	2001-12-07	Sports		Hands-On Entertainment	1	R
+World Championship Poker	2004-11-03	Casino	Sensory Sweep Studios	Crave Entertainment	4	R
+World of Zoink	2024-08-18	Role-Playing	Sondre Agledahl	Sondre Agledahl	0	H
+World Poker Tour	2005-10-18	Casino	Backbone Entertainment	2K Games	1	R
+World Reborn	2015-11-06	Shooter	NeoPong Software		0	U
+World Tennis Stars	2004-11-22	Sports	Awesome Developments	Ignition Entertainment	0	R
+Worms Blast	2002-12-06	Action · Puzzle	Team17 Software	Ubi Soft Entertainment Software	1	R
+Worms World Party	2002-09-26	Shooter · Strategy	Fluid Studios	Ubi Soft Entertainment Software	1	R
+WTA Tour Tennis	2002-05-31	Sports	Konami	Konami	0	R
+WWE Road to WrestleMania X8	2002-10-23	Fighting · Sports	Natsume	THQ	4	R
+WWE Survivor Series	2004-10-12	Fighting · Sports	Natsume	THQ	4	R
+WWF Road to Wrestlemania	2001-11-18	Fighting · Sports	Natsume	THQ	4	R
+X-Bladez Inline Skater	2003-03-30	Racing	The Code Monkeys	Crave Entertainment	0	R
+X-Men: Reign of Apocalypse	2001-09-25	Action · Beat 'em Up	Digital Eclipse Software	Activision Publishing	2	R
+X-Men: The Official Game	2006-05-16	Beat 'em Up · Platform	WayForward Technologies	Activision Publishing	1	R
+X2: Wolverine's Revenge	2003-04-15	Platform	Vicarious Visions	Activision Publishing	1	R
+XenoCrisis	2019-10-28	Shooter	Bitmap Bureau	Bitmap Bureau	1	H
+XS Moto	2004-06-12	Racing	DC Studios	XS Games	0	R
+xXx	2002-08-09	Action	Digital Eclipse Software	Activision Publishing	0	R
+YakOnTaks	2025-12-15	Platform	YakOnTaks		1	H
+Yet Another FireRed Hack	2012-10-06		DoesntKnowHowToPlay		0	M
+Yet Another Vanilla SMA2 Hack	2025-04-13	Platform	Gamer Hedgehog		1	M
+Yggdra Union: We'll Never Fight Alone	2006-11-21	Role-Playing · Strategy	Sting	Sting	1	R
+Yoshi Game Boy Advance Tech Demo		Platform	Nintendo EAD		1	X
+Yoshi Topsy-Turvy	2005-06-13	Platform	Artoon	Nintendo	1	R
+Youkaidou	2002-03-28	Puzzle	Fuuki	Fuuki	1	R
+Yu-Gi-Oh! 7 Trials to Glory: World Championship Tournament 2005	2005-02-15	Strategy	Konami	Konami	1	R
+Yu-Gi-Oh! Destiny Board Traveler	2004-10-26	Role-Playing · Strategy	Konami Computer Entertainment Japan	Konami	2	R
+Yu-Gi-Oh! Double Pack	2006-02-22	Compilation	Konami	Konami	1	R
+Yu-Gi-Oh! Double Pack 2	2006-08-29	Compilation	Konami	Konami	1	R
+Yu-Gi-Oh!: Dungeon Dice Monsters	2003-02-11	Strategy	Konami	Konami	2	R
+Yu-Gi-Oh! GX Duel Academy	2006-01-10	Action · Role-Playing · Strategy	Konami	Konami	1	R
+Yu-Gi-Oh! Reshef of Destruction	2003-03-20	Strategy	Konami	Konami	2	R
+Yu-Gi-Oh! The Eternal Duelist Soul	2002-10-15	Role-Playing	Konami Computer Entertainment Japan	Konami	1	R
+Yu-Gi-Oh!: The Eternal Duelist Soul Hack	2025-12-31	Strategy	Kertra		1	M
+Yu-Gi-Oh! The Sacred Cards	2003	Strategy	Konami Computer Entertainment Japan	Konami	1	R
+Yu-Gi-Oh! Ultimate Masters: World Championship Tournament 2006	2006-03-14	Strategy	Konami	Konami	2	R
+Yu-Gi-Oh! World Championship Tournament 2004	2004-02-10	Strategy	Konami Computer Entertainment Japan	Konami	2	R
+Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel	2003-04-15	Strategy	Konami Computer Entertainment Japan	Konami of America	1	R
+Yu Yu Hakusho: Ghost Files: Spirit Detective	2003-12-02	Action	Sensory Sweep Studios	Atari	1	R
+Yu Yu Hakusho: Ghost Files: Tournament Tactics	2004-11-18	Role-Playing · Strategy	Sensory Sweep Studios	Atari	1	R
+Yumemi-chan no Naritai Series 3: Watashi no Makesalon	2002-12-06	Strategy		Ludic Studios	1	R
+Yuujou no Victory Goal 4v4 Arashi: Get the Goal!	2001-11-16	Sports	KCE Studios	Konami	0	R
+Yuurei Yashiki no Nijuuyon Jikan	2002-01-24	Action	Global A Entertainment	Global A Entertainment	1	R
+Yuushun Rhapsody	2001-06-29	Sports	TOSE	Capcom	1	R
+Zapper: One Wicked Cricket	2002-11-08	Platform · Shooter	Atomic Planet Entertainment	Infogrames	1	R
+ZatchBell! Electric Arena	2005-11-23	Fighting	Dimps	Bandai	0	R
+Zelda: GBC Trilogy	2026	Adventure	Richterwilker		1	U
+Zen-Nihon Shounen Soccer Taikai 2: Mezase Nihon-ichi!	2002-12-27	Sports	Boom	Success	1	R
+Zero One	2003-04-24	Adventure	Fuuki	Fuuki	1	R
+Zero One SP	2004-04-29	Visual Novel	Fuuki	Fuuki	1	R
+Zettai Zetsumei Dangerous Jiisan: Naki no Ikkai	2004-03-18	Action	Rokumendo	Kids Station	1	R
+Zettaizetsumei Dangerous Jiisan 3: Hateshinaki Mamonogatari	2004-12-16	Action	Rokumendo	Kids Station	1	R
+Zettaizetsumei Dangerous Jiisan: Shijou Saikyou no Dogeza	2003-09-26	Action	Rokumendo	Kids Station	1	R
+Zettaizetsumei Dangerous Jiisan Tsuu: Ikari no Oshioki Blues	2004-07-16	Adventure	Rokumendo	Kids Station	1	R
+Zidane: Football Generation 2002	2002-11-15	Sports	Aqua Pacific	Cryo Interactive Entertainment	0	R
+Zipline Zapper		Adventure · Shooter	3DSage	3DSage	1	H
+Zoey 101	2007-03-02	Adventure	Barking Lizards Technologies	THQ	0	R
+Zoids: Legacy	2004-09-15	Role-Playing	Amedio	Atari	1	R
+Zoids Saga	2001-11-30	Role-Playing	Amedio	Tomy	1	R
+Zoids Saga: Fuzors	2004-12-16	Role-Playing	Amedio	Tomy	1	R
+Zone of the Enders: The Fist of Mars	2002-02-26	Role-Playing · Strategy	Winky Soft	Konami	1	R
+ZooCube	2002-05-14	Puzzle	Puzzlekings	Acclaim Entertainment	2	R
+Zooo: Action Puzzle Game	2005-08-04	Puzzle	Buddiez	Ignition Entertainment	1	R

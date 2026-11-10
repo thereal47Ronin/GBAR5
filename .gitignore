@@ -1,0 +1,50 @@
+# GBAR5 - generated and local-only files.
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+.local/
+.deps/
+.env
+__pycache__/
+*.pyc
+
+build/
+dist/
+*.elf
+*.self
+*.sprx
+*.prx
+*.pkg
+!runtime/libc.prx
+
+# Console data and personal files
+games/
+saves/
+states/
+covers/
+cheats/
+bios/
+cache/
+logs/
+gbar5.ini
+library.txt
+network.cfg
+retroachievements.ini
+remote.token
+location.txt
+*.sav
+*.srm
+*.state
+*.gba
+*.agb
+*.gb
+*.gbc
+*.zip
+*.7z
+
+# Editor and OS noise
+.vs/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
