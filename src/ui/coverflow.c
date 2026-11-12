@@ -124,9 +124,28 @@ static const GameInfo *game_info(const Game *g)
 
 /* ---------------------------------------------------------------- the view */
 
-static bool in_category(const Game *g, int category)
+/* Whether the catalogue knows a cartridge as a 2+ player game. That answer
+ * costs a name match against the whole cartridge database - it folds every
+ * record's name, twice - and asking it for all of a big library on every frame
+ * took the shelf to well under one frame per second. So it is asked once per
+ * game and remembered; the case that does not depend on the database is free. */
+static int8_t *multi_memo; /* by library index: -1 not asked yet, 0 no, 1 yes */
+static int multi_memo_count;
+
+static bool game_is_multiplayer(int index)
 {
-    GameStats *st = stats_get(g->id);
+    if (index < multi_memo_count && multi_memo[index] >= 0)
+        return multi_memo[index] != 0;
+    const GameInfo *info = game_info(&app.library.games[index]);
+    bool many = info && info->max_players > 1;
+    if (index < multi_memo_count)
+        multi_memo[index] = (int8_t)many;
+    return many;
+}
+
+static bool in_category_stats(int index, GameStats *st, int category)
+{
+    const Game *g = &app.library.games[index];
     if (st && st->hidden) /* hidden games are only under Hidden */
         return category == CAT_HIDDEN;
     switch (category)
@@ -138,21 +157,37 @@ static bool in_category(const Game *g, int category)
     case CAT_USA: return region_of(g->serial) == 1;
     case CAT_EUROPE: return region_of(g->serial) == 2;
     case CAT_JAPAN: return region_of(g->serial) == 3;
-    case CAT_MULTIPLAYER:
-    {
-        const GameInfo *info = game_info(g);
-        return info && info->max_players > 1;
-    }
+    case CAT_MULTIPLAYER: return game_is_multiplayer(index);
     default: return true;
+    }
+}
+
+static bool in_category(int index, int category)
+{
+    return in_category_stats(index, stats_get(app.library.games[index].id), category);
+}
+
+/* How many games sit in each category. The header shows those numbers every
+ * frame, so they are counted once when the view is rebuilt instead of once per
+ * category per frame - with a big library that count is what made the shelf
+ * crawl. The stats record is looked up once per game, not once per category. */
+static int category_counts[CAT_COUNT];
+
+static void refresh_category_counts(void)
+{
+    for (int c = 0; c < CAT_COUNT; ++c)
+        category_counts[c] = 0;
+    for (int i = 0; i < app.library.count; ++i)
+    {
+        GameStats *st = stats_get(app.library.games[i].id);
+        for (int c = 0; c < CAT_COUNT; ++c)
+            category_counts[c] += in_category_stats(i, st, c);
     }
 }
 
 static int category_size(int category)
 {
-    int n = 0;
-    for (int i = 0; i < app.library.count; ++i)
-        n += in_category(&app.library.games[i], category);
-    return n;
+    return category >= 0 && category < CAT_COUNT ? category_counts[category] : 0;
 }
 
 static int sort_mode;
@@ -194,6 +229,17 @@ static int compare(const void *pa, const void *pb)
 static void build_view(int keep_game)
 {
     Settings *g = &app.global;
+    /* a rescan may have replaced the library: the remembered answers are only
+     * good for the games they were asked about */
+    if (multi_memo_count != app.library.count)
+    {
+        free(multi_memo);
+        multi_memo = app.library.count ? malloc((size_t)app.library.count) : NULL;
+        multi_memo_count = multi_memo ? app.library.count : 0;
+        if (multi_memo)
+            memset(multi_memo, -1, (size_t)multi_memo_count);
+    }
+    refresh_category_counts();
     if (g->shelf_category != CAT_ALL && category_size(g->shelf_category) == 0)
         g->shelf_category = CAT_ALL;
     if (S.view_capacity < app.library.count)
@@ -206,7 +252,7 @@ static void build_view(int keep_game)
     }
     S.view_count = 0;
     for (int i = 0; i < app.library.count; ++i)
-        if (in_category(&app.library.games[i], g->shelf_category))
+        if (in_category(i, g->shelf_category))
             S.view[S.view_count++] = i;
     sort_mode = g->shelf_category == CAT_RECENT ? SORT_RECENT : g->sort_mode;
     qsort(S.view, (size_t)S.view_count, sizeof(int), compare);
@@ -233,6 +279,11 @@ void shelf_init(int last_game)
 
 void shelf_library_changed(void)
 {
+    /* the library was scanned again: forget the database answers, the games
+     * behind those indices may not be the same ones any more */
+    free(multi_memo);
+    multi_memo = NULL;
+    multi_memo_count = 0;
     build_view(S.last_cursor_game);
 }
 
