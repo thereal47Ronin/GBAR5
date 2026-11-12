@@ -74,7 +74,7 @@ Nothing is streamed, and no PC is needed while you play.
 
 There is no store, no package and no installer: the app is a folder. Take the
 zip from [Releases](https://github.com/thereal47Ronin/GBAR5/releases) —
-`GBAR5-v1.0.0-PS5.zip` — unzip it, and you have one folder, `PPSA97511`, which
+`GBAR5-v1.0.1-PS5.zip` — unzip it, and you have one folder, `PPSA97511`, which
 is the whole app. Nothing needs building.
 
 Copy that folder to `/data/homebrew/` on the console, either way:
